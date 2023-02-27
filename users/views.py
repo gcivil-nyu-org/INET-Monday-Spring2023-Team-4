@@ -13,6 +13,8 @@ def home(request):
     return render(request, 'users/home.html')
 
 
+
+#PR Example
 class RegisterView(View):
     form_class = RegisterForm
     initial = {'key': 'value'}

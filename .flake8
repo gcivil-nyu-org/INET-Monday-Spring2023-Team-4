@@ -5,4 +5,5 @@ exclude =
     env,
     venv,
 ignore =
-	F401
+	F401,
+    E501

@@ -27,4 +27,4 @@ deploy:
   env: "Inetmondayspring2023team4-env"
   bucket_name: "elasticbeanstalk-us-east-1-420156536504"
   on:
-    branch: master
+    branch: develop

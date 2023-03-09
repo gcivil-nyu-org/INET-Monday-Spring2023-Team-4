@@ -23,8 +23,8 @@ deploy:
     access_key_id: $ACCESSKEYID
     secret_access_key: $SECRETACCESSKEY
     region: "us-east-1"  
-    app: "INET-Monday-Spring2023-Team-4"
-    env: "INET-Monday-Spring2023-Team-4-dev"
+    app: "NYC-Composts"
+    env: "NYC-Composts-dev"
     bucket_name: "elasticbeanstalk-us-east-1-420156536504"
     on:
       branch: develop
@@ -34,8 +34,8 @@ deploy:
     access_key_id: $ACCESSKEYID
     secret_access_key: $SECRETACCESSKEY
     region: "us-east-1"  
-    app: "INET-Monday-Spring2023-Team-4"
-    env: "INET-Monday-Spring2023-Team-4-prod"
+    app: "NYC-Composts"
+    env: "NYC-Composts-prod"
     bucket_name: "elasticbeanstalk-us-east-1-420156536504"
     on:
       branch: main

@@ -24,7 +24,7 @@ deploy:
   secret_access_key: $SECRETACCESSKEY
   region: "us-east-1"  
   app: "INET-Monday-Spring2023-Team-4"
-  env: "Inetmondayspring2023team4-env"
+  env: "IINET-Monday-Spring2023-Team-4-dev"
   bucket_name: "elasticbeanstalk-us-east-1-420156536504"
   on:
     branch: develop

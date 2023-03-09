@@ -8,7 +8,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/gcivil-nyu-org/INET-Monday-Spring2023-Team-4/badge.svg?branch=develop)](https://coveralls.io/github/gcivil-nyu-org/INET-Monday-Spring2023-Team-4?branch=develop)
   
   
-## Prod-branch
+## Prod-branch  
+[![Build Status](https://app.travis-ci.com/gcivil-nyu-org/INET-Monday-Spring2023-Team-4.svg?branch=main)](https://app.travis-ci.com/gcivil-nyu-org/INET-Monday-Spring2023-Team-4)
+[![Coverage Status](https://coveralls.io/repos/github/gcivil-nyu-org/INET-Monday-Spring2023-Team-4/badge.svg?branch=main)](https://coveralls.io/github/gcivil-nyu-org/INET-Monday-Spring2023-Team-4?branch=main)
+  
 Step-1
 Clone the Repo
 

@@ -40,14 +40,3 @@ deploy:
     bucket_name: "elasticbeanstalk-us-east-1-420156536504"
     on:
       branch: main
-
-jobs:
-  include:
-    - name: "Cron job"
-      if: type = cron
-      script:
-        # Run tests
-          - black --check .
-          - flake8 .
-          - coverage run --source=user_management,users,media manage.py test
-          - coverage report -m

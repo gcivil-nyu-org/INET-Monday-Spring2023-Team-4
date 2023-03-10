@@ -1,2 +1,4 @@
 [run]
-omit = migrations, migrations/*, asgi.py, wsgi.py
+omit = 
+	asgi.py, 
+	wsgi.py

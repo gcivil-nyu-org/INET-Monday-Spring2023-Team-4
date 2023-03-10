@@ -13,7 +13,8 @@ before_script:
 script:
   - black --check .
   - flake8 .
-  - coverage run --source=user_management,users manage.py test
+  - coverage run --omit --source=user_management,users,media,migrations manage.py test
+  - coverage report -m
 
 after_script:
   - coveralls

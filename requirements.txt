@@ -9,7 +9,7 @@ coveralls==3.3.1
 cryptography==38.0.1
 defusedxml==0.7.1
 Django==3.2
-django-environ
+django-environ==0.10.0
 docopt==0.6.2
 flake8==5.0.4
 idna==3.4
@@ -21,7 +21,8 @@ packaging==23.0
 pathspec==0.11.0
 Pillow==9.4.0
 platformdirs==3.0.0
-psycopg2
+psycopg2==2.8.6
+psycopg2-binary==2.8.6
 pycodestyle==2.9.0
 pycparser==2.21
 pyflakes==2.5.0

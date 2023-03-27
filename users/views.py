@@ -68,17 +68,16 @@ class ResetPasswordView(SuccessMessageMixin, PasswordResetView):
     email_template_name = "users/password_reset_email.html"
     subject_template_name = "users/password_reset_subject"
     success_message = (
-        "We've emailed you instructions for setting your password, "
-        "if an account exists with the email you entered. You should receive them shortly."
-        " If you don't receive an email, "
-        "please make sure you've entered the address you registered with, and check your spam folder."
+        "Please check your email for instructions to reset your password. "
+        "If you did not receive an email, check your spam folder or "
+        "make sure the email address is associated with an account."
     )
     success_url = reverse_lazy("users-home")
 
 
 class ChangePasswordView(SuccessMessageMixin, PasswordChangeView):
     template_name = "users/change_password.html"
-    success_message = "Successfully Changed Your Password"
+    success_message = "Password change successful"
     success_url = reverse_lazy("users-home")
 
 
@@ -93,7 +92,7 @@ def profile(request):
         if user_form.is_valid() and profile_form.is_valid():
             user_form.save()
             profile_form.save()
-            messages.success(request, "Your profile is updated successfully")
+            messages.success(request, "Profile update successful")
             return redirect(to="users-profile")
     else:
         user_form = UpdateUserForm(instance=request.user)

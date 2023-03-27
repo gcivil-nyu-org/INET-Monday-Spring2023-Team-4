@@ -1,0 +1,42 @@
+language: python
+
+python:
+  - 3.7
+
+install:
+  - pip install -r requirements.txt
+
+before_script:
+  - python manage.py migrate
+#  - python manage.py collectstatic
+
+script:
+  - black --check .
+  - flake8 .
+  - coverage run --omit --source=user_management,users,media,migrations manage.py test
+  - coverage report -m
+
+after_script:
+  - coveralls
+
+deploy:
+  - provider: elasticbeanstalk
+    access_key_id: $ACCESSKEYID
+    secret_access_key: $SECRETACCESSKEY
+    region: "us-east-1"  
+    app: "NYC-Composts"
+    env: "NYC-Composts-dev"
+    bucket_name: "elasticbeanstalk-us-east-1-420156536504"
+    on:
+      branch: develop
+
+
+  - provider: elasticbeanstalk
+    access_key_id: $ACCESSKEYID
+    secret_access_key: $SECRETACCESSKEY
+    region: "us-east-1"  
+    app: "NYC-Composts"
+    env: "NYC-Composts-prod"
+    bucket_name: "elasticbeanstalk-us-east-1-420156536504"
+    on:
+      branch: main

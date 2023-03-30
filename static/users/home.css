@@ -8,17 +8,18 @@
 }
 .welcome-choose-how {
   position: absolute;
-  top: 434px;
-  left: 228px;
+  top: 319px;
+  left: 185px;
   font-size: var(--font-size-19xl);
 }
 .as-a-donor,
 .as-a-facility,
 .as-an-acceptor {
   position: absolute;
-  top: 715px;
+  top: 616px;
   left: 222px;
   font-weight: 500;
+  z-index: 2;
 }
 .as-a-facility,
 .as-an-acceptor {
@@ -28,7 +29,7 @@
   left: 808px;
 }
 .as-a-restaurant {
-  top: 715px;
+  top: 616px;
   left: 1083px;
   font-weight: 500;
 }
@@ -44,7 +45,7 @@
   height: 1112px;
 }
 .composts {
-  top: 324px;
+  top: 253px;
   left: 632px;
   font-size: var(--font-size-19xl);
   font-family: var(--font-bungee);
@@ -55,14 +56,14 @@
 .compostable-2-icon,
 .kindpng-1591284-2-icon {
   position: absolute;
-  top: 154px;
+  top: 92px;
   left: 650px;
   width: 141px;
   height: 141px;
   object-fit: cover;
 }
 .kindpng-1591284-2-icon {
-  top: 335px;
+  top: 263px;
   left: 595px;
   width: 35px;
   height: 11.77px;
@@ -70,7 +71,7 @@
 .fertilizer-1-icon,
 .food-donation-1-icon {
   position: absolute;
-  top: 567px;
+  top: 488px;
   left: 228px;
   width: 100px;
   height: 100px;
@@ -84,13 +85,14 @@
 .welcome-inner,
 .welcome-item {
   position: absolute;
-  top: 530px;
+  top: 435px;
   left: 169px;
   border-radius: var(--br-mid);
   border: 0.6px solid var(--color-gray-100);
   box-sizing: border-box;
   width: 217px;
   height: 262px;
+  z-index: 1;
 }
 .rectangle-div,
 .welcome-inner,
@@ -107,7 +109,7 @@
 .recycling-center-1-icon,
 .restaurant-1-icon {
   position: absolute;
-  top: 567px;
+  top: 488px;
   left: 818px;
   width: 100px;
   height: 100px;
@@ -118,7 +120,7 @@
 }
 .clean-up-the {
   position: absolute;
-  top: 906px;
+  top: 771px;
   left: 443px;
   color: var(--color-gray-100);
 }

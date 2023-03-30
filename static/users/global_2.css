@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-bungee: Bungee;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-19xl: 38px;
+
+  /* Colors */
+  --color-gray-100: rgba(0, 0, 0, 0.3);
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-mid: 17px;
+}

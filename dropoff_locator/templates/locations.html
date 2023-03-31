@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drop-off Locations</title>
+    <link crossorigin="anonymous"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+          integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4="
+          rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/png" href="https://assets.digitalocean.com/logos/favicon.png"/>
+</head>
+<body>
+<nav aria-label="main navigation" class="navbar is-light" role="navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
+            <img atl="DigitalOcean" src="https://assets.digitalocean.com/logos/DO_Logo_icon_blue.png"
+                 style="margin-right: 0.5em;">Droplets
+        </div>
+    </div>
+</nav>
+
+<table class="table is-fullwidth is-striped is-bordered">
+  <thead>
+  <tr>
+      <th>Drop-off Site</th>
+      <th>Address</th>
+      <th>Borough</th>
+      <th>Host</th>
+      <th>Operating Months</th>
+      <th>Days/Hours</th>
+      <th>Website</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% for location in locations %}
+  <tr>
+      <th>{{ location.food_scrap_drop_off_site }}</th>
+      <td>{{ location.location }}</td>
+      <td>{{ location.borough }}</td>
+      <td>{{ location.hosted_by }}</td>
+      <td>{{ location.open_months }}</td>
+      <td>{{ location.operation_day_hours }}</td>
+      <td>{{ location.website }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+

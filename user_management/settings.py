@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "users.apps.UserConfig",
+    "dropoff_locator",
     "social_django",
 ]
 

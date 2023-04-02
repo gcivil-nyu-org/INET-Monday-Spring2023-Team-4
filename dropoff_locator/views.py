@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
-#from .services import get_locations
+
+# from .services import get_locations
 from dashboard.models import dashboard
 
 # class GetLocations(TemplateView):
@@ -11,9 +12,8 @@ from dashboard.models import dashboard
 #         }
 #         return context
 
+
 def locations(request):
     locations = dashboard.objects.all()
-    context = {
-        'locations': locations
-    }
-    return render(request, 'locations.html', context)
+    context = {"locations": locations}
+    return render(request, "locations.html", context)

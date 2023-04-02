@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class dashboard(models.Model):
     borough = models.CharField(max_length=50)
     ntaname = models.CharField(max_length=50)

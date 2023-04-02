@@ -3,7 +3,7 @@
 import pandas as pd
 import json
 
-dataURL = 'https://github.com/gcivil-nyu-org/INET-Monday-Spring2023-Team-4/blob/develop/scripts/datasets/Food_Scrap_Drop-Off_Locations_in_NYC.csv'
+dataURL = "https://github.com/gcivil-nyu-org/INET-Monday-Spring2023-Team-4/blob/develop/scripts/datasets/Food_Scrap_Drop-Off_Locations_in_NYC.csv"
 data = pd.read_csv(dataURL, index_col=0)
 
 # Convert the dataframe to a list of dictionaries, with each dictionary representing a row
@@ -27,10 +27,10 @@ for i, row in enumerate(rows):
             "bin": row["BIN"],
             "lat": float(row["Latitud"]),
             "lon": float(row["Longitude"]),
-        }
+        },
     }
     fixtures.append(fixture)
 
 # Write the list of fixtures to a JSON file
 with open("../fixtures/dashboard.json", "w") as f:
-    json.dump(fixtures, f, indent = 2)
+    json.dump(fixtures, f, indent=2)

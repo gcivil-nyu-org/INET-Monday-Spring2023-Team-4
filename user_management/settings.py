@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "users.apps.UserConfig",
     "dashboard.apps.DashboardConfig",
     "social_django",
+    "dropoff_locator"
 ]
 
 MIDDLEWARE = [
@@ -121,7 +122,7 @@ AUTHENTICATION_BACKENDS = (
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "EST"
 
 USE_I18N = True
 

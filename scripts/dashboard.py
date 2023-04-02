@@ -3,7 +3,7 @@
 import pandas as pd
 import json
 
-dataURL = "https://github.com/gcivil-nyu-org/INET-Monday-Spring2023-Team-4/blob/develop/scripts/datasets/Food_Scrap_Drop-Off_Locations_in_NYC.csv"
+dataURL = "datasets/Food_Scrap_Drop-Off_Locations_in_NYC.csv"
 data = pd.read_csv(dataURL, index_col=0)
 
 # Convert the dataframe to a list of dictionaries, with each dictionary representing a row
@@ -20,13 +20,14 @@ for i, row in enumerate(rows):
             "ntaname": row["NTAName"],
             "sitename": row["SiteName"],
             "siteaddr": row["SiteAddr"],
-            "hosted": row["Hosted_By"],
-            "hours": row["Day_Hours"],
-            "notes": row["Notes"],
-            "website": row["Website"],
-            "bin": row["BIN"],
-            "lat": float(row["Latitud"]),
-            "lon": float(row["Longitude"]),
+            # add row data if the field is not empty else keep it as empty string
+            "hosted": row["Hosted_By"] if row["Hosted_By"] else "",
+            "hours": row["Day_Hours"] if row["Day_Hours"] else "",
+            "notes": row["Notes"] if row["Notes"] else "",
+            "website": row["Website"] if row["Website"] else "",
+            "bin": row["BIN"] if row["BIN"] else "",
+            "lat": float(row["Latitude"]) if row["Latitude"] else 0.0,
+            "lon": float(row["Longitude"]) if row["Longitude"] else 0.0,
         },
     }
     fixtures.append(fixture)

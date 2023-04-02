@@ -8,7 +8,7 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
           integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4="
           rel="stylesheet"/>
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLV33ZHYrWb4OL_DPzcyhYABXXUucj1Hs"></script>
 
 </head>
 <body>
@@ -16,17 +16,20 @@
     <div class="navbar-brand">
         <div class="navbar-item">
             <img atl="NYCC" src="../static/images/compostable.png"
-                 style="margin-right: 0.5em;">NYC Composts
+                 style="margin-right: 0.5em;">
+                 <a href="/" style="color: #386600; text-decoration: none;">NYC Composts</a>
         </div>
     </div>
 </nav>
+
 <div id="map" style="width: 100%; height: 400px;">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLV33ZHYrWb4OL_DPzcyhYABXXUucj1Hs"></script>
+    
     <script>
         var trashIcon = "{% static 'images/trash.png' %}";
     </script>
     <script>
         var map;
+        var lastWindow = -1;
         var geocoder = new google.maps.Geocoder();
         const trashIconJS = trashIcon;
         function initMap() {
@@ -34,61 +37,80 @@
             center: {lat: 40.73089125, lng: -73.99758504},
             zoom: 10
           });
-
-          var addresses = ['336 3rd St, Brooklyn, NY 11215', '474 New Jersey Ave, Brooklyn, NY 11207', '2 Greenpoint Ave and West Street'];
-          for (var i = 0; i < addresses.length; i++) {
-            geocodeAddress(geocoder, map, addresses[i]);
-          }
         }
         initMap();
-        function geocodeAddress(geocoder, resultsMap, address) {
-          geocoder.geocode({'address': address}, function(results, status) {
-            if (status === 'OK') {
-              var marker = new google.maps.Marker({
-                map: resultsMap,
-                mapTypeId: 'roadmap',
-                icon: trashIcon,
-                position: results[0].geometry.location
-              });
-            } else {
-              alert('Geocode was not successful for the following reason: ' + status);
-            }
-          });
+        function closeAllInfoWindows() {
+          {% for location in locations %}
+            infowindow{{ forloop.counter }}.close();
+          {% endfor %}
         }
-        
     </script>
+    <script>
+        {% for location in locations %}
+            var contentString = 
+                '<div id="content">' +
+                "</div>" +
+                '<h1 id="firstHeading" class="firstHeading"><b>{{ location.sitename }}</b></h1>' +
+                '<h2 id="secondHeading" class="secondHeading">{{ location.siteaddr }}</h2>' +
+                '<h2><b>Hours:</b></h2>' +
+                '<p>{{ location.hours }}</p>' +
+                "</div>";
+            var marker{{ forloop.counter }} = new google.maps.Marker({
+                position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
+                map: map,
+                icon: trashIconJS,
+                title: '{{ location.sitename }}'
+            });
+            var infowindow{{ location.id }} = new google.maps.InfoWindow({
+                content: contentString
+            });
+            marker{{ forloop.counter }}.addListener('click', function() {
+                console.log('Marker clicked');
+                closeAllInfoWindows();
+                infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
+                map.panTo(marker{{ forloop.counter }}.getPosition());
+                map.setZoom(18);
+            });
+            infowindow{{ location.id }}.addListener('closeclick', function() {            
+                map.setZoom(15);
 
+            });
+        {% endfor %}
+    </script>
 </div>
+<style type="text/css">
+  #table {
+    width: 100%;
+  }
+  #table table {
+    max-width:100%;
+    word-break: break-word;
+  }
+</style>
+<div id="table">
+    <table class="table is-fullwidth is-striped is-bordered">
+      <thead>
+      <tr>
+          <th>Drop-off Site</th>
+          <th>Address</th>
+          <th>Borough</th>
+          <th>Host</th>
+          <th>Days/Hours</th>
+          <th>Website</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for location in locations %}
 
-
-<table class="table is-fullwidth is-striped is-bordered">
-  <thead>
-  <tr>
-      <th>Drop-off Site</th>
-      <th>Address</th>
-      <th>Borough</th>
-      <th>Host</th>
-      <th>Operating Months</th>
-      <th>Days/Hours</th>
-      <th>Website</th>
-  </tr>
-  </thead>
-  <tbody>
-  {% for location in locations %}
-  <tr>
-      <th>{{ location.food_scrap_drop_off_site }}</th>
-      <td>{{ location.location }}</td>
-      <td>{{ location.borough }}</td>
-      <td>{{ location.hosted_by }}</td>
-      <td>{{ location.open_months }}</td>
-      <td>{{ location.operation_day_hours }}</td>
-      <td>{{ location.website }}</td>
-  </tr>
-  {% endfor %}
-  </tbody>
-</table>
-
-<script>
-    var addresses1 = ['Southeast corner of 10th Avenue and 43rd Street, New York, 10036'];
-    geocodeAddress(geocoder, map, addresses1[0]);
-</script>
+      <tr>
+          <th>{{ location.sitename }}</th>
+          <td>{{ location.siteaddr }}</td>
+          <td>{{ location.borough }}</td>
+          <td>{{ location.hosted }}</td>
+          <td>{{ location.hours }}</td>
+          <td>{{ location.website }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+</div>

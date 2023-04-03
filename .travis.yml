@@ -8,12 +8,12 @@ install:
 
 before_script:
   - python manage.py migrate
-#  - python manage.py collectstatic
+  - python manage.py collectstatic --noinput
 
 script:
   - black --check .
   - flake8 .
-  - coverage run --omit --source=user_management,users,media,migrations manage.py test
+  - coverage run --source='.' manage.py test
   - coverage report -m
 
 after_script:

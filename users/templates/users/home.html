@@ -1,19 +1,112 @@
 {% extends "users/base.html" %}
 {% block title %} Home Page {% endblock title%}
 {% block content %}
-    <div class="jumbotron">
-        <h1 class="display-4">Welcome, {{user.first_name.title|default:'Guest'}}</h1>
-        <p class="lead">
-            This is <b>user registration and login system</b>
-        </p>
-        <hr class="my-4">
-        <p class="lead">
+{% load static %}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{% static 'users/global_2.css' %}" />
+    <link rel="stylesheet" href="{% static 'users/home.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bungee:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <main class="welcome">
+      <div class="bg">
+        <div class="bg1"></div>
+        <div class="welcome-choose-how">
+          Welcome, {{user.first_name.title|default:'Guest'}}! Choose how you want to clean our planet
+        </div>
+        <div class="as-a-donor">
+              {% if user.is_authenticated %}
+                  <a href="{% url 'Locator View' %}">As a Donor</a>
+              {% else %}
+                  <a href="{% url 'login' %}">As a Donor</a>
+              {% endif %}
+        </div>
+        <div class="as-an-acceptor">
             {% if user.is_authenticated %}
-                <a class="btn btn-primary btn-lg" href="{% url 'logout' %}" role="button">Logout</a>
-            {% else %}
-                <a class="btn btn-primary btn-lg" href="{% url 'login' %}" role="button">Sign in</a>
-            {% endif %}
-        </p>
-    </div>
+                  <a href="{% url 'Locator View' %}">As an Acceptor</a>
+              {% else %}
+                  <a href="{% url 'login' %}">As an Acceptor</a>
+              {% endif %}
+        </div>
+        <div class="as-a-facility">
+            {% if user.is_authenticated %}
+                  <a href="{% url 'Locator View' %}">As a Facility</a>
+              {% else %}
+                  <a href="{% url 'login' %}">As a Facility</a>
+              {% endif %}
+        </div>
+        <div class="as-a-restaurant">
+            {% if user.is_authenticated %}
+                  <a href="{% url 'Locator View' %}">As a Restaurant</a>
+              {% else %}
+                  <a href="{% url 'login' %}">As a Restaurant</a>
+              {% endif %}
+        </div>
+      </div>
+      <div class="composts">COMPOSTS</div>
+      <img
+        class="compostable-2-icon"
+        alt=""
+        src= "{% static 'images/compostable-2@2x.png' %}"
+      /><img
+        class="kindpng-1591284-2-icon"
+        alt=""
+        src="{% static 'images/kindpng-1591284-2@2x.png' %}" 
+      /><img
+        class="food-donation-1-icon"
+        alt=""
+        src="{% static 'images/fooddonation-1@2x.png' %}"  
+      /><img
+        class="fertilizer-1-icon"
+        alt=""
+        src="{% static 'images/fertilizer-1@2x.png' %}"
+      />
+      <div class="welcome-child"></div>
+      <div class="welcome-item"></div>
+      <div class="welcome-inner"></div>
+      <div class="rectangle-div"></div>
+      <img
+        class="recycling-center-1-icon"
+        alt=""
+        src="{% static 'images/recyclingcenter-1@2x.png' %}"
+      /><img
+        class="restaurant-1-icon"
+        alt=""
+        src="{% static 'images/restaurant-1@2x.png' %}"
+      />
+      <div class="clean-up-the">
+        Clean up the planet - because we can't live on Mars yet!
+      </div>
+    </main>
+  </body>
+  {% endblock content %}
 
-{% endblock content %}
+
+      <!-- <div class="jumbotron">
+          <h1 class="display-4">Welcome, {{user.first_name.title|default:'Guest'}}</h1>
+          <p class="lead">
+              This is <b>user registration and login system</b>
+          </p>
+          <hr class="my-4">
+          <p class="lead">
+              {% if user.is_authenticated %}
+                  <a class="btn btn-primary btn-lg" href="{% url 'logout' %}" role="button">Logout</a>
+              {% else %}
+                  <a class="btn btn-primary btn-lg" href="{% url 'login' %}" role="button">Sign in</a>
+              {% endif %}
+          </p>
+      </div> -->
+  
+
+
+
+

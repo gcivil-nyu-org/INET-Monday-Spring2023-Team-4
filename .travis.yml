@@ -13,6 +13,7 @@ script:
   - coverage report -m
 after_script:
   - coveralls
+  - echo $GOOGLE_KEY
 deploy:
   - provider: elasticbeanstalk
     access_key_id: $ACCESSKEYID
@@ -32,13 +33,3 @@ deploy:
     bucket_name: elasticbeanstalk-us-east-1-420156536504
     true:
       branch: main
-env:
-  global:
-    - SECRET_KEY=$SECRET_KEY
-    - EMAIL_USER=$EMAIL_USER
-    - EMAIL_PASSWORD=$EMAIL_PASSWORD
-    - GOOGLE_KEY=$GOOGLE_KEY
-    - GOOGLE_SECRET=$GOOGLE_SECRET
-    - GITHUB_KEY=$GITHUB_KEY
-    - GITHUB_SECRET=$GITHUB_SECRET
-    - GOOGLE_MAP_API_KEY=$GOOGLE_MAP_API_KEY

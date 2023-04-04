@@ -11,7 +11,7 @@ script:
   - flake8 .
   - coverage run --source='.' manage.py test
   - coverage report -m
-  - echo $GOOGLE_KEY
+  - python debugg.py
 after_script:
   - coveralls
 deploy:

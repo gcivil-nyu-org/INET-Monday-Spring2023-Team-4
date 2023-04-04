@@ -53,3 +53,4 @@ env.bak/
 venv.bak/
 .DS_Store
 .secrets.baseline
+*/.DS_Store

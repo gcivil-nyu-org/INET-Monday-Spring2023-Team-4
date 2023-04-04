@@ -1,34 +1,43 @@
 language: python
 python:
-- 3.7
+  - 3.7
 install:
-- pip install -r requirements.txt
+  - pip install -r requirements.txt
 before_script:
-- python manage.py migrate
-- python manage.py collectstatic --noinput
+  - python manage.py migrate
+  - python manage.py collectstatic --noinput
 script:
-- black --check .
-- flake8 .
-- coverage run --source='.' manage.py test
-- coverage report -m
+  - black --check .
+  - flake8 .
+  - coverage run --source='.' manage.py test
+  - coverage report -m
 after_script:
-- coveralls
+  - coveralls
 deploy:
-- provider: elasticbeanstalk
-  access_key_id: $ACCESSKEYID
-  secret_access_key: $SECRETACCESSKEY
-  region: us-east-1
-  app: NYC-Composts
-  env: NYC-Composts-dev
-  bucket_name: elasticbeanstalk-us-east-1-420156536504
-  true:
-    branch: develop
-- provider: elasticbeanstalk
-  access_key_id: $ACCESSKEYID
-  secret_access_key: $SECRETACCESSKEY
-  region: us-east-1
-  app: NYC-Composts
-  env: NYC-Composts-prod
-  bucket_name: elasticbeanstalk-us-east-1-420156536504
-  true:
-    branch: main
+  - provider: elasticbeanstalk
+    access_key_id: $ACCESSKEYID
+    secret_access_key: $SECRETACCESSKEY
+    region: us-east-1
+    app: NYC-Composts
+    env: NYC-Composts-dev
+    bucket_name: elasticbeanstalk-us-east-1-420156536504
+    true:
+      branch: develop
+  - provider: elasticbeanstalk
+    access_key_id: $ACCESSKEYID
+    secret_access_key: $SECRETACCESSKEY
+    region: us-east-1
+    app: NYC-Composts
+    env: NYC-Composts-prod
+    bucket_name: elasticbeanstalk-us-east-1-420156536504
+    true:
+      branch: main
+env:
+  - SECRET_KEY=$SECRET_KEY
+  - EMAIL_USER=$EMAIL_USER
+  - EMAIL_PASSWORD=$EMAIL_PASSWORD
+  - GOOGLE_KEY=$GOOGLE_KEY
+  - GOOGLE_SECRET=$GOOGLE_SECRET
+  - GITHUB_KEY=$GITHUB_KEY
+  - GITHUB_SECRET=$GITHUB_SECRET
+  - GOOGLE_MAP_API_KEY=$GOOGLE_MAP_API_KEY

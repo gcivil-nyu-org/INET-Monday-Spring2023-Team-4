@@ -1,42 +1,52 @@
 language: python
-
 python:
-  - 3.7
-
+- 3.7
 install:
-  - pip install -r requirements.txt
-
+- pip install -r requirements.txt
 before_script:
-  - python manage.py migrate
-  - python manage.py collectstatic --noinput
-
+- python manage.py migrate
+- python manage.py collectstatic --noinput
 script:
-  - black --check .
-  - flake8 .
-  - coverage run --source='.' manage.py test
-  - coverage report -m
-
+- black --check .
+- flake8 .
+- coverage run --source='.' manage.py test
+- coverage report -m
 after_script:
-  - coveralls
-
+- coveralls
 deploy:
-  - provider: elasticbeanstalk
-    access_key_id: $ACCESSKEYID
-    secret_access_key: $SECRETACCESSKEY
-    region: "us-east-1"  
-    app: "NYC-Composts"
-    env: "NYC-Composts-dev"
-    bucket_name: "elasticbeanstalk-us-east-1-420156536504"
-    on:
-      branch: develop
-
-
-  - provider: elasticbeanstalk
-    access_key_id: $ACCESSKEYID
-    secret_access_key: $SECRETACCESSKEY
-    region: "us-east-1"  
-    app: "NYC-Composts"
-    env: "NYC-Composts-prod"
-    bucket_name: "elasticbeanstalk-us-east-1-420156536504"
-    on:
-      branch: main
+- provider: elasticbeanstalk
+  access_key_id: $ACCESSKEYID
+  secret_access_key: $SECRETACCESSKEY
+  region: us-east-1
+  app: NYC-Composts
+  env: NYC-Composts-dev
+  bucket_name: elasticbeanstalk-us-east-1-420156536504
+  true:
+    branch: develop
+- provider: elasticbeanstalk
+  access_key_id: $ACCESSKEYID
+  secret_access_key: $SECRETACCESSKEY
+  region: us-east-1
+  app: NYC-Composts
+  env: NYC-Composts-prod
+  bucket_name: elasticbeanstalk-us-east-1-420156536504
+  true:
+    branch: main
+env:
+  global:
+    EMAIL_PASSWORD:
+      secure: Gp591+F91Ea9I3pTn7ZbD2r5v+4WSwIqadNRkjIlCe/fGdDX0Os3jLJ+W+mFF6fJLqOTorz448OWpUKcSzfSUpVszG5Q+OTvQXSBFB+bn2V5Ufd3hjASZQiNy+iqvwQ7aCurRxVW3rBeeRC43N8o6aE8mxGePNSi7C+ywjMRZHDhd1+snruC9tvAxxHuOjMsVruWsik6oZiyR0/p2gL+xKaJUEnYwTnX9aTD31/dVdU3kKXZHq4Uv4PGymfVC/aCiY18gNh/H6DrrVntEP7CTZ1PfLxeo+XKUs90cvbzpoN8jojWBNGIN0yBI/ydXqUFVRuRaTQ8HSPnakd4tCRKN24hxfiyPzS+IKH0icQhUAUWHUoBVKEY/Ug8UXuUB1OTIusEKyn8w+GZizwhPM3lZ6iT/iV9CzBY7Hv00FJYN4HDfipTzsSB7q0mO8EPqP5a0G4GgfNzFYGI1vsc2C8QOPFwiBjpxASqmneKDeWSh+7hI1UxJs1M/ox+2Oqvm76OaOhIhVgNYCbYMlYUbsBg8CSW6wJbByBqYJxU/NQ5uHGLdIkRfvJBeFXmsGWJ0bbHn9a7JhPpDgnVUjWL6CO0Jk2ehqEMOmDFq0Kgz3jHs5DfZOmje7Z6CwemlL3uTUUBCqrtAsBavyzYEoo/OL7bbu0KmYBxVPEvpRuveEoGSA8=
+    EMAIL_USER:
+      secure: jQ3LNl4Hc7CtHiefbuVITKFClXz6PcmhxZWcfi4jW+/E1nPX4do7AvgAr569zClST+tZLBf4aAOxdY8VAdjfC8zoL2ck94PGyu38qI3ksHwfQDPO1sPILrgAaFSfqdWvLjoWR4ia3dDf8PEnaMxvFQH2ttcHekZXDYwugDmb5eWfCTdUzyaYKGveNpYTgIb3vJ+CPyWnlhJHPZJ85vTusGB3rBklUoan9+wcv0nf47xv/SbT5Q+tBHzGdw2PVX6Jx6oW1qFa4BNRW/FjVRv3Ek9kx3b1eoUBe179KdtAEMJYONvx1AVgco4P99+8Kc+HgxMIAfEHq2GLj0zHyT8Yr+h8A2GFYpQ5E1azBLNiR7fXAfNcD42bmmSYbjh6egGxtrQX+R4DDaseadVBJwdHYfubUuQX7B+z14utVVkO1ZnsrQqkgkqOvelBn5IzkojyQJuDxChjy+/JwEzSQUjD3iy6wSXQvcKuxJN/PheVZzfkzyQIWDOeUIQHcTXFvGykBzsKQA5w3ka7Ax+CQn64+xKFghMaMvCQAAMSLmyTeRdg8w0LUbhb0Bw7zi2/OwaFRR7z80K4h+qf7ADSwY05tFlXk+4lv7mqJq4sUBYws+ZKi7VS3tm0CsrV5qMYGdbvmkBY9jGIv3VyZuZio13Jw3mih6zpa1lm3uYGcfdgJS4=
+    GITHUB_KEY:
+      secure: tJlkXuykxBS/LXrjRpNokBUa4I26U/locG+MzEdNzgibPkaVVy0RH9C81PRGj2HRDQPmrhHKK+rTtuAY/sPDrug2zh2LhBsquIT4CXnGgAYfkzwfZPjL7Q59GePNZU2KwOIVUaQ9FEQh+k7e34rXTT3RB+Fmo0Xbk8NM5YiMrLxKvoXjlecP35XVJQPx0WCDoQ5gHP/6fO1KFIzTk5DXu/fK9ZWVdOrD+CEjH0Ok6Kac5ELJuE7QFc1mB+Cz3jHHKjU8vdAozbiTfMwabuDyAPkD3DJHdGqlNEXniF3HyjDJI2Tpv4zETrqkACIRw7RekvUa5J4CCI9+FFvHmPYWNOhvKUzMEnwhzrdLkJXbzZEnq+98YNnHQGbKqIvff9w389ZgkFSuCLLuuRXT8ODeneU+x2wElGd+css5Xl8cUj0okb/OnthBRXvwTNBk9qlkcKzFOrNv68zveqVdfNH6ejeoH0EGzj25dusOlMnjetsH0xUrLxxbcj0ASnbX0RkUWkYpi439cMs/b7YhQ333vlIWvJfMcQXP38X2UN/8aw3abuAzLDbMbWm48scU0VOzLA6q70J9X9AmxRQizNY8VMlebLifQblgoKJQm9KTpRpY2lQTip4xCvoph2XDEucRyxkrJHcVwFG8quNtRZ6Q8Mtyxnge3iQSfH6RS0WToY0=
+    GITHUB_SECRET:
+      secure: DxDf4486IKmMvHOPcnY13Kc8DgmQ5CjvDRJdVP5JGNu/iswMFFsFKrBAdZge4JNfieuMcBCJrxl+LCu1d2hau1bnCkHnTKBBBBbe7dnGgWFBtw4rkk47u0GIZFXgg8WYWK9MeyIgQ6uxrS15+4dvQ4WKNS7x5NdrTjCIXDQBVO6xp+0grOrFMxSKmPNgLXjRcR5Hlpwv1KQdEBJjqS9R3An6gn1HJnWBQBSfu8F5O+sx/Mfdh0MHwxcF3Dgx0NQ7iBFUfB/vquvgAlUfU6ddwsHcPeeYuiEDL0xYJTWIRSG2ANXpUpZ0igubI6xYg4hkCXOrNceXUvRfuTvBdqYQ5T28EfpVVY1EGUFYVnLSEUb6nDyWXkExKQ9f6Orz89zvJoLdPS/CDNU1WsXNnqeltGVKVDO3KUGukkKLANdLoyfgbGNE224nlcb9YbGAByl/W4suX6PIj0/USV1Llw6cRj3ani7KTF5CBSSomgMgUZK6WunSu9iK4BFeMVR963NIqT0HterYCllwVgX9OIHbP+EhSochfUgnwJnzoqrQp769YpL4L/dPn1vLeEK15Ot2lFhQTsq654R0eM09Q8nqlsM5v9GeFuOy/9ph0T2O8Eo6ScqcsuvPpIbmXGylgqM6DPKQaBS7m3JMNjZmkfxR2KJmylmOtJaX5lkXmbvG4LU=
+    GOOGLE_KEY:
+      secure: UU66uJ5/oeuTQKwe0jG0az8isyrg0lhN4SjYsCQ1yuBlrUJuU1oKYWZop9bFGim6rQqjUWVcjjn15pBe4XWLQ493hmxAnIh7e8wMRtjlxF7CbwrPbkgmhi+Dcom9MOiAxn9vD5ODjJttW4YBGP+BjN2SBzvP3LNsMGF/i8y0nM3h4F4+ihBXkfOHgpmHkVL4bBP7izDAhJq2gJFR42U59ashIhDI97CEmolps2WDo2dzPRJw+t15ytaL/BGr78xXC8EDESZsFOL3zO94MSkhhM5l4nYobkc+xktJ1MmDi8gegTFro2B5w+iQflYpZJB65LUyKRwmr9AGMheuSIfmQVQdV7mdjB7SAdDO/hhYd4NiBfv503TsvlJNycORYJIgYbf5SX3SxT0FUlvmUtpJdVQwKI5dk6+kGO/D1oHKNy8ipsBxVDpdQFnzjOBzH2pcB3wgZb2Beb/mlSS/Mgh/Al68pObgtgVVxFOfqV3A3x4aquX2+jQbLyujL+J5+HHKjzsQ5Lf26iSkImkmPhvusdb8S9UwVwf8kyHUGdQyJg5Aqyx8AyPxcvt4d2uMcg30T3CFvDUk8xffA9I0idWFrOj/Avt7IB3eda0ASkhBR9a31/fe5XGVStgwe/KmUfUY3M4NGWY/dTiZParFO7G0zbgEz/KIt8T2ixpECmSE5Ec=
+    GOOGLE_MAP_API_KEY:
+      secure: UeQ5BM1ZBAiP+I7sMechwf1j6v9+7iMsTX1VTGM5ibWieDGomHlTXnGhU0klbTOnchYP9vsH7eCYX62/sDYmi7jOouwZS6I++xPrD2UfkihhleRxl/wy91heqXIEmAT41CibxTfTZMYWVXOuhGmwpzZlhCy+gQ4TeMu8UtlM5APUWsDyBWKJ2HcZU/+cJH0QwgZmct/9b7ryuLj/tHPoZKRpDLua2Se37Eq1gQn1O6nqtilgjTkla1wRDsN1l/OVzhDAI49BzMxMMtuSFs4vGraoPWxqUgYlQCvageSI3bLhIUdM5AITya2mGamrDtcH6fEPI3LRdAdzhumVkzsXDWFVg9KggYUOZQZK3tY+S6ItfIIBtEbdvaddKGocpIQfX8x98fLzRsNPsGoZ2k5SXKolSFNSSDsLx9sMEUgUuZoyyMyUCNSN/zHRBBmzAVRtiCmDHZpN9L8SsxznDfV103QHauLyiY7okNb+31Q0+jYfC6QaR6HLrMn0+NeZmF6H8KOwlqHZsVfpnibg75EZrpkzn6DPJoHXJ2r1X7kLEIWN0Oul+MYdga2LE7qb5Wu4MDEgr65Ik3y00XdSRKxmlGmWLcRm0S1vFlmwa4qwF46Knkf8HugKzKAvQ71mNxySRxIYhGtlltWL0f4fl7oAtxcHF4QctEdlke+avbx/hwk=
+    GOOGLE_SECRET:
+      secure: K1QF/KuRxjwgVY13H9b0YrIh7LYQ/1PjyNLIRL6FFGIghxkm4FfBqQa+Kenkw0KLoEoYLmsjXgqZPwXpdPBvy4InvXOu8Dyho6Ici4D96Wjlv7zJr5fadW4FoACjkVFPIyodsJw84Sn/yywHsMTlzNrAhV3BVvQRT8P9iLZgi99HDxqjAAOiLk07UEUjZB1SMdhtRzJXdiZh5cJEHN1HivUrPIsJ1s8xO/4S0uRhknD7Vy+q/V4MEFqv4bXdFgT0D7UHbig5AHUFViJRZLdEpuF9A3pPVNduDisI+W+HZk/qdeyZlAL4XlqkAEZMxELFc++Df2i6IMtbjDHpVZWOSCl7YZuMa+Oau7EIoe7qssvf9faRDzdwU7XsdMXL3eDE6utxCvy/YSTyGqsUofPSmnmz6DzPI0bxUya1VeiUrZnrdfmOVt2m5GXQsHlgltY9SG4d8GKciflLqGdKJevvEWVvZL5f1yaZlg54NehvV4Y64a6QQWdcD780+d48/gUsjh9FjtJVEK+ghGDlLjDcZOSfzj/RYfIz5N5ArRYt6/V49+4qk/RqPckxWHeFI/MjxQtf8FRy9C1FqnjEVTpkFDzSfzSUHz49BdwQiWi/qg6RTAjZqSP7qVRK9hs120jlOvNBQuHJ8b8HuaotJpHZwcck49PKaTAHKRMPxKhVmcs=
+    SECRET_KEY:
+      secure: GInpc82TLw1Xxd07CeclnymF2+82jFUsumy3F1VQqUHyECHwKgFPa16TAV7JoCalydJR+eDyewEENDQbRcOPc+nQd3WcXMzuRNworupvqNr0rmEAlL1gUo4Ndni5m3iq24bJDHmVc21wV2dGkvvSMjjYW3L5lM66M8ZWMn9UELD+CWiW37Ev3A0d51/MHPGjzbkz6N9SsJTlINOzEKDUuceVQ5huMvde9n33z0mfGlcT3WR9Y/VaRKYjQ+t3y5Z+BOTFwHr0eBmYAFfcohJTxIlb3AFIiYHzXCWpK0fC1NsKxYDseEkZgUWQarLz4fxoktfirK5f+RV8cnSr+Qhqu0vp3M27g5fPl/MlCXjhSW8c7hNIsGhFLKC4OqKeMzNXca3jU0ZlbcMHiCeEgbAUuG8CIwL5+FRszOaDaTtiguMe4/+LAVHmG+t8wKA2gb21rSUpx/kRN/IX/Jus7jCqIvXUmcUWma6LzFZonkwcNUGpzjjGp2AEadbLUw1RifykhcNnrLUGXTD9aJbke35Hf/u64DcriIR+tuIEl3QF0/CDEZveRUbWnz6iF1tU4r5tBywEBb2EC8vTZDfV/Dk1p8/yRlZsl+Rjm5/eMLm/suvcfsbNYgZNn2C3hDV0T4BUB7SEWH46/fYXxjQq/lb/Ob6z3vmOKq5cjrs8YdCYLg8=

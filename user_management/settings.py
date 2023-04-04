@@ -146,20 +146,20 @@ LOGIN_URL = "login"
 
 
 # social auth configs for github
-SOCIAL_AUTH_GITHUB_KEY = str(os.getenv("GITHUB_KEY"))
-SOCIAL_AUTH_GITHUB_SECRET = str(os.getenv("GITHUB_SECRET"))
+SOCIAL_AUTH_GITHUB_KEY = os.environ.get("GITHUB_KEY")
+SOCIAL_AUTH_GITHUB_SECRET = os.environ.get("GITHUB_SECRET")
 
 # social auth configs for google
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = str(os.getenv("GOOGLE_KEY"))
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = str(os.getenv("GOOGLE_SECRET"))
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.environ.get("GOOGLE_KEY")
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.environ.get("GOOGLE_SECRET")
 
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = str(os.getenv("EMAIL_USER"))
-EMAIL_HOST_PASSWORD = str(os.getenv("EMAIL_PASSWORD"))
+EMAIL_HOST_USER = os.environ.get("EMAIL_USER")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
 

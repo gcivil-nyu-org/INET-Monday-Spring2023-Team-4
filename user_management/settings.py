@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "dashboard.apps.DashboardConfig",
     "social_django",
     "dropoff_locator",
+    "acceptor.apps.AcceptorConfig",
 ]
 
 MIDDLEWARE = [

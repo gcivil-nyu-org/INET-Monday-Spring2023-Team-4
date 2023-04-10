@@ -10,6 +10,7 @@ from users.forms import LoginForm
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("users.urls")),
+    path("acceptor/", include("acceptor.urls")),
     path("map/", locations, name="Locator View"),
     path(
         "login/",

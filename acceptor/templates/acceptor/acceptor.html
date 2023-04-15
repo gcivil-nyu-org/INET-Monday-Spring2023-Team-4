@@ -1,0 +1,173 @@
+{% extends "users/base.html" %}
+{% block title %} Acceptor Page {% endblock title%}
+{% block content %}
+{% load static %}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{% static 'acceptor/acceptorglo.css' %}" />
+    <link rel="stylesheet" href="{% static 'acceptor/acceptorind.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bungee:wght@400&display=swap"
+    />
+  </head>
+  <body width="10%">
+    <div class="acceptor-flow-2">
+      <div class="bg-blur"></div>
+      <img class="side-menu-icon" alt="" src="{% static 'images/side-menu.svg' %}" />
+      <div class="dropoff-appointments">Dropoff Appointments</div>
+      <div class="compost-bins">Compost Bins</div>
+      <div class="search">
+        <div class="search-child"></div>
+        <img
+          class="vuesaxlinearsetting-4-icon"
+          alt=""
+          src="{% static 'images/vuesaxlinearsetting4.svg' %}"
+        />
+        <div class="akar-iconssearch-parent">
+          <img
+            class="akar-iconssearch"
+            alt=""
+            src="{% static 'images/akariconssearch.svg' %}"
+          />
+          <div class="search1">Search...</div>
+        </div>
+      </div>
+      <img
+        class="compostable-2-icon"
+        alt=""
+        src="{% static 'images/compostable-2@2x.png' %}"
+      />
+      <div class="acceptor-flow-2-child"></div>
+      <div class="acceptor-flow-2-item"></div>
+      <div class="acceptor-flow-2-inner"></div>
+      <div class="rectangle-div"></div>
+      <div class="acceptor-flow-2-child1"></div>
+      <div class="acceptor-flow-2-child2"></div>
+      <div class="acceptor-flow-2-child3"></div>
+      <div class="sai-teja-wrapper"><div class="sai-teja">Test</div></div>
+      <div class="sai-teja-container"><div class="sai-teja">Test</div></div>
+      <div class="sai-teja-frame"><div class="sai-teja">Test</div></div>
+      <div class="group-div"><div class="sai-teja">Test</div></div>
+      <div class="sai-teja-wrapper1"><div class="sai-teja">Test</div></div>
+      <div class="sai-teja-wrapper2"><div class="sai-teja">Test</div></div>
+      <div class="sai-teja-wrapper3"><div class="sai-teja">Test</div></div>
+      <img class="message-icon1" alt="" src="{% static 'images/message1.svg' %}" /><img
+        class="message-icon2"
+        alt=""
+        src="{% static 'images/message1.svg' %}"
+      /><img class="message-icon3" alt="" src="{% static 'images/message1.svg' %}" /><img
+        class="message-icon4"
+        alt=""
+        src="{% static 'images/message1.svg' %}"
+      /><img class="message-icon5" alt="" src="{% static 'images/message1.svg' %}" /><img
+        class="message-icon6"
+        alt=""
+        src="{% static 'images/message1.svg' %}"
+      />
+      <div class="alliance-for-downtown1">{{ user.username }}</div>
+      {% for bin in bins %}
+      {% if bin.hosted == user.username %}
+      <div class="acceptor-flow-2-child6">
+        <div class="bin-2017002346-wrapper">
+          <div class="sai-teja"> {{ bin.ntaname }} </div>
+        </div>
+        <div class="open-2471">{{ bin.borough }}</div>
+          <div class="acceptor-flow-2-child9"></div>
+          <div class="accepts-food-wastes">Notes: {{ bin.notes }}<br><br>Hours: {{ bin.hours }}</div>
+          <br>
+      </div>
+      <!-- <div class="jay-street"></div> -->
+      {% endif %}
+      {% endfor %}
+      <div class="acceptor-flow-2-child15"></div>
+      <div class="you-are-a">You are a</div>
+      <div class="acceptor-flow-2-child16"></div>
+      <div class="donor"><a href="{% url 'Locator View' %}">Donor</a></div>
+      <div class="acceptor"><a href="{% url 'acceptor_view' %}">Acceptor</a></div>
+      <div class="facility"><a href="{% url 'Locator View' %}">Facility</a></div>
+      <div class="restaurant"><a href="{% url 'acceptor_view' %}">Restaurant</a></div>
+      <div class="button">
+        <div class="add-compost-bin">+ Add Compost Bin</div>
+      </div>
+      <img class="group-icon" alt="" src="{% static 'images/group-262.svg' %}" /><img
+        class="acceptor-flow-2-child17"
+        alt=""
+        src="{% static 'images/group-288.svg' %}"
+      /><img
+        class="acceptor-flow-2-child18"
+        alt=""
+        src="{% static 'images/group-290.svg' %}"
+      /><img
+        class="acceptor-flow-2-child19"
+        alt=""
+        src="{% static 'images/group-292.svg' %}"
+      /><img
+        class="acceptor-flow-2-child20"
+        alt=""
+        src="{% static 'images/group-294.svg' %}"
+      /><img
+        class="acceptor-flow-2-child21"
+        alt=""
+        src="{% static 'images/group-296.svg' %}"
+      /><img
+        class="acceptor-flow-2-child22"
+        alt=""
+        src="{% static 'images/group-298.svg' %}"
+      /><img class="remove-1-icon" alt="" src="{% static 'images/remove-1@2x.png' %}" /><img
+        class="remove-2-icon"
+        alt=""
+        src="{% static 'images/remove-1@2x.png' %}"
+      /><img class="remove-3-icon" alt="" src="{% static 'images/remove-1@2x.png' %}" /><img
+        class="remove-4-icon"
+        alt=""
+        src="{% static 'images/remove-1@2x.png' %}"
+      /><img class="remove-5-icon" alt="" src="{% static 'images/remove-1@2x.png' %}" /><img
+        class="remove-6-icon"
+        alt=""
+        src="{% static 'images/remove-1@2x.png' %}"
+      /><img
+        class="correct-1-icon"
+        alt=""
+        src="{% static 'images/correct-1@2x.png' %}"
+      /><img
+        class="correct-2-icon"
+        alt=""
+        src="{% static 'images/correct-1@2x.png' %}"
+      /><img
+        class="correct-3-icon"
+        alt=""
+        src="{% static 'images/correct-1@2x.png' %}"
+      /><img
+        class="correct-4-icon"
+        alt=""
+        src="{% static 'images/correct-1@2x.png' %}"
+      /><img
+        class="correct-5-icon"
+        alt=""
+        src="{% static 'images/correct-1@2x.png' %}"
+      /><img
+        class="correct-6-icon"
+        alt=""
+        src="{% static 'images/correct-1@2x.png' %}"
+      /><img
+        class="correct-7-icon"
+        alt=""
+        src="{% static 'images/correct-1@2x.png' %}"
+      />
+    </div>
+  </body>
+{% endblock content %}

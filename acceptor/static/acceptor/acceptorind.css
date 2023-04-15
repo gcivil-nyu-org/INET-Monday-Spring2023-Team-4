@@ -12,7 +12,7 @@
 }
 .side-menu-icon {
   width: 155px;
-  height: 1027px;
+  height: 1175px;
 }
 .compost-bins,
 .dropoff-appointments {
@@ -54,7 +54,6 @@
   width: 24px;
   height: 24px;
   flex-shrink: 0;
-  overflow: hidden;
 }
 .search1 {
   position: relative;
@@ -232,11 +231,12 @@
 }
 .compostable-2-icon {
   position: absolute;
-  top: 92px;
-  left: 25px;
+  top: 8px;
+  left: 48px;
   width: 55px;
   height: 55px;
   object-fit: cover;
+  z-index: 2;
 }
 .acceptor-flow-2-child {
   top: 224px;
@@ -280,13 +280,15 @@
   top: 994px;
 }
 .sai-teja {
-  position: absolute;
+  /* position: relative; */
   top: 0;
   left: 0;
   letter-spacing: 0.01em;
   font-weight: 600;
   display: inline-block;
-  width: 155px;
+  width: 290px;
+  margin-top: 7px;
+  margin-left: 4px;
 }
 .sai-teja-container,
 .sai-teja-frame,
@@ -389,15 +391,18 @@
   height: 47px;
 }
 .acceptor-flow-2-child6 {
-  position: absolute;
+  position: relative;
   top: 199px;
   left: 609px;
   border-radius: var(--br-xs);
   background-color: var(--color-white);
   border: 2px solid var(--color-gray-300);
   box-sizing: border-box;
-  width: 392px;
-  height: 147px;
+  width: 400px;
+  height: 165px;
+  display: inline-block;
+  margin-block-end: 10px;
+  margin-right: 10px;
 }
 .acceptor-flow-2-child7 {
   top: 199px;
@@ -426,11 +431,13 @@
 .acceptor-flow-2-child10,
 .acceptor-flow-2-child11,
 .acceptor-flow-2-child9 {
-  position: absolute;
+  /* position: relative; */
   border-top: 1px solid var(--color-whitesmoke-100);
   box-sizing: border-box;
-  width: 353px;
-  height: 1px;
+  width: 396px;
+  height: 7px;
+  margin-top: 11px;
+  /* z-index: 3; */
 }
 .acceptor-flow-2-child9 {
   top: 280.5px;
@@ -449,10 +456,21 @@
 .bin-2017002346-container,
 .bin-2017002346-frame,
 .bin-2017002346-wrapper {
-  position: absolute;
+  /* position: relative; */
   width: 155px;
   height: 22px;
-  font-size: var(--font-size-lg);
+  /* font-size: var(--font-size-lg);
+  position: relative;
+  top: 199px;
+  left: 609px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 392px;
+  height: 147px;
+  display: inline-block; */
+  /* z-index: 2; */
 }
 .bin-2017002346-wrapper {
   top: 215px;
@@ -466,7 +484,15 @@
   left: 629px;
 }
 .accepts-food-wastes,
-.accepts-food-wastes1,
+.accepts-food-wastes1
+{
+  /* position: relative; */
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01em;
+  color: var(--color-gray-400);
+  display: inline-block;
+  /* z-index: 3; */
+}
 .alliance-for-downtown1 {
   position: absolute;
   font-size: var(--font-size-sm);
@@ -482,10 +508,11 @@
 }
 .accepts-food-wastes,
 .accepts-food-wastes1 {
-  top: 301px;
+  top: 285px;
   left: 627px;
   font-weight: 500;
-  width: 247px;
+  width: 350px;
+  margin-left: 4px;
 }
 .accepts-food-wastes1 {
   left: 1035px;
@@ -525,13 +552,15 @@
   left: 629px;
 }
 .open-2471 {
-  position: absolute;
+  /* position: relative; */
   top: 248px;
   left: 907px;
   font-size: var(--font-size-sm);
   letter-spacing: 0.01em;
   font-weight: 500;
   color: var(--color-darkslategray);
+  /* z-index: 3; */
+  margin-left: 300px;
 }
 .open-2472 {
   top: 248px;
@@ -607,7 +636,6 @@
   left: 970px;
   width: 11px;
   height: 11px;
-  overflow: hidden;
 }
 .iconsaxbulkstar11 {
   top: 218px;
@@ -617,7 +645,6 @@
   position: absolute;
   width: 11px;
   height: 11px;
-  overflow: hidden;
 }
 .iconsaxbulkstar11 {
   left: 1378px;
@@ -632,7 +659,7 @@
   left: 0;
   background-color: var(--color-white);
   box-shadow: 0 4px 19px rgba(0, 0, 0, 0.1);
-  width: 1440px;
+  width: 1480px;
   height: 70px;
 }
 .you-are-a {
@@ -648,7 +675,7 @@
   top: 14px;
   left: 685px;
   border-radius: 14px;
-  background-color: var(--color-mediumaquamarine);
+  background-color: #1e7e3482;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
   width: 99px;
   height: 41.11px;
@@ -846,9 +873,8 @@
 .acceptor-flow-2 {
   position: relative;
   background-color: var(--color-white);
-  width: 100%;
+  width: 80%;
   height: 1024px;
-  overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-gray-200);

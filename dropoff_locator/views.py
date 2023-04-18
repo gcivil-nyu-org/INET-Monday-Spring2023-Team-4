@@ -10,7 +10,7 @@ def index(request):
     context = {
         "form": site_filter.form,
         "locations": site_filter.qs
-    }
+        }
     return render(request, "locations.html", context)
 
 def site(request, pk):

@@ -1,0 +1,962 @@
+[
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 1,
+    "fields": {
+      "name": "4th Avenue Presbyterian Church",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 2,
+    "fields": {
+      "name": "Alliance for Downtown New York",
+      "url": "https://downtownny.com/compost/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 3,
+    "fields": {
+      "name": "Alliance for Kips Bay",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 4,
+    "fields": {
+      "name": "Assemblymember Anderson",
+      "url": "https://nyassembly.gov/mem/Khaleel-M-Anderson"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 5,
+    "fields": {
+      "name": "Astoria Pug",
+      "url": "https://www.instagram.com/astoriapug/?hl=en"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 6,
+    "fields": {
+      "name": "Battery Park City Authority",
+      "url": "https://bpca.ny.gov/nature-and-sustainability/sustainability/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 7,
+    "fields": {
+      "name": "Big Reuse",
+      "url": "https://www.bigreuse.org/service/compost/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 8,
+    "fields": {
+      "name": "BK Rot",
+      "url": "www.bkrot.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 9,
+    "fields": {
+      "name": "Bronx River Alliance",
+      "url": "www.bronxriver.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 10,
+    "fields": {
+      "name": "Brooklyn Hope Church",
+      "url": "Brooklynhope.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 11,
+    "fields": {
+      "name": "Brotherhood/Sister Sol",
+      "url": "www.brotherhood-sistersol.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 12,
+    "fields": {
+      "name": "Carver Community Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 13,
+    "fields": {
+      "name": "Coastal Preservation Network",
+      "url": "www.coastalpreservation.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 14,
+    "fields": {
+      "name": "Community Access",
+      "url": "www.communityaccess.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 15,
+    "fields": {
+      "name": "Department of Sanitation",
+      "url": "www.nyc.gov/smartcomposting"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 16,
+    "fields": {
+      "name": "Down to Earth Garden",
+      "url": "https://downtoearthgarden.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 17,
+    "fields": {
+      "name": "Earth Matter NY",
+      "url": "www.earthmatter.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 18,
+    "fields": {
+      "name": "East Elmhurst Community School",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 19,
+    "fields": {
+      "name": "East New York Farms",
+      "url": "http://ucceny.org/enyf-old/compost/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 20,
+    "fields": {
+      "name": "EL Garden",
+      "url": "https://www.facebook.com/elgardenbushwickpage/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 21,
+    "fields": {
+      "name": "Far Rock Urban Agro-Education Center",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 22,
+    "fields": {
+      "name": "Farm to People",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 23,
+    "fields": {
+      "name": "Forest Hills Green Team",
+      "url": "commonpointqueens.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 24,
+    "fields": {
+      "name": "Francis Martin Library",
+      "url": "https://www.nypl.org/locations/francis-martin"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 25,
+    "fields": {
+      "name": "Friends of Mosholu Parkland",
+      "url": "www.mpcbronx.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 26,
+    "fields": {
+      "name": "Genovesi Environmental Study Center",
+      "url": "https://www.schools.nyc.gov/learning/student-journey/experiential-learning/genovesi-environmental-study-center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 27,
+    "fields": {
+      "name": "Grace Foundation",
+      "url": "graceofny.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 28,
+    "fields": {
+      "name": "GrowNYC",
+      "url": "grownyc.org/compost"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 29,
+    "fields": {
+      "name": "H.E.A.L.T.H for Youths Skyline Community Garden",
+      "url": "www.health4youths.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 30,
+    "fields": {
+      "name": "Haki Compost Collective",
+      "url": "https://www.instagram.com/hakicompost/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 31,
+    "fields": {
+      "name": "Harlem Grown",
+      "url": "www.harlemgrown.org/volunteer"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 32,
+    "fields": {
+      "name": "Howard Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 33,
+    "fields": {
+      "name": "Imani Community Garden",
+      "url": "https://www.facebook.com/Imani-Garden-168006109999475/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 34,
+    "fields": {
+      "name": "Jenny's Garden",
+      "url": "https://www.facebook.com/JennysGardenRiverside"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 35,
+    "fields": {
+      "name": "Kew Gardens CSA, sponsored by Kew Gardens Cinemas",
+      "url": "kewgardenscsa.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 36,
+    "fields": {
+      "name": "King Manor Museum",
+      "url": "https://www.kingmanor.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 37,
+    "fields": {
+      "name": "La Plaza Cultural Community Garden",
+      "url": "https://bit.ly/laplazadropoff"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 38,
+    "fields": {
+      "name": "LES Ecology Center",
+      "url": "https://www.lesecologycenter.org/programs/compost/compost-drop-off-locations/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 39,
+    "fields": {
+      "name": "Los Colibr\u00edes Community Garden",
+      "url": "https://www.facebook.com/jardin34/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 40,
+    "fields": {
+      "name": "Lydia's Magic Garden",
+      "url": "https://www.facebook.com/lydiasmagicgarden/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 41,
+    "fields": {
+      "name": "Maggie's Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 42,
+    "fields": {
+      "name": "Maggie's Magic Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 43,
+    "fields": {
+      "name": "Malcolm X Boulevard Beautification Group",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 44,
+    "fields": {
+      "name": "Maple Street Community Garden",
+      "url": "www.maplestreetcommunitygarden.com"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 45,
+    "fields": {
+      "name": "Mary Mitchell Family & Youth Center",
+      "url": "http://themarymitchellfyc.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 46,
+    "fields": {
+      "name": "Mathews-Palmer Park",
+      "url": "bit.ly/Hkcompost"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 47,
+    "fields": {
+      "name": "McIntosh Neighborhood Association",
+      "url": "https://bqlt.org/garden/mcintosh-neighborhood-garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 48,
+    "fields": {
+      "name": "Members at East 4th Street Community Garden",
+      "url": "https://eastfourthstreetgarden.tumblr.com/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 49,
+    "fields": {
+      "name": "Members at Moore-Jackson Garden",
+      "url": "https://www.facebook.com/MooreJacksonNYC/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 50,
+    "fields": {
+      "name": "Members of Vinegar Hill Community Garden",
+      "url": "https://groundcycle.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 51,
+    "fields": {
+      "name": "Moffat St Community Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 52,
+    "fields": {
+      "name": "New Beginnings Community Garden",
+      "url": "@new.beginnings.garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 53,
+    "fields": {
+      "name": "New Settlement - 170 Farm Stand",
+      "url": "http://www.newsettlementcommunitycenter.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 54,
+    "fields": {
+      "name": "New Settlement's Community Food Action",
+      "url": "NewSettlement.org/food"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 55,
+    "fields": {
+      "name": "North Brooklyn Compost Project",
+      "url": "nbkcompost.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 56,
+    "fields": {
+      "name": "Northeast Bronx Farmers Market Project",
+      "url": "https://www.facebook.com/northeastbronxcommunityfarmersmarket/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 57,
+    "fields": {
+      "name": "Nurture BK",
+      "url": "https://www.instagram.com/nurturebk_compost/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 58,
+    "fields": {
+      "name": "NYC Compost Project",
+      "url": "https://www.nyc.gov/assets/dsny/site/our-work/composting/community-composting"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 59,
+    "fields": {
+      "name": "Old Stone House Brooklyn",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 60,
+    "fields": {
+      "name": "Olivet Heavenly Harvest",
+      "url": "olivetheavenlyharvest.com"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 61,
+    "fields": {
+      "name": "Padre Plaza Community Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 62,
+    "fields": {
+      "name": "Paradise Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 63,
+    "fields": {
+      "name": "Phoenix Community Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 64,
+    "fields": {
+      "name": "Pleasant Village Community Garden",
+      "url": "http://facebook.com/pleasantvillagecommunitygarden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 65,
+    "fields": {
+      "name": "Prospect Farm",
+      "url": "https://prospectfarm.org/composting/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 66,
+    "fields": {
+      "name": "PS 90 Coney Island",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 67,
+    "fields": {
+      "name": "PS116 PTA",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 68,
+    "fields": {
+      "name": "PS281 Green Team",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 69,
+    "fields": {
+      "name": "Q Gardens",
+      "url": "https://qgardenscf.com/places-to-drop-off-your-compost/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 70,
+    "fields": {
+      "name": "Queens Botanical Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 71,
+    "fields": {
+      "name": "Rainbow Garden of Life and Health",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 72,
+    "fields": {
+      "name": "Riverdale Neighborhood House",
+      "url": "https://www.riverdaleonline.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 73,
+    "fields": {
+      "name": "Rodale Pleasant Park Community Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 74,
+    "fields": {
+      "name": "Rogers / Tilden / Veronica Place Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 75,
+    "fields": {
+      "name": "Rusty Volunteers",
+      "url": "https://www.bigreuse.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 76,
+    "fields": {
+      "name": "Snug Harbor Cultural Center & Botanical Garden",
+      "url": "https://snug-harbor.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 77,
+    "fields": {
+      "name": "Snug Harbor Youth",
+      "url": "https://snug-harbor.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 78,
+    "fields": {
+      "name": "Socrates Sculpture Park",
+      "url": "socratessculpturepark.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 79,
+    "fields": {
+      "name": "Spuyten Duyvil PreSchool",
+      "url": "www.spuytenduyvilpreschool.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 80,
+    "fields": {
+      "name": "St. Anastasia Roman Catholic Church",
+      "url": "https://www.sta.nyc/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 81,
+    "fields": {
+      "name": "St. Mary's Harlem",
+      "url": "stmarysharlem.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 82,
+    "fields": {
+      "name": "Staff at Domino Park",
+      "url": "http://www.dominopark.com/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 83,
+    "fields": {
+      "name": "Staff at Hudson River Park",
+      "url": "https://hudsonriverpark.org/the-park/sustainability/community-compost-program/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 84,
+    "fields": {
+      "name": "Staff at Kingsbridge Heights Community Center",
+      "url": "www.khcc-nyc.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 85,
+    "fields": {
+      "name": "Staff at Queens County Farm Museum",
+      "url": "http://queensfarm.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 86,
+    "fields": {
+      "name": "Staff at Wychoff Farmhouse Museum",
+      "url": "wyckoffmuseum.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 87,
+    "fields": {
+      "name": "Staten Island Urban Center",
+      "url": "www.siurbancenter.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 88,
+    "fields": {
+      "name": "Sure We Can",
+      "url": "http://www.surewecan.org/composting"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 89,
+    "fields": {
+      "name": "Target Bronx Community Garden",
+      "url": "www.targetbronxcommunitygarden.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 90,
+    "fields": {
+      "name": "Terraza 7",
+      "url": "https://terraza7.com/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 91,
+    "fields": {
+      "name": "The Compost Collective",
+      "url": "https://www.facebook.com/pg/thecompostcollective/about/?ref=page_internal"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 92,
+    "fields": {
+      "name": "The Connected Chef",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 93,
+    "fields": {
+      "name": "The Earth Ministry of The Church of The Mediator",
+      "url": "https://www.instagram.com/mediator_garden_and_composting/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 94,
+    "fields": {
+      "name": "Uptown Grand Central",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 95,
+    "fields": {
+      "name": "Volunteers at 1100 Bergen Street Community Garden",
+      "url": "https://bqlt.org/garden/1100-block-bergen-st-community-garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 96,
+    "fields": {
+      "name": "Volunteers at 45th Street Compost",
+      "url": "https://linktr.ee/45thstreetcomposters"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 97,
+    "fields": {
+      "name": "Volunteers at Abib Newborn Learning Garden",
+      "url": "https://cityparksfoundation.org/learning-gardens/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 98,
+    "fields": {
+      "name": "Volunteers at Bushwick Grows!",
+      "url": "riseboro.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 99,
+    "fields": {
+      "name": "Volunteers at Christ Church",
+      "url": "www.christchurchcobblehill.net"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 100,
+    "fields": {
+      "name": "Volunteers at Drew Gardens",
+      "url": "https://www.facebook.com/drewgardens.educationalrecreational"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 101,
+    "fields": {
+      "name": "Volunteers at Edgemere Farm",
+      "url": "http://www.edgemerefarm.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 102,
+    "fields": {
+      "name": "Volunteers at Einstein Community Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 103,
+    "fields": {
+      "name": "Volunteers at Farm Spot",
+      "url": "http://farmspot.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 104,
+    "fields": {
+      "name": "Volunteers at Farmers Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 105,
+    "fields": {
+      "name": "Volunteers at Friends of Brook Park Community Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 106,
+    "fields": {
+      "name": "Volunteers at Garden of Resilience",
+      "url": "http://www.laurelton.nyc/resilience"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 107,
+    "fields": {
+      "name": "Volunteers at Glendale Community Garden",
+      "url": NaN
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 108,
+    "fields": {
+      "name": "Volunteers at Isabahlia LOE Foundation",
+      "url": "https://www.isabahlialoefinc.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 109,
+    "fields": {
+      "name": "Volunteers at James Baldwin Outdoor Learning Center",
+      "url": "https://www.jamesbaldwinoutdoorlearningcenter.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 110,
+    "fields": {
+      "name": "Volunteers at JH Scraps",
+      "url": "https://www.jhbg.org/2020/07/28/jh-scraps-reopens"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 111,
+    "fields": {
+      "name": "Volunteers at Kelly Street Garden",
+      "url": "https://www.facebook.com/kellyst.garden/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 112,
+    "fields": {
+      "name": "Volunteers at La Familia Verde Farmers Market",
+      "url": "http://www.lafamiliaverde.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 113,
+    "fields": {
+      "name": "Volunteers at Lehman College",
+      "url": "http://www.lehman.cuny.edu/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 114,
+    "fields": {
+      "name": "Volunteers at PS17",
+      "url": "https://www.ps17queens.com/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 115,
+    "fields": {
+      "name": "Volunteers at Smiling Hogshead Ranch",
+      "url": "smilinghogsheadranch.org"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 116,
+    "fields": {
+      "name": "Volunteers at St. James Compost",
+      "url": "https://www.instagram.com/stjamescompost/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 117,
+    "fields": {
+      "name": "Volunteers at Walt L Shamel Community Garden",
+      "url": "https://www.facebook.com/WaltLShamelCommunityGarden/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 118,
+    "fields": {
+      "name": "Volunteers at Woodside Sunnyside Composting",
+      "url": "https://www.woodsidesunnysidecomposting.org/"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 119,
+    "fields": {
+      "name": "Wagner College",
+      "url": "http://wagner.edu"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCHost",
+    "pk": 120,
+    "fields": {
+      "name": "West Side Community Garden",
+      "url": "www.instagram.com/westsidecommunitygarden"
+    }
+  }
+]

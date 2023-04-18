@@ -1,0 +1,4258 @@
+[
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 1,
+    "fields": {
+      "site": 6706,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 2,
+    "fields": {
+      "site": 6707,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 3,
+    "fields": {
+      "site": 6708,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 4,
+    "fields": {
+      "site": 6709,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 5,
+    "fields": {
+      "site": 6710,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 6,
+    "fields": {
+      "site": 6711,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 7,
+    "fields": {
+      "site": 6712,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 8,
+    "fields": {
+      "site": 6713,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 9,
+    "fields": {
+      "site": 6714,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 10,
+    "fields": {
+      "site": 6715,
+      "host": "Battery Park City Authority"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 11,
+    "fields": {
+      "site": 6716,
+      "host": "Battery Park City Authority"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 12,
+    "fields": {
+      "site": 6717,
+      "host": "Earth Matter NY"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 13,
+    "fields": {
+      "site": 6717,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 14,
+    "fields": {
+      "site": 6717,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 15,
+    "fields": {
+      "site": 6718,
+      "host": "Alliance for Downtown New York"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 16,
+    "fields": {
+      "site": 6719,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 17,
+    "fields": {
+      "site": 6720,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 18,
+    "fields": {
+      "site": 6721,
+      "host": "Earth Matter NY"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 19,
+    "fields": {
+      "site": 6721,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 20,
+    "fields": {
+      "site": 6722,
+      "host": "Earth Matter NY"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 21,
+    "fields": {
+      "site": 6722,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 22,
+    "fields": {
+      "site": 6723,
+      "host": "Earth Matter NY"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 23,
+    "fields": {
+      "site": 6723,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 24,
+    "fields": {
+      "site": 6724,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 25,
+    "fields": {
+      "site": 6724,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 26,
+    "fields": {
+      "site": 6725,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 27,
+    "fields": {
+      "site": 6725,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 28,
+    "fields": {
+      "site": 6726,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 29,
+    "fields": {
+      "site": 6726,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 30,
+    "fields": {
+      "site": 6727,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 31,
+    "fields": {
+      "site": 6727,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 32,
+    "fields": {
+      "site": 6728,
+      "host": "West Side Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 33,
+    "fields": {
+      "site": 6729,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 34,
+    "fields": {
+      "site": 6730,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 35,
+    "fields": {
+      "site": 6731,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 36,
+    "fields": {
+      "site": 6732,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 37,
+    "fields": {
+      "site": 6733,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 38,
+    "fields": {
+      "site": 6734,
+      "host": "Mathews-Palmer Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 39,
+    "fields": {
+      "site": 6735,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 40,
+    "fields": {
+      "site": 6736,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 41,
+    "fields": {
+      "site": 6736,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 42,
+    "fields": {
+      "site": 6737,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 43,
+    "fields": {
+      "site": 6738,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 44,
+    "fields": {
+      "site": 6739,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 45,
+    "fields": {
+      "site": 6740,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 46,
+    "fields": {
+      "site": 6741,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 47,
+    "fields": {
+      "site": 6741,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 48,
+    "fields": {
+      "site": 6742,
+      "host": "Brotherhood/Sister Sol"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 49,
+    "fields": {
+      "site": 6743,
+      "host": "Jenny's Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 50,
+    "fields": {
+      "site": 6744,
+      "host": "Maggie's Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 51,
+    "fields": {
+      "site": 6745,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 52,
+    "fields": {
+      "site": 6746,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 53,
+    "fields": {
+      "site": 6747,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 54,
+    "fields": {
+      "site": 6748,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 55,
+    "fields": {
+      "site": 6749,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 56,
+    "fields": {
+      "site": 6750,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 57,
+    "fields": {
+      "site": 6751,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 58,
+    "fields": {
+      "site": 6752,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 59,
+    "fields": {
+      "site": 6753,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 60,
+    "fields": {
+      "site": 6754,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 61,
+    "fields": {
+      "site": 6755,
+      "host": "St. Mary's Harlem"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 62,
+    "fields": {
+      "site": 6755,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 63,
+    "fields": {
+      "site": 6756,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 64,
+    "fields": {
+      "site": 6757,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 65,
+    "fields": {
+      "site": 6758,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 66,
+    "fields": {
+      "site": 6759,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 67,
+    "fields": {
+      "site": 6760,
+      "host": "4th Avenue Presbyterian Church"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 68,
+    "fields": {
+      "site": 6761,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 69,
+    "fields": {
+      "site": 6762,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 70,
+    "fields": {
+      "site": 6763,
+      "host": "Los Colibr\u00edes Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 71,
+    "fields": {
+      "site": 6764,
+      "host": "Brooklyn Hope Church"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 72,
+    "fields": {
+      "site": 6765,
+      "host": "Members at East 4th Street Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 73,
+    "fields": {
+      "site": 6766,
+      "host": "Prospect Farm"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 74,
+    "fields": {
+      "site": 6767,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 75,
+    "fields": {
+      "site": 6768,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 76,
+    "fields": {
+      "site": 6768,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 77,
+    "fields": {
+      "site": 6769,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 78,
+    "fields": {
+      "site": 6769,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 79,
+    "fields": {
+      "site": 6770,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 80,
+    "fields": {
+      "site": 6770,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 81,
+    "fields": {
+      "site": 6771,
+      "host": "Big Reuse"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 82,
+    "fields": {
+      "site": 6771,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 83,
+    "fields": {
+      "site": 6772,
+      "host": "Big Reuse"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 84,
+    "fields": {
+      "site": 6772,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 85,
+    "fields": {
+      "site": 6773,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 86,
+    "fields": {
+      "site": 6774,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 87,
+    "fields": {
+      "site": 6775,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 88,
+    "fields": {
+      "site": 6776,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 89,
+    "fields": {
+      "site": 6777,
+      "host": "Old Stone House Brooklyn"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 90,
+    "fields": {
+      "site": 6778,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 91,
+    "fields": {
+      "site": 6779,
+      "host": "Nurture BK"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 92,
+    "fields": {
+      "site": 6780,
+      "host": "Big Reuse"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 93,
+    "fields": {
+      "site": 6780,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 94,
+    "fields": {
+      "site": 6781,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 95,
+    "fields": {
+      "site": 6782,
+      "host": "Volunteers at Christ Church"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 96,
+    "fields": {
+      "site": 6783,
+      "host": "PS 90 Coney Island"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 97,
+    "fields": {
+      "site": 6784,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 98,
+    "fields": {
+      "site": 6784,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 99,
+    "fields": {
+      "site": 6785,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 100,
+    "fields": {
+      "site": 6785,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 101,
+    "fields": {
+      "site": 6786,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 102,
+    "fields": {
+      "site": 6786,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 103,
+    "fields": {
+      "site": 6787,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 104,
+    "fields": {
+      "site": 6787,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 105,
+    "fields": {
+      "site": 6788,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 106,
+    "fields": {
+      "site": 6788,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 107,
+    "fields": {
+      "site": 6789,
+      "host": "Harlem Grown"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 108,
+    "fields": {
+      "site": 6790,
+      "host": "Malcolm X Boulevard Beautification Group"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 109,
+    "fields": {
+      "site": 6790,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 110,
+    "fields": {
+      "site": 6791,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 111,
+    "fields": {
+      "site": 6792,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 112,
+    "fields": {
+      "site": 6793,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 113,
+    "fields": {
+      "site": 6794,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 114,
+    "fields": {
+      "site": 6795,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 115,
+    "fields": {
+      "site": 6796,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 116,
+    "fields": {
+      "site": 6797,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 117,
+    "fields": {
+      "site": 6798,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 118,
+    "fields": {
+      "site": 6799,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 119,
+    "fields": {
+      "site": 6800,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 120,
+    "fields": {
+      "site": 6801,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 121,
+    "fields": {
+      "site": 6802,
+      "host": "Uptown Grand Central"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 122,
+    "fields": {
+      "site": 6802,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 123,
+    "fields": {
+      "site": 6803,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 124,
+    "fields": {
+      "site": 6804,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 125,
+    "fields": {
+      "site": 6805,
+      "host": "Carver Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 126,
+    "fields": {
+      "site": 6806,
+      "host": "Lydia's Magic Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 127,
+    "fields": {
+      "site": 6807,
+      "host": "Pleasant Village Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 128,
+    "fields": {
+      "site": 6808,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 129,
+    "fields": {
+      "site": 6809,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 130,
+    "fields": {
+      "site": 6810,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 131,
+    "fields": {
+      "site": 6811,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 132,
+    "fields": {
+      "site": 6812,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 133,
+    "fields": {
+      "site": 6813,
+      "host": "Rodale Pleasant Park Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 134,
+    "fields": {
+      "site": 6814,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 135,
+    "fields": {
+      "site": 6815,
+      "host": "Maggie's Magic Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 136,
+    "fields": {
+      "site": 6816,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 137,
+    "fields": {
+      "site": 6817,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 138,
+    "fields": {
+      "site": 6818,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 139,
+    "fields": {
+      "site": 6819,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 140,
+    "fields": {
+      "site": 6820,
+      "host": "Volunteers at Farmers Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 141,
+    "fields": {
+      "site": 6821,
+      "host": "Phoenix Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 142,
+    "fields": {
+      "site": 6822,
+      "host": "Volunteers at Isabahlia LOE Foundation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 143,
+    "fields": {
+      "site": 6823,
+      "host": "Volunteers at Abib Newborn Learning Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 144,
+    "fields": {
+      "site": 6824,
+      "host": "Howard Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 145,
+    "fields": {
+      "site": 6825,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 146,
+    "fields": {
+      "site": 6826,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 147,
+    "fields": {
+      "site": 6827,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 148,
+    "fields": {
+      "site": 6828,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 149,
+    "fields": {
+      "site": 6829,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 150,
+    "fields": {
+      "site": 6830,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 151,
+    "fields": {
+      "site": 6831,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 152,
+    "fields": {
+      "site": 6832,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 153,
+    "fields": {
+      "site": 6833,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 154,
+    "fields": {
+      "site": 6834,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 155,
+    "fields": {
+      "site": 6835,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 156,
+    "fields": {
+      "site": 6836,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 157,
+    "fields": {
+      "site": 6837,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 158,
+    "fields": {
+      "site": 6838,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 159,
+    "fields": {
+      "site": 6839,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 160,
+    "fields": {
+      "site": 6840,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 161,
+    "fields": {
+      "site": 6841,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 162,
+    "fields": {
+      "site": 6842,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 163,
+    "fields": {
+      "site": 6843,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 164,
+    "fields": {
+      "site": 6844,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 165,
+    "fields": {
+      "site": 6845,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 166,
+    "fields": {
+      "site": 6846,
+      "host": "Volunteers at 1100 Bergen Street Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 167,
+    "fields": {
+      "site": 6847,
+      "host": "Imani Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 168,
+    "fields": {
+      "site": 6848,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 169,
+    "fields": {
+      "site": 6849,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 170,
+    "fields": {
+      "site": 6850,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 171,
+    "fields": {
+      "site": 6851,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 172,
+    "fields": {
+      "site": 6852,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 173,
+    "fields": {
+      "site": 6853,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 174,
+    "fields": {
+      "site": 6854,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 175,
+    "fields": {
+      "site": 6855,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 176,
+    "fields": {
+      "site": 6856,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 177,
+    "fields": {
+      "site": 6857,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 178,
+    "fields": {
+      "site": 6858,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 179,
+    "fields": {
+      "site": 6859,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 180,
+    "fields": {
+      "site": 6860,
+      "host": "Volunteers at Walt L Shamel Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 181,
+    "fields": {
+      "site": 6861,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 182,
+    "fields": {
+      "site": 6862,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 183,
+    "fields": {
+      "site": 6863,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 184,
+    "fields": {
+      "site": 6864,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 185,
+    "fields": {
+      "site": 6865,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 186,
+    "fields": {
+      "site": 6866,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 187,
+    "fields": {
+      "site": 6867,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 188,
+    "fields": {
+      "site": 6868,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 189,
+    "fields": {
+      "site": 6869,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 190,
+    "fields": {
+      "site": 6870,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 191,
+    "fields": {
+      "site": 6871,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 192,
+    "fields": {
+      "site": 6872,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 193,
+    "fields": {
+      "site": 6873,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 194,
+    "fields": {
+      "site": 6874,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 195,
+    "fields": {
+      "site": 6875,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 196,
+    "fields": {
+      "site": 6876,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 197,
+    "fields": {
+      "site": 6877,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 198,
+    "fields": {
+      "site": 6878,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 199,
+    "fields": {
+      "site": 6879,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 200,
+    "fields": {
+      "site": 6880,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 201,
+    "fields": {
+      "site": 6881,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 202,
+    "fields": {
+      "site": 6882,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 203,
+    "fields": {
+      "site": 6883,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 204,
+    "fields": {
+      "site": 6884,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 205,
+    "fields": {
+      "site": 6885,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 206,
+    "fields": {
+      "site": 6886,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 207,
+    "fields": {
+      "site": 6887,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 208,
+    "fields": {
+      "site": 6888,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 209,
+    "fields": {
+      "site": 6889,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 210,
+    "fields": {
+      "site": 6890,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 211,
+    "fields": {
+      "site": 6891,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 212,
+    "fields": {
+      "site": 6892,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 213,
+    "fields": {
+      "site": 6893,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 214,
+    "fields": {
+      "site": 6894,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 215,
+    "fields": {
+      "site": 6895,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 216,
+    "fields": {
+      "site": 6896,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 217,
+    "fields": {
+      "site": 6897,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 218,
+    "fields": {
+      "site": 6898,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 219,
+    "fields": {
+      "site": 6899,
+      "host": "Staff at Hudson River Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 220,
+    "fields": {
+      "site": 6900,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 221,
+    "fields": {
+      "site": 6900,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 222,
+    "fields": {
+      "site": 6901,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 223,
+    "fields": {
+      "site": 6902,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 224,
+    "fields": {
+      "site": 6903,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 225,
+    "fields": {
+      "site": 6903,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 226,
+    "fields": {
+      "site": 6903,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 227,
+    "fields": {
+      "site": 6904,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 228,
+    "fields": {
+      "site": 6905,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 229,
+    "fields": {
+      "site": 6906,
+      "host": "Maple Street Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 230,
+    "fields": {
+      "site": 6907,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 231,
+    "fields": {
+      "site": 6908,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 232,
+    "fields": {
+      "site": 6909,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 233,
+    "fields": {
+      "site": 6910,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 234,
+    "fields": {
+      "site": 6911,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 235,
+    "fields": {
+      "site": 6912,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 236,
+    "fields": {
+      "site": 6913,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 237,
+    "fields": {
+      "site": 6914,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 238,
+    "fields": {
+      "site": 6915,
+      "host": "Earth Matter NY"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 239,
+    "fields": {
+      "site": 6915,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 240,
+    "fields": {
+      "site": 6916,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 241,
+    "fields": {
+      "site": 6917,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 242,
+    "fields": {
+      "site": 6918,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 243,
+    "fields": {
+      "site": 6919,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 244,
+    "fields": {
+      "site": 6920,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 245,
+    "fields": {
+      "site": 6921,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 246,
+    "fields": {
+      "site": 6921,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 247,
+    "fields": {
+      "site": 6922,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 248,
+    "fields": {
+      "site": 6922,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 249,
+    "fields": {
+      "site": 6922,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 250,
+    "fields": {
+      "site": 6923,
+      "host": "Down to Earth Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 251,
+    "fields": {
+      "site": 6924,
+      "host": "La Plaza Cultural Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 252,
+    "fields": {
+      "site": 6925,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 253,
+    "fields": {
+      "site": 6926,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 254,
+    "fields": {
+      "site": 6926,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 255,
+    "fields": {
+      "site": 6927,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 256,
+    "fields": {
+      "site": 6927,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 257,
+    "fields": {
+      "site": 6928,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 258,
+    "fields": {
+      "site": 6929,
+      "host": "Alliance for Kips Bay"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 259,
+    "fields": {
+      "site": 6929,
+      "host": "PS281 Green Team"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 260,
+    "fields": {
+      "site": 6929,
+      "host": "PS116 PTA"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 261,
+    "fields": {
+      "site": 6930,
+      "host": "Farm to People"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 262,
+    "fields": {
+      "site": 6931,
+      "host": "Sure We Can"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 263,
+    "fields": {
+      "site": 6932,
+      "host": "Staff at Domino Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 264,
+    "fields": {
+      "site": 6933,
+      "host": "BK Rot"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 265,
+    "fields": {
+      "site": 6934,
+      "host": "EL Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 266,
+    "fields": {
+      "site": 6935,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 267,
+    "fields": {
+      "site": 6936,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 268,
+    "fields": {
+      "site": 6937,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 269,
+    "fields": {
+      "site": 6938,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 270,
+    "fields": {
+      "site": 6939,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 271,
+    "fields": {
+      "site": 6940,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 272,
+    "fields": {
+      "site": 6941,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 273,
+    "fields": {
+      "site": 6942,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 274,
+    "fields": {
+      "site": 6943,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 275,
+    "fields": {
+      "site": 6944,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 276,
+    "fields": {
+      "site": 6945,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 277,
+    "fields": {
+      "site": 6946,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 278,
+    "fields": {
+      "site": 6947,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 279,
+    "fields": {
+      "site": 6948,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 280,
+    "fields": {
+      "site": 6949,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 281,
+    "fields": {
+      "site": 6950,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 282,
+    "fields": {
+      "site": 6951,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 283,
+    "fields": {
+      "site": 6952,
+      "host": "Volunteers at Bushwick Grows!"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 284,
+    "fields": {
+      "site": 6953,
+      "host": "Moffat St Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 285,
+    "fields": {
+      "site": 6954,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 286,
+    "fields": {
+      "site": 6955,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 287,
+    "fields": {
+      "site": 6956,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 288,
+    "fields": {
+      "site": 6957,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 289,
+    "fields": {
+      "site": 6958,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 290,
+    "fields": {
+      "site": 6959,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 291,
+    "fields": {
+      "site": 6960,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 292,
+    "fields": {
+      "site": 6961,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 293,
+    "fields": {
+      "site": 6962,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 294,
+    "fields": {
+      "site": 6963,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 295,
+    "fields": {
+      "site": 6964,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 296,
+    "fields": {
+      "site": 6965,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 297,
+    "fields": {
+      "site": 6966,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 298,
+    "fields": {
+      "site": 6967,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 299,
+    "fields": {
+      "site": 6968,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 300,
+    "fields": {
+      "site": 6969,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 301,
+    "fields": {
+      "site": 6970,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 302,
+    "fields": {
+      "site": 6971,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 303,
+    "fields": {
+      "site": 6972,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 304,
+    "fields": {
+      "site": 6973,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 305,
+    "fields": {
+      "site": 6974,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 306,
+    "fields": {
+      "site": 6975,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 307,
+    "fields": {
+      "site": 6976,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 308,
+    "fields": {
+      "site": 6977,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 309,
+    "fields": {
+      "site": 6978,
+      "host": "BK Rot"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 310,
+    "fields": {
+      "site": 6979,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 311,
+    "fields": {
+      "site": 6980,
+      "host": "Volunteers at Glendale Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 312,
+    "fields": {
+      "site": 6981,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 313,
+    "fields": {
+      "site": 6982,
+      "host": "North Brooklyn Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 314,
+    "fields": {
+      "site": 6983,
+      "host": "North Brooklyn Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 315,
+    "fields": {
+      "site": 6984,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 316,
+    "fields": {
+      "site": 6985,
+      "host": "Members of Vinegar Hill Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 317,
+    "fields": {
+      "site": 6986,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 318,
+    "fields": {
+      "site": 6987,
+      "host": "Volunteers at Friends of Brook Park Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 319,
+    "fields": {
+      "site": 6988,
+      "host": "Padre Plaza Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 320,
+    "fields": {
+      "site": 6989,
+      "host": "Rainbow Garden of Life and Health"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 321,
+    "fields": {
+      "site": 6990,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 322,
+    "fields": {
+      "site": 6991,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 323,
+    "fields": {
+      "site": 6992,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 324,
+    "fields": {
+      "site": 6993,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 325,
+    "fields": {
+      "site": 6994,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 326,
+    "fields": {
+      "site": 6995,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 327,
+    "fields": {
+      "site": 6996,
+      "host": "Target Bronx Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 328,
+    "fields": {
+      "site": 6997,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 329,
+    "fields": {
+      "site": 6998,
+      "host": "New Settlement - 170 Farm Stand"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 330,
+    "fields": {
+      "site": 6999,
+      "host": "New Settlement's Community Food Action"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 331,
+    "fields": {
+      "site": 7000,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 332,
+    "fields": {
+      "site": 7001,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 333,
+    "fields": {
+      "site": 7002,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 334,
+    "fields": {
+      "site": 7003,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 335,
+    "fields": {
+      "site": 7004,
+      "host": "Volunteers at Kelly Street Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 336,
+    "fields": {
+      "site": 7005,
+      "host": "Bronx River Alliance"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 337,
+    "fields": {
+      "site": 7006,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 338,
+    "fields": {
+      "site": 7007,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 339,
+    "fields": {
+      "site": 7008,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 340,
+    "fields": {
+      "site": 7009,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 341,
+    "fields": {
+      "site": 7010,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 342,
+    "fields": {
+      "site": 7011,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 343,
+    "fields": {
+      "site": 7012,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 344,
+    "fields": {
+      "site": 7013,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 345,
+    "fields": {
+      "site": 7014,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 346,
+    "fields": {
+      "site": 7015,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 347,
+    "fields": {
+      "site": 7016,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 348,
+    "fields": {
+      "site": 7017,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 349,
+    "fields": {
+      "site": 7018,
+      "host": "Big Reuse"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 350,
+    "fields": {
+      "site": 7018,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 351,
+    "fields": {
+      "site": 7019,
+      "host": "Volunteers at St. James Compost"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 352,
+    "fields": {
+      "site": 7020,
+      "host": "Terraza 7"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 353,
+    "fields": {
+      "site": 7020,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 354,
+    "fields": {
+      "site": 7021,
+      "host": "East Elmhurst Community School"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 355,
+    "fields": {
+      "site": 7022,
+      "host": "McIntosh Neighborhood Association"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 356,
+    "fields": {
+      "site": 7023,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 357,
+    "fields": {
+      "site": 7024,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 358,
+    "fields": {
+      "site": 7025,
+      "host": "Volunteers at Farm Spot"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 359,
+    "fields": {
+      "site": 7026,
+      "host": "Volunteers at JH Scraps"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 360,
+    "fields": {
+      "site": 7027,
+      "host": "Members at Moore-Jackson Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 361,
+    "fields": {
+      "site": 7028,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 362,
+    "fields": {
+      "site": 7029,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 363,
+    "fields": {
+      "site": 7030,
+      "host": "Astoria Pug"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 364,
+    "fields": {
+      "site": 7031,
+      "host": "Astoria Pug"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 365,
+    "fields": {
+      "site": 7032,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 366,
+    "fields": {
+      "site": 7033,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 367,
+    "fields": {
+      "site": 7034,
+      "host": "Haki Compost Collective"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 368,
+    "fields": {
+      "site": 7035,
+      "host": "Big Reuse"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 369,
+    "fields": {
+      "site": 7035,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 370,
+    "fields": {
+      "site": 7036,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 371,
+    "fields": {
+      "site": 7037,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 372,
+    "fields": {
+      "site": 7038,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 373,
+    "fields": {
+      "site": 7039,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 374,
+    "fields": {
+      "site": 7040,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 375,
+    "fields": {
+      "site": 7041,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 376,
+    "fields": {
+      "site": 7042,
+      "host": "Socrates Sculpture Park"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 377,
+    "fields": {
+      "site": 7043,
+      "host": "Astoria Pug"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 378,
+    "fields": {
+      "site": 7044,
+      "host": "Astoria Pug"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 379,
+    "fields": {
+      "site": 7045,
+      "host": "Astoria Pug"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 380,
+    "fields": {
+      "site": 7046,
+      "host": "Astoria Pug"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 381,
+    "fields": {
+      "site": 7047,
+      "host": "Astoria Pug"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 382,
+    "fields": {
+      "site": 7048,
+      "host": "Volunteers at PS17"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 383,
+    "fields": {
+      "site": 7049,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 384,
+    "fields": {
+      "site": 7050,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 385,
+    "fields": {
+      "site": 7051,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 386,
+    "fields": {
+      "site": 7052,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 387,
+    "fields": {
+      "site": 7053,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 388,
+    "fields": {
+      "site": 7054,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 389,
+    "fields": {
+      "site": 7055,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 390,
+    "fields": {
+      "site": 7056,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 391,
+    "fields": {
+      "site": 7057,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 392,
+    "fields": {
+      "site": 7058,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 393,
+    "fields": {
+      "site": 7059,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 394,
+    "fields": {
+      "site": 7060,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 395,
+    "fields": {
+      "site": 7061,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 396,
+    "fields": {
+      "site": 7062,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 397,
+    "fields": {
+      "site": 7063,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 398,
+    "fields": {
+      "site": 7064,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 399,
+    "fields": {
+      "site": 7065,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 400,
+    "fields": {
+      "site": 7066,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 401,
+    "fields": {
+      "site": 7067,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 402,
+    "fields": {
+      "site": 7068,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 403,
+    "fields": {
+      "site": 7069,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 404,
+    "fields": {
+      "site": 7070,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 405,
+    "fields": {
+      "site": 7071,
+      "host": "Q Gardens"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 406,
+    "fields": {
+      "site": 7072,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 407,
+    "fields": {
+      "site": 7073,
+      "host": "Rogers / Tilden / Veronica Place Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 408,
+    "fields": {
+      "site": 7074,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 409,
+    "fields": {
+      "site": 7075,
+      "host": "Staff at Wychoff Farmhouse Museum"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 410,
+    "fields": {
+      "site": 7076,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 411,
+    "fields": {
+      "site": 7077,
+      "host": "East New York Farms"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 412,
+    "fields": {
+      "site": 7078,
+      "host": "East New York Farms"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 413,
+    "fields": {
+      "site": 7079,
+      "host": "East New York Farms"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 414,
+    "fields": {
+      "site": 7080,
+      "host": "East New York Farms"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 415,
+    "fields": {
+      "site": 7081,
+      "host": "East New York Farms"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 416,
+    "fields": {
+      "site": 7082,
+      "host": "East New York Farms"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 417,
+    "fields": {
+      "site": 7083,
+      "host": "East New York Farms"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 418,
+    "fields": {
+      "site": 7084,
+      "host": "East New York Farms"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 419,
+    "fields": {
+      "site": 7085,
+      "host": "LES Ecology Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 420,
+    "fields": {
+      "site": 7085,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 421,
+    "fields": {
+      "site": 7086,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 422,
+    "fields": {
+      "site": 7087,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 423,
+    "fields": {
+      "site": 7088,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 424,
+    "fields": {
+      "site": 7089,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 425,
+    "fields": {
+      "site": 7090,
+      "host": "Community Access"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 426,
+    "fields": {
+      "site": 7090,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 427,
+    "fields": {
+      "site": 7091,
+      "host": "Francis Martin Library"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 428,
+    "fields": {
+      "site": 7092,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 429,
+    "fields": {
+      "site": 7093,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 430,
+    "fields": {
+      "site": 7094,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 431,
+    "fields": {
+      "site": 7095,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 432,
+    "fields": {
+      "site": 7096,
+      "host": "Volunteers at Drew Gardens"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 433,
+    "fields": {
+      "site": 7097,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 434,
+    "fields": {
+      "site": 7098,
+      "host": "Volunteers at La Familia Verde Farmers Market"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 435,
+    "fields": {
+      "site": 7099,
+      "host": "Mary Mitchell Family & Youth Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 436,
+    "fields": {
+      "site": 7100,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 437,
+    "fields": {
+      "site": 7101,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 438,
+    "fields": {
+      "site": 7102,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 439,
+    "fields": {
+      "site": 7103,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 440,
+    "fields": {
+      "site": 7104,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 441,
+    "fields": {
+      "site": 7105,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 442,
+    "fields": {
+      "site": 7106,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 443,
+    "fields": {
+      "site": 7107,
+      "host": "New Beginnings Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 444,
+    "fields": {
+      "site": 7108,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 445,
+    "fields": {
+      "site": 7109,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 446,
+    "fields": {
+      "site": 7110,
+      "host": "Volunteers at Lehman College"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 447,
+    "fields": {
+      "site": 7111,
+      "host": "Volunteers at James Baldwin Outdoor Learning Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 448,
+    "fields": {
+      "site": 7112,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 449,
+    "fields": {
+      "site": 7113,
+      "host": "Friends of Mosholu Parkland"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 450,
+    "fields": {
+      "site": 7114,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 451,
+    "fields": {
+      "site": 7115,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 452,
+    "fields": {
+      "site": 7116,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 453,
+    "fields": {
+      "site": 7117,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 454,
+    "fields": {
+      "site": 7118,
+      "host": "Staff at Kingsbridge Heights Community Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 455,
+    "fields": {
+      "site": 7119,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 456,
+    "fields": {
+      "site": 7120,
+      "host": "Riverdale Neighborhood House"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 457,
+    "fields": {
+      "site": 7121,
+      "host": "The Earth Ministry of The Church of The Mediator"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 458,
+    "fields": {
+      "site": 7122,
+      "host": "Spuyten Duyvil PreSchool"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 459,
+    "fields": {
+      "site": 7123,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 460,
+    "fields": {
+      "site": 7124,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 461,
+    "fields": {
+      "site": 7125,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 462,
+    "fields": {
+      "site": 7126,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 463,
+    "fields": {
+      "site": 7127,
+      "host": "Northeast Bronx Farmers Market Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 464,
+    "fields": {
+      "site": 7128,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 465,
+    "fields": {
+      "site": 7129,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 466,
+    "fields": {
+      "site": 7130,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 467,
+    "fields": {
+      "site": 7131,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 468,
+    "fields": {
+      "site": 7132,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 469,
+    "fields": {
+      "site": 7133,
+      "host": "Volunteers at Einstein Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 470,
+    "fields": {
+      "site": 7134,
+      "host": "Forest Hills Green Team"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 471,
+    "fields": {
+      "site": 7134,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 472,
+    "fields": {
+      "site": 7135,
+      "host": "Forest Hills Green Team"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 473,
+    "fields": {
+      "site": 7135,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 474,
+    "fields": {
+      "site": 7136,
+      "host": "The Compost Collective"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 475,
+    "fields": {
+      "site": 7137,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 476,
+    "fields": {
+      "site": 7138,
+      "host": "Kew Gardens CSA, sponsored by Kew Gardens Cinemas"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 477,
+    "fields": {
+      "site": 7139,
+      "host": "Astoria Pug"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 478,
+    "fields": {
+      "site": 7140,
+      "host": "Volunteers at Smiling Hogshead Ranch"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 479,
+    "fields": {
+      "site": 7141,
+      "host": "The Connected Chef"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 480,
+    "fields": {
+      "site": 7142,
+      "host": "Volunteers at 45th Street Compost"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 481,
+    "fields": {
+      "site": 7143,
+      "host": "Volunteers at Woodside Sunnyside Composting"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 482,
+    "fields": {
+      "site": 7144,
+      "host": "Rusty Volunteers"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 483,
+    "fields": {
+      "site": 7145,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 484,
+    "fields": {
+      "site": 7146,
+      "host": "Genovesi Environmental Study Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 485,
+    "fields": {
+      "site": 7147,
+      "host": "Snug Harbor Youth"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 486,
+    "fields": {
+      "site": 7148,
+      "host": "Snug Harbor Youth"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 487,
+    "fields": {
+      "site": 7149,
+      "host": "Snug Harbor Youth"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 488,
+    "fields": {
+      "site": 7150,
+      "host": "Snug Harbor Cultural Center & Botanical Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 489,
+    "fields": {
+      "site": 7150,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 490,
+    "fields": {
+      "site": 7150,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 491,
+    "fields": {
+      "site": 7151,
+      "host": "Snug Harbor Youth"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 492,
+    "fields": {
+      "site": 7152,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 493,
+    "fields": {
+      "site": 7153,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 494,
+    "fields": {
+      "site": 7154,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 495,
+    "fields": {
+      "site": 7155,
+      "host": "Snug Harbor Youth"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 496,
+    "fields": {
+      "site": 7156,
+      "host": "Queens Botanical Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 497,
+    "fields": {
+      "site": 7156,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 498,
+    "fields": {
+      "site": 7157,
+      "host": "Coastal Preservation Network"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 499,
+    "fields": {
+      "site": 7157,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 500,
+    "fields": {
+      "site": 7158,
+      "host": "St. Anastasia Roman Catholic Church"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 501,
+    "fields": {
+      "site": 7159,
+      "host": "King Manor Museum"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 502,
+    "fields": {
+      "site": 7160,
+      "host": "Paradise Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 503,
+    "fields": {
+      "site": 7161,
+      "host": "Big Reuse"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 504,
+    "fields": {
+      "site": 7161,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 505,
+    "fields": {
+      "site": 7162,
+      "host": "Big Reuse"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 506,
+    "fields": {
+      "site": 7162,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 507,
+    "fields": {
+      "site": 7163,
+      "host": "Assemblymember Anderson"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 508,
+    "fields": {
+      "site": 7163,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 509,
+    "fields": {
+      "site": 7164,
+      "host": "Volunteers at Garden of Resilience"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 510,
+    "fields": {
+      "site": 7165,
+      "host": "Staff at Queens County Farm Museum"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 511,
+    "fields": {
+      "site": 7166,
+      "host": "Volunteers at Edgemere Farm"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 512,
+    "fields": {
+      "site": 7167,
+      "host": "Far Rock Urban Agro-Education Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 513,
+    "fields": {
+      "site": 7168,
+      "host": "Snug Harbor Cultural Center & Botanical Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 514,
+    "fields": {
+      "site": 7168,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 515,
+    "fields": {
+      "site": 7169,
+      "host": "H.E.A.L.T.H for Youths Skyline Community Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 516,
+    "fields": {
+      "site": 7170,
+      "host": "Snug Harbor Cultural Center & Botanical Garden"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 517,
+    "fields": {
+      "site": 7170,
+      "host": "NYC Compost Project"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 518,
+    "fields": {
+      "site": 7170,
+      "host": "GrowNYC"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 519,
+    "fields": {
+      "site": 7171,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 520,
+    "fields": {
+      "site": 7172,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 521,
+    "fields": {
+      "site": 7173,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 522,
+    "fields": {
+      "site": 7174,
+      "host": "Olivet Heavenly Harvest"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 523,
+    "fields": {
+      "site": 7175,
+      "host": "Wagner College"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 524,
+    "fields": {
+      "site": 7176,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 525,
+    "fields": {
+      "site": 7177,
+      "host": "Staten Island Urban Center"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 526,
+    "fields": {
+      "site": 7178,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 527,
+    "fields": {
+      "site": 7179,
+      "host": "Snug Harbor Youth"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 528,
+    "fields": {
+      "site": 7180,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 529,
+    "fields": {
+      "site": 7181,
+      "host": "Department of Sanitation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 530,
+    "fields": {
+      "site": 7182,
+      "host": "Grace Foundation"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 531,
+    "fields": {
+      "site": 7183,
+      "host": "Snug Harbor Youth"
+    }
+  },
+  {
+    "model": "dropoff_locator.NYCSiteHost",
+    "pk": 532,
+    "fields": {
+      "site": 7184,
+      "host": "Snug Harbor Youth"
+    }
+  }
+]

@@ -9,8 +9,8 @@
           integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4="
           rel="stylesheet"/>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLV33ZHYrWb4OL_DPzcyhYABXXUucj1Hs"></script>
-
 </head>
+
 <body>
 <nav aria-label="main navigation" class="navbar is-light" role="navigation">
     <div class="navbar-brand">
@@ -24,59 +24,58 @@
 
 <div id="map" style="width: 100%; height: 400px;">
     
-    <script>
-        var trashIcon = "{% static 'images/trash.png' %}";
-    </script>
-    <script>
-        var map;
-        var lastWindow = -1;
-        var geocoder = new google.maps.Geocoder();
-        const trashIconJS = trashIcon;
-        function initMap() {
-          map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 40.73089125, lng: -73.99758504},
-            zoom: 10
-          });
-        }
-        initMap();
-        function closeAllInfoWindows() {
-          {% for location in locations %}
-            infowindow{{ forloop.counter }}.close();
-          {% endfor %}
-        }
-    </script>
-    <script>
+  <script>
+      var trashIcon = "{% static 'images/trash.png' %}";
+  </script>
+  <script>
+      var map;
+      var lastWindow = -1;
+      var geocoder = new google.maps.Geocoder();
+      const trashIconJS = trashIcon;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.73089125, lng: -73.99758504},
+          zoom: 10
+        });
+      }
+      initMap();
+      function closeAllInfoWindows() {
         {% for location in locations %}
-            var contentString = 
-                '<div id="content">' +
-                "</div>" +
-                '<h1 id="firstHeading" class="firstHeading"><b>{{ location.name }}</b></h1>' +
-                '<h2 id="secondHeading" class="secondHeading">{{ location.address }}</h2>' +
-                '<h2><b>Hours:</b></h2>' +
-                '<p>{{ location.day_hours }}</p>' +
-                "</div>";
-            var marker{{ forloop.counter }} = new google.maps.Marker({
-                position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
-                map: map,
-                icon: trashIconJS,
-                title: '{{ location.name }}'
-            });
-            var infowindow{{ location.id }} = new google.maps.InfoWindow({
-                content: contentString
-            });
-            marker{{ forloop.counter }}.addListener('click', function() {
-                console.log('Marker clicked');
-                closeAllInfoWindows();
-                infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
-                map.panTo(marker{{ forloop.counter }}.getPosition());
-                map.setZoom(18);
-            });
-            infowindow{{ location.id }}.addListener('closeclick', function() {            
-                map.setZoom(15);
-
-            });
+          infowindow{{ forloop.counter }}.close();
         {% endfor %}
-    </script>
+      }
+  </script>
+  <script>
+      {% for location in locations %}
+          var contentString = 
+              '<div id="content">' +
+              "</div>" +
+              '<h1 id="firstHeading" class="firstHeading"><b>{{ location.name }}</b></h1>' +
+              '<h2 id="secondHeading" class="secondHeading">{{ location.address }}</h2>' +
+              '<h2><b>Hours:</b></h2>' +
+              "</div>";
+          var marker{{ forloop.counter }} = new google.maps.Marker({
+              position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
+              map: map,
+              icon: trashIconJS,
+              title: '{{ location.name }}'
+          });
+          var infowindow{{ location.id }} = new google.maps.InfoWindow({
+              content: contentString
+          });
+          marker{{ forloop.counter }}.addListener('click', function() {
+              console.log('Marker clicked');
+              closeAllInfoWindows();
+              infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
+              map.panTo(marker{{ forloop.counter }}.getPosition());
+              map.setZoom(18);
+          });
+          infowindow{{ location.id }}.addListener('closeclick', function() {            
+              map.setZoom(15);
+
+          });
+      {% endfor %}
+  </script>
 </div>
 
 <form method="GET" action="{% url 'dropoff_locator:map' %}">
@@ -99,7 +98,6 @@
       <tr>
           <th>Borough</th>
           <th>Site Name</th>
-          <th>Address</th>
           <th>Type</th>
       </tr>
       </thead>      
@@ -108,8 +106,15 @@
           <tr>
               <th>{{ location.borough }}</th>
               <th><a href="{% url 'dropoff_locator:site-details' location.pk %}">{{ location.name }}</a></th>
-              <td>{{ location.address }}</td>  
-              <td>{{ location.type }}</td>  
+              <td> 
+                {% if location.type == "bin" %}
+                  NYC Smart Bin
+                {% elif location.type == "community" %}
+                  NYC Community Site
+                {% elif location.type == "user" %}
+                  User Site
+                {% endif %}
+              </td>  
           </tr>
         {% endfor %}
       </tbody>

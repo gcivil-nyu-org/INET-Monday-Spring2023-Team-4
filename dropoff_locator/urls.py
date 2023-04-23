@@ -4,6 +4,6 @@ from . import views
 app_name = "dropoff_locator"
 
 urlpatterns = [
-    path('', views.index, name="map"),
-    path('<int:pk>/', views.site, name="site-details")
+    path('', views.locations, name="map"),
+    path('<int:pk>/', views.site_details, name="site-details")
 ]

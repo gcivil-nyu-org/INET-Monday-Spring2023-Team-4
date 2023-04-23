@@ -3,9 +3,10 @@ from django.views.generic import TemplateView
 from filters import SiteFilter
 
 # from .services import get_locations
-from .models import Site, NYCHost, NYCSiteHost
+from users.models import *
+from .models import *
 
-def index(request):
+def locations(request):
     site_filter = SiteFilter(request.GET, queryset=Site.objects.all())
     context = {
         "form": site_filter.form,
@@ -13,10 +14,14 @@ def index(request):
         }
     return render(request, "locations.html", context)
 
-def site(request, pk):
+def site_details(request, pk):
     site = get_object_or_404(Site, pk=pk)
     hosts = site.hosts.all()
-    context = {"site": site,
-               "hosts": hosts
+    season = site.get_season()
+    schedule = site.get_schedule()
+    context = {"location": site,
+               "hosts": hosts,
+               "season": season,
+               "schedule": schedule,
                }
     return render(request, "sitedetails.html", context)

@@ -106,15 +106,7 @@
           <tr>
               <th>{{ location.borough }}</th>
               <th><a href="{% url 'dropoff_locator:site-details' location.pk %}">{{ location.name }}</a></th>
-              <td> 
-                {% if location.type == "bin" %}
-                  NYC Smart Bin
-                {% elif location.type == "community" %}
-                  NYC Community Site
-                {% elif location.type == "user" %}
-                  User Site
-                {% endif %}
-              </td>  
+              <td>{{ location.type }}</td>
           </tr>
         {% endfor %}
       </tbody>

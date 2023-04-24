@@ -28,7 +28,6 @@ class Profile(models.Model):
     def is_acceptor(self):
         return self.sites.all().exists()
 
-
 class SiteHost(models.Model):
     site = models.ForeignKey(Site, on_delete=models.CASCADE, unique=False)
     host = models.ForeignKey(Profile, on_delete=models.CASCADE, unique=False)

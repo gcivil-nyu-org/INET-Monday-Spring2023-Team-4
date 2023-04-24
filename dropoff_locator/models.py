@@ -55,3 +55,17 @@ class SiteSchedule(models.Model):
     sat = models.CharField(max_length=55, null=True)
     sun = models.CharField(max_length=55, null=True)
 
+# class WasteItems(models.Model):
+#     CATEGORIES = (
+#         ('1', "Fruit and vegetable scraps, eggshells, nuts"),
+#         ('2', "Rice, pasta, bread, grains, cereal"),
+#         ('3', "Beans, flour, spices"),
+#         ('4', "Meat, fish, dairy, whole eggs, bones"),
+#         ('5', "Fat, oil, greasy food scraps"),
+#         ('6', "Paper products, pizza boxes"),
+#         ('7', "Coffee grounds, tea bags"),
+#         ('8', "Plant and yard waste"),
+#         ('9', "Commercial food scraps"),
+#     )
+
+#     items = MultiSelectField(choices=CATEGORIES, max_length=50)

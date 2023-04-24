@@ -19,17 +19,16 @@ def acceptor(request):
         lon = request.POST["lon"]
         notes = request.POST["notes"]
 
-
         data = dashboard(
-            ntaname = ntaname,
-            siteaddr = siteaddr, 
-            hours = "From" + fromtime + "to" + totime,
-            website = website,
-            borough = borough,
-            lat = lat,
-            lon = lon,
-            notes = notes,
-            hosted = request.user.username
+            ntaname=ntaname,
+            siteaddr=siteaddr,
+            hours="From" + fromtime + "to" + totime,
+            website=website,
+            borough=borough,
+            lat=lat,
+            lon=lon,
+            notes=notes,
+            hosted=request.user.username,
         )
 
         data.save()

@@ -4,14 +4,14 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.auth import views as auth_views
 from users.views import CustomLoginView, ResetPasswordView, ChangePasswordView
-from dropoff_locator.views import *
+from dropoff_locator.views import locations
 from users.forms import LoginForm
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("users.urls")),
     path("acceptor/", include("acceptor.urls")),
-    path("map/", include("dropoff_locator.urls")),
+    path("map/", locations, name="Locator View"),
     path(
         "login/",
         CustomLoginView.as_view(

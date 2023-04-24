@@ -1,0 +1,480 @@
+﻿Borough,SiteName,SiteAddr,Open_Month,Season_Start,Season_End,Day_Hours,Notes,Latitude,Longitude,OID,Type
+Manhattan,SmartComposting: Zuccotti Park,Zuccotti Park (East side),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.70905,-74.01072,6706,Smart Bin
+Manhattan,SmartComposting: One New York Plaza,One New York Plaza (Corner of Broad and Water Streets),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.70287,-74.01163,6707,Smart Bin
+Manhattan,SmartComposting: Platt & Gold Streets,Platt and Gold Streets (Southeast corner),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.7077,-74.00679,6708,Smart Bin
+Manhattan,SmartComposting: Maiden Lane & Pearl Street,Maiden Lane and Pearl Streets (Northwest corner),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.70688,-74.00684,6709,Smart Bin
+Manhattan,SmartComposting: Cedar & William Streets,Cedar and William Streets (Northeast corner),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.70739,-74.00853,6710,Smart Bin
+Manhattan,SmartComposting: Wall & Pearl Streets,Wall and Pearl Streets (Southwest corner),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.70559,-74.00812,6711,Smart Bin
+Manhattan,SmartComposting: Rector & Washington Streets,Rector and Washington Streets (Southeast corner),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.70807,-74.01437,6712,Smart Bin
+Manhattan,SmartComposting: John & Williams Streets,John and William Streets (Northwest corner),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.70888,-74.00721,6713,Smart Bin
+Manhattan,SmartComposting: Bowling Green (South),Bowling Green (inside south entrance),Year Round,,,24/7,"Scan QR code on the bin to drop-off! Accepts all types of food scraps, including meat & dairy.",40.70477,-74.01368,6714,Smart Bin
+Manhattan,Battery Park City Authority Headquarters,75 Battery Place,Year Round,,,24/7,,40.7067584,-74.0171557,6715,Community
+Manhattan,Battery Park City Authority Rockefeller Park,Lower level downstairs at corner of Chambers St and River Terrace,Year Round,,,24/7,,40.7183877,-74.0148782,6716,Community
+Manhattan,Bowling Green Greenmarket,"Broadway at Battery Place, New York, NY 10004",Year Round,,,Tuesdays (Start Time: 8:00 AM - End Time:  11:00 AM),,40.7046367,-74.0137794,6717,Community
+Manhattan,SmartComposting: Broadway & Park Place,Broadway and Park Place (Northwest corner),Year Round,,,24/7,,40.712653,-74.007723,6718,Smart Bin
+Manhattan,Hudson River Park's Pier 25 at N. Moore St.,Pier 25 at N. Moore St. near kid's playground,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.7202214,-74.0128434,6719,Community
+Manhattan,Tribeca Greenmarket,Greenwich St. & Duane St,Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  1:00 PM),,40.717424,-74.010793,6720,Community
+Manhattan,Governors Island Compost Learning Center,758 Enright Rd,Seasonal,May 1,November 1,Saturdays and Sundays (Start Time: 12:00 PM - End Time:  4:00 PM),,40.6871579,-74.0201142,6721,Community
+Manhattan,Governors Island Zero Waste Stations,Several locations throughout Governors Island,Year Round,,,Every day (Start Time: Check ferry schedule - End Time:  Check ferry schedule),Whenever the island is open to the public  ,40.691403,-74.019696,6722,Community
+Manhattan,Governors Island Soissons Ferry Landing,Adjacent to Soissons Landing and Taco Vista,Year Round,,,Every day (Start Time: Check ferry schedule - End Time:  Check ferry schedule),Whenever the island is open to the public  ,40.69281,-74.0148306,6723,Community
+Manhattan,6th Ave & Spring St,6th Avenue & Spring Street -NE Corner,Year Round,,,Wednesdays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.7256282,-74.003866,6724,Community
+Manhattan,East Broadway & Rutgers Street,"East side of Rutgers St b/w East Broadway & Canal St, on the west side of Straus Sq",Year Round,,,Thursdays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.714243,-73.990163,6725,Community
+Manhattan,Grand Street & Clinton Street,Grand Street & Clinton Street,Year Round,,,Mondays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.715889,-73.986861,6726,Community
+Manhattan,Corlears Hook Park,"397 FDR Dr, New York, NY 10002 (Southeast corner of Cherry Street and Jackson Street)",Year Round,,,Thursdays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.712164,-73.980547,6727,Community
+Manhattan,West Side Community Garden,"West of 110 West 90th street, New York, NY 10024 (between Columbus Ave and Amsterdam Ave)",Year Round,,,Sundays (Start Time: 11:00 AM - End Time: 12:00 PM),Receptacles are placed outside the West Side Community Garden gate. The drop-off will be closed during inclement weather including rain and snow. Please check website for closure announcements.,40.7895156,-73.9716111,6728,Community
+Manhattan,97th Street Greenmarket,W 97th St and Amsterdam Ave,Year Round,,,Fridays (Start Time: 8:00 AM - End Time:  12:30 PM),,40.794717,-73.969552,6729,Community
+Manhattan,79th St. Greenmarket,77th Street between Columbus Ave and Central Park West,Year Round,,,Sundays (Start Time: 9:00 AM - End Time:  3:00 PM),,40.780087,-73.974657,6730,Community
+Manhattan,Tucker Square Thursday Greenmarket,66th St and Columbus Ave.,Year Round,,,Thursdays (Start Time: 8:00 AM - End Time:  11:00 AM),,40.773404,-73.981848,6731,Community
+Manhattan,Hudson River Park Pier 96 Boathouse at W 55 St,Park Pier 96 Boathouse at W 55 St,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.771,-73.995372,6732,Community
+Manhattan,Hudson River Park's Pier 84 at W. 44th St.,Pier 84 at W. 44th St. near dog park,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.76346,-74.00025,6733,Community
+Manhattan,Mathews-Palmer Park,"437 W 45 St, New York, NY 10036",Year Round,,,Every day (Start Time: Dawn - End Time:  Dusk),"Please register to participate at bit.ly/HKcompost Setup is inside the park gate, under the mosaic panels, to the right of the park house door. Lids must remain closed and all food scraps must be placed INSIDE the bins.",40.76113,-73.99292,6734,Community
+Manhattan,58th Street Library Food Scrap Drop-off,"127 E 58th St, New York, NY 10022",Year Round,,,Wednesdays (Start Time: 7:30 AM  - End Time:  1:30 PM),,40.76198,-73.9693,6735,Community
+Manhattan,10th Avenue and 43rd Street,"Southeast corner of 10th Avenue and 43rd Street, New York, 10036",Year Round,,,Tuesdays (Start Time: 9 AM - End Time:  12 PM),,40.7601267,-73.9949035,6736,Community
+Manhattan,Hudson River Park's 14th Street Park at 10th Ave.,14th Street Park at southwest corner of 15th St. and 10th Ave,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.742827,-74.0078384,6737,Community
+Manhattan,Hudson River Park Pier 66 at W 26 St,Pier 66 at W 26 St,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.752222,-74.008278,6738,Community
+Manhattan,Hudson River Park's Chelsea Waterside Park at W. 23rd St.,Chelsea Waterside Park near the playground,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.7489842,-74.0071142,6739,Community
+Manhattan,Hudson River Park's Pier 76 at W. 34th St.,Pier 76 at 34th Street and 12th Ave outside of compost yard South of 34th St,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.756032,-74.006046,6740,Community
+Manhattan,8th Ave & 24th St,"W 24th St. and 8th Ave., New York, NY, 1001 (Collection bins are on the northwest corner of W 24th St and 8th Ave., near subway exit)",Year Round,,,Wednesdays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.745331,-73.998272,6741,Community
+Manhattan,Frank White Memorial Garden,"506 West 143rd Street, New York, NY 10031",Year Round,,,24/7,Garden staff will be available for questions or concerns from 10am-6pm. ,40.824235,-73.94983,6742,Community
+Manhattan,Jenny's Garden,699 West 138th Street,Year Round,,,Sundays (Start Time: 12:00 PM - End Time:  1:00 PM),Year Round: check social media for open hour updates + November - March only open on Saturday 11-12pm. WEATHER PERMITTING! Check IG/FB for weekend updates. Please DO NOT leave bags of food scraps by gate when the garden is closed.,40.823225,-73.95617,6743,Community
+Manhattan,Maggie's Garden,564 W 149th St,Year Round,,,24/7,,40.8285158,-73.9481163,6744,Community
+Manhattan,SW West 138th Street & Amsterdam Avenue,,Year Round,,,24/7,,40.8210038,-73.9509049,6745,Smart Bin
+Manhattan,SW West 147th Street & Amsterdam Avenue,,Year Round,,,24/7,,40.82663092,-73.94664152,6746,Smart Bin
+Manhattan,NW Amsterdam Avenue & W 152 Street,,Year Round,,,24/7,,40.82985721,-73.94432709,6747,Smart Bin
+Manhattan,145th St Food Scrap Drop-off,145th St & Edgecombe Ave,Year Round,,,Thursdays (Start Time: 7:30 AM - End Time:  12:00 PM),,40.823692,-73.943764,6748,Community
+Manhattan,"NW West 133 Street	& Broadway",,Year Round,,,24/7,,40.81893679,-73.95587049,6749,Smart Bin
+Manhattan,Columbia Sunday Greenmarket,Broadway between 114th St. and 115th St.,Year Round,,,Sundays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.807138,-73.96437,6750,Community
+Manhattan,SE West 123 Street & Amsterdam Avenue,,Year Round,,,24/7,,40.81138358,-73.95786805,6751,Smart Bin
+Manhattan,SW West 114th Street & Amsterdam Avenue,,Year Round,,,24/7,,40.80564712,-73.96199907,6752,Smart Bin
+Manhattan,SW West 112 Street & Broadway,,Year Round,,,24/7,,40.80563324,-73.96596013,6753,Smart Bin
+Manhattan,SE Amsterdam Avenue & W 113 Street,,Year Round,,,24/7,,40.80500787,-73.96257856,6754,Smart Bin
+Manhattan,St. Mary's Harlem,"521 W 126th St, New York, NY 10027",Year Round,,,Fridays (Start Time: 8:30 AM - End Time:  12:30 PM),,40.8149687,-73.9560903,6755,Community
+Manhattan,NW West 126th St & Morningside Ave,,Year Round,,,24/7,,40.8122884,-73.95360113,6756,Smart Bin
+Manhattan,NE Corner Amsterdam Avenue & W 133 Street,,Year Round,,,24/7,,40.81772781,-73.95316239,6757,Smart Bin
+Manhattan,NE Convent Avenue & W 130 Street,,Year Round,,,24/7,,40.81518366,-73.95301692,6758,Smart Bin
+Brooklyn,Leif Ericson Park Food Scrap Drop-off Site,Fort Hamilton Pkwy b/t 66 & 67 Streets,Year Round,,,Wednesdays (Start Time: 8:30 AM - End Time: 12:30 PM),,40.62988,-74.010582,6759,Community
+Brooklyn,4th Avenue Presbyterian Church,"6753 4th Avenue, Brooklyn, NY 11220",Year Round,,,Every day (Start Time: Dawn - End Time:  Dusk),,40.635514,-74.022767,6760,Community
+Brooklyn,Bay Ridge,3rd Ave & 95th Street,Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  12:30 PM),,40.6174,-74.033703,6761,Community
+Brooklyn,Sunset Park FSDO,7th Ave & 44th St,Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.646152,-74.002213,6762,Community
+Brooklyn,Los Colibríes Community Garden,"219 34th Street, Brooklyn 11232",Year Round,,,Sundays (Start Time: 11:00 AM - End Time:  4:00 PM),,40.6547305,-74.0018481,6763,Community
+Brooklyn,Brooklyn Hope Church,"120 16th Street, Brooklyn, New York 11215",Year Round,,,Sundays (Start Time: 12:00 PM - End Time:  2:00 PM),,40.6657639,-73.9918034,6764,Community
+Brooklyn,East 4th Street Community Garden,"173 E 4th St, Brooklyn, NY 11218",Seasonal,April 1,October 31,Wednesdays (Start Time: 4:30 PM - End Time: 6:30 PM); Saturdays (Start Time: 9 AM - End Time: 1 PM); Sundays (Start Time: 10 AM - End Time: 2 PM),,40.6483066,-73.9772287,6765,Community
+Brooklyn,Prospect Farm,"1194 Prospect Ave, Brooklyn, NY 11218",Year Round,,,Wednesdays and Saturdays (Start Time: Wednesdays at 5 PM; Saturdays at 11:00 AM - End Time:  Wednesdays at 6 PM; Saturdays at 12:00 PM),,40.654139,-73.976444,6766,Community
+Brooklyn,Bensonhurst,18th Ave btwn 81st & 82nd Streets,Year Round,,,Sundays (Start Time: 9:00 AM - End Time:  1:00 PM),,40.609644,-73.999683,6767,Community
+Brooklyn,18th Avenue at 64th Street,West of 18th Avenue between 64th Street and 63rd Street,Year Round,,,Tuesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.6200069,-73.9894524,6768,Community
+Brooklyn,Bay Parkway at 86th Street,Near NE corner of Bay Parkway and 86th Street (Off Bay Parkway D Subways station between 85th and 86th Streets),Year Round,,,Tuesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.60221,-73.9938325,6769,Community
+Brooklyn,Bay Parkway at 66th Street,East of Bay Parkway between 66th Street & West 8th Street,Year Round,,,Tuesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.613046,-73.982115,6770,Community
+Brooklyn,Big Reuse Warehouse,"1 12th St, Brooklyn NY 11215",Year Round,,,Every day (Start Time: 10:00 AM - End Time:  6:00 PM),,40.672077,-73.996401,6771,Community
+Brooklyn,Gowanus Salt Lot,"2 2nd Ave, Brooklyn, NY 11215",Year Round,,,24/7,,40.67541,-73.99128,6772,Community
+Brooklyn,Prospect Heights Food Scrap Drop-off,Park Place & Carlton Ave,Year Round,,,Thursdays (Start Time: 8:00 AM - End Time:  11:00 AM),,40.67741,-73.972226,6773,Community
+Brooklyn,SW Vanderbilt Avenue & Dean Street,,Year Round,,,24/7,,40.68031192,-73.96794284,6774,Smart Bin
+Brooklyn,NW Vanderbilt Avenue & Prospect Place,,Year Round,,,24/7,,40.67778343,-73.96881816,6775,Smart Bin
+Brooklyn,NE Flatbush Avenue & Prospect Place,,Year Round,,,24/7,,40.67884234,-73.9735721,6776,Smart Bin
+Brooklyn,Old Stone House Brooklyn,"336 3rd St, Brooklyn, NY 11215",Year Round,,,24/7,,40.6727118,-73.984731,6777,Community
+Brooklyn,Grand Army Plaza Greenmarket,Flatbush Ave & Prospect Park W (Prospect Park entrance),Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  3:00 PM),,40.671899,-73.969673,6778,Community
+Brooklyn,Nurture BK,"Prospect Park, West of the entrance on Parkside Av (& Ocean Av)",Year Round,,,Sundays (Start Time: 9:00 AM - End Time:  11:00 AM),,40.654917,-73.962083,6779,Community
+Brooklyn,Red Hook Community Farm,103 Otsego St,Year Round,,,24/7,,40.6726299,-74.0103773,6780,Community
+Brooklyn,Carroll Gardens Greenmarket,Smith St and 1st Pl,Year Round,,,Sundays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.679954,-73.99517,6781,Community
+Brooklyn,Christ Church Community Compost,326 Clinton Street,Year Round,,,Sundays & Wednesdays (Start Time: Sundays at 9 am; Wednesdays at 7 pm - End Time:  Sundays at 10 am; Wednesdays at 8 pm),,40.68596,-73.99701,6782,Community
+Brooklyn,PS 90 Coney Island,"2840 W 12th Street, Brooklyn, NY 11224",Year Round,,,Wednesdays (Start Time: 7:30 AM - End Time:  10:30 AM),,40.5782545,-73.979703,6783,Community
+Brooklyn,Brighton Beach Avenue and Ocean Parkway,Southeast corner of Brighton Beach Avenue and Ocean Parkway (Same corner as Big Bazaar Supermarket),Year Round,,,Wednesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.5761925,-73.9684342,6784,Community
+Brooklyn,Brighton Beach Avenue at Coney Island Avenue,"South of Brighton Beach Avenue, between Coney Island Avenue and Brighton 11th Street",Year Round,,,Wednesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.5780034,-73.9591672,6785,Community
+Brooklyn,Avenue X at West Street,"SW corner of Avenue X and West Street, in front of Rite Aide, across from P.S.216",Year Round,,,Wednesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.590444,-73.970333,6786,Community
+Brooklyn,Kings Highway and East 16th Street,"Kings Highway and East 16th Street, northeast corner",Year Round,,,Wednesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.60927,-73.9573422,6787,Community
+Brooklyn,Avenue U and East 16th Street,"Avenue U and East 16th Street, southeast corner",Year Round,,,Wednesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.5988666,-73.9553874,6788,Community
+Manhattan,134th Street Farm,118 W 134th St,Year Round,,,24/7,,40.8138017,-73.9428691,6789,Community
+Manhattan,Abyssinian Tot Lot,"130 W 139th St, New York, NY 10030",Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  12:30 PM),,40.8172313,-73.9408451,6790,Community
+Manhattan,NW West 132 Street & Adam Clayton Powell Jr Blvd,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.81358344,-73.94516242,6791,Smart Bin
+Manhattan,NW West 135 Street & 5th Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.81290894,-73.93761412,6792,Smart Bin
+Manhattan,NW West 141st Street & Fredrick Douglas Blvd,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.82049082,-73.943776,6793,Smart Bin
+Manhattan,SE West 151 Street & Macombs Place,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.82646749,-73.93835133,6794,Smart Bin
+Manhattan,SE West 136th Street & Edgecombe Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.81791885,-73.94737063,6795,Smart Bin
+Manhattan,NW West 126th Street & Adam Clayton Powell Jr Blvd,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.80979615,-73.94784713,6796,Smart Bin
+Manhattan,"SW West 112 Street	& 5th Avenue",,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.79828667,-73.9484068,6797,Smart Bin
+Manhattan,NW West 114 Street & Adam Clayton Powell Jr Blvd,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.80203717,-73.95342986,6798,Smart Bin
+Manhattan,SE West 118 Street & Lenox Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.80347923,-73.94861036,6799,Smart Bin
+Manhattan,SW St. Nicholas Avenue & West 118 Street,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.80518316,-73.95275514,6800,Smart Bin
+Manhattan,SW West 122 Street & Malcolm X Blvd,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.80596076,-73.9468231,6801,Smart Bin
+Manhattan,Uptown Grand Central Fresh Food Box,"Park Ave &, E 125th St",Year Round,,,Wednesdays (Start Time: 2:00 PM - End Time:  7:00 PM),,40.8049824,-73.9390315,6802,Community
+Manhattan,NE East 120 Street & Madison Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.8026678,-73.94299087,6803,Smart Bin
+Manhattan,NE East 130th Street & 5th Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.80975251,-73.93995973,6804,Smart Bin
+Manhattan,Carver Community Garden,242 East 124th,Year Round,,,Wednesdays (Start Time: 10:00 AM - End Time:  1:00 PM),,40.802223,-73.934723,6805,Community
+Manhattan,Lydia's Magic Garden,"1665 Park Avenue, Manhattan 10035 between 117th and 118th Streets",Seasonal,April 1,October 31,"Tuesday-Sunday (Start Time: Tuesday 5:00 PM; Wednesday 7:30AM; Thursday 6:00 PM; Friday 8:00 AM; Saturday 10:00 AM; Sunday 10:00 AM - End Time:  Tuesday 7:00 PM; Wednesday 9:00 AM; Thursday 7:00PM; Friday 10:00 AM, Saturday 12:00 PM; Sunday 12:00 PM)",Bring food scraps inside the garden to place in the compost tumbler. ,40.80014,-73.94232,6806,Community
+Manhattan,Pleasant Village Community Garden,Along gates on the south side of 119th Street between Pleasant Avenue and FDR Drive,Year Round,,,Every day (Start Time: Dawn - End Time:  Dusk),,40.796764,-73.931341,6807,Community
+Manhattan,SE Pleasant Avenue & East 116th Street,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.79518241,-73.93310693,6808,Smart Bin
+Manhattan,SW East 118th Street & 1 Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.79744163,-73.93443514,6809,Smart Bin
+Manhattan,SE Pleasant Avenue & East 120 Street,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.79777742,-73.93130015,6810,Smart Bin
+Manhattan,SW East 123rd Street & 2nd Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.80148798,-73.93429889,6811,Smart Bin
+Manhattan,NE East 127th Street & Lexington Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.80583208,-73.93646094,6812,Smart Bin
+Manhattan,Rodale Pleasant Park Community Garden,"437 E 114th St, New York, NY 10029",Year Round,,,24/7,"To volunteer, email Flosparks0306@gmail.com.",40.7942659,-73.9344142,6813,Community
+Manhattan,NW East 109th Street & 2nd Avenue,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.79268292,-73.9410399,6814,Smart Bin
+Manhattan,Maggie's Magic Garden,"1574 Lexington Ave, New York, NY 10029",Year Round,,,Every day (Start Time: Dawn - End Time:  Dusk),,40.7889577,-73.9492012,6815,Community
+Manhattan,SE East 100th Street & 1st Avenue,,Year Round,,,24/7,,40.78594165,-73.94288479,6816,Smart Bin
+Manhattan,SE East 106th Street & 3rd Avenue,,Year Round,,,24/7,,40.7917948,-73.94470415,6817,Smart Bin
+Manhattan,NW East 106th Street & Park Avenue,,Year Round,,,24/7,,40.79301075,-73.94776962,6818,Smart Bin
+Manhattan,SE East 112th Street & Park Avenue,,Year Round,,,24/7,,40.79684598,-73.94493162,6819,Smart Bin
+Brooklyn,Farmers Garden,1899 Bergen Street,Seasonal,April 1,October 31,"Thursdays, Saturdays, and Sundays (Start Time: TH 1PM, SAT&SUN 11AM - End Time:  TH 4PM, SAT & SUN 3PM)",,40.67465,-73.91823,6820,Community
+Brooklyn,Phoenix Community Garden,"36 Somers Street, Brooklyn, NY 11233",Seasonal,March 1,November 30,Saturdays (Start Time: 11:00 AM - End Time:  3:00 PM),,40.6785,-73.912,6821,Community
+Brooklyn,Iso Student Farm,"514 Rockaway Avenue, Brooklyn, NY 11212",Seasonal,April 1,October 31,Fridays and Saturdays (Start Time: 9:00 AM - End Time:  1:00 PM),,40.6674207,-73.9102833,6822,Community
+Brooklyn,Abib Newborn Learning Garden,"495 Osborn St, Brooklyn, NY 11212",Year Round,,,"Monday, Wednesday, Fridays (Start Time: 10:00 AM - End Time:  6:00 PM)",,40.6595266,-73.90591,6823,Community
+Brooklyn,Howard Garden,750 Howard Avenue,Seasonal,April 1,October 31,Fridays (Start Time: 9:00 AM - End Time:  10:00 AM),,40.6636288,-73.9190362,6824,Community
+Brooklyn,NW Howard Avenue & Herkimer Street,,Year Round,,,24/7,,40.67815038,-73.91911614,6825,Smart Bin
+Brooklyn,NW Howard Avenue & Marion Street,,Year Round,,,24/7,,40.6809641,-73.91955092,6826,Smart Bin
+Brooklyn,NW Howard Avenue & Macdonough Street,,Year Round,,,24/7,,40.683878,-73.92018733,6827,Smart Bin
+Brooklyn,NW Howard Avenue & Putnam Avenue,,Year Round,,,24/7,,40.68755202,-73.92088187,6828,Smart Bin
+Brooklyn,Bed Stuy Fresh Food Box,Decatur St and Lewis Ave,Year Round,,,Saturdays (Start Time: 11:00 AM - End Time:  3:00 PM),,40.68133,-73.93481,6829,Community
+Brooklyn,SW Patchen Avenue & Monroe Street,,Year Round,,,24/7,,40.68835076,-73.92716665,6830,Smart Bin
+Brooklyn,SW Patchen Avenue & Hancock Street,,Year Round,,,24/7,,40.68540169,-73.92651437,6831,Smart Bin
+Brooklyn,SW Patchen Avenue & Macdonough Street,,Year Round,,,24/7,,40.68317629,-73.92607354,6832,Smart Bin
+Brooklyn,NW Patchen Avenue & Fulton Street,,Year Round,,,24/7,,40.67925982,-73.92533405,6833,Smart Bin
+Brooklyn,NE Lewis Avenue & Bainbridge Street,,Year Round,,,24/7,,40.68077475,-73.93467989,6834,Smart Bin
+Brooklyn,SE Lewis Avenue & Hancock Street,,Year Round,,,24/7,,40.68435975,-73.9353034,6835,Smart Bin
+Brooklyn,NE Lewis Avenue & Putnam Avenue,,Year Round,,,24/7,,40.68584956,-73.93558097,6836,Smart Bin
+Brooklyn,NE Lewis Avenue & Green Avenue,,Year Round,,,24/7,,40.69023641,-73.93649919,6837,Smart Bin
+Brooklyn,NW Lewis Avenue & Hart Street,,Year Round,,,24/7,,40.69467207,-73.93732054,6838,Smart Bin
+Brooklyn,NW Malcolm X Boulevard & Lafayette Avenue,,Year Round,,,24/7,,40.69241825,-73.93100823,6839,Smart Bin
+Brooklyn,NW Malcolm X Boulevard & Gates Avenue,,Year Round,,,24/7,,40.68867484,-73.93016314,6840,Smart Bin
+Brooklyn,NW Malcolm X Boulevard & Putnam Avenue,,Year Round,,,24/7,,40.68652719,-73.92977459,6841,Smart Bin
+Brooklyn,NW Malcolm X Boulevard & Bainbridge Street,,Year Round,,,24/7,,40.68143355,-73.92877312,6842,Smart Bin
+Brooklyn,SE Rochester Avenue & St. Johns Place,,Year Round,,,24/7,,40.67058534,-73.92820776,6843,Smart Bin
+Brooklyn,NE Rochester Avenue & Bergen Street,,Year Round,,,24/7,,40.67504214,-73.92773412,6844,Smart Bin
+Brooklyn,NW Ralph Avenue - Bergen Street,,Year Round,,,24/7,,40.67471535,-73.92210712,6845,Smart Bin
+Brooklyn,1100 Bergen Street Community Garden,"1107 Bergen Street, Brooklyn, NY 11216",Year Round,,,Sundays (Start Time: 10:00 AM - End Time:  3:00 PM),,40.67629,-73.94925,6846,Community
+Brooklyn,Imani Community Garden,"87-91 Schenectady Ave, Brooklyn, NY 11213",Year Round,,,Wednesdays and Saturdays (Start Time: Saturdays 11:00AM; Wednesdays 8:00AM - End Time:  Saturdays 1:00PM; Wednesdays 10:00AM),,40.67623,-73.93295,6847,Community
+Brooklyn,NW New York Avenue & Prospect Place,,Year Round,,,24/7,,40.67431858,-73.94734439,6848,Smart Bin
+Brooklyn,NW New York Avenue & Dean Street,,Year Round,,,24/7,,40.67685767,-73.94707007,6849,Smart Bin
+Brooklyn,NW Albany Avenue & Bergen Street,,Year Round,,,24/7,,40.67564618,-73.93878826,6850,Smart Bin
+Brooklyn,SE Rochester Avenue & Park Place,,Year Round,,,24/7,,40.6723908,-73.92797539,6851,Smart Bin
+Brooklyn,NE Schenectady Avenue & Dean Street,,Year Round,,,24/7,,40.67610477,-73.93319379,6852,Smart Bin
+Brooklyn,NE Schenectady Avenue & Prospect Place,,Year Round,,,24/7,,40.67357326,-73.9334025,6853,Smart Bin
+Brooklyn,NE Kingston Avenue & Park Place,,Year Round,,,24/7,,40.67311045,-73.94183457,6854,Smart Bin
+Brooklyn,NE Kingston Avenue & Dean Street,,Year Round,,,24/7,,40.6766297,-73.94150162,6855,Smart Bin
+Brooklyn,NW Rogers Avenue & Sterling Place,,Year Round,,,24/7,,40.67283719,-73.952945,6856,Smart Bin
+Brooklyn,NE Rogers Avenue & Prospect Place,,Year Round,,,24/7,,40.67458557,-73.95284087,6857,Smart Bin
+Brooklyn,NE Rogers Avenue & Dean Street,,Year Round,,,24/7,,40.67715309,-73.95271273,6858,Smart Bin
+Brooklyn,Crown Heights Franklin Ave Food Scrap Drop-off,Franklin Avenue & Eastern Parkway,Year Round,,,Thursdays (Start Time: 8:30 AM - End Time:  11:30 AM),,40.670745,-73.957743,6859,Community
+Brooklyn,Walt L Shamel Community Garden,"1097 Dean St, Brooklyn, NY 11216",Seasonal,March 31,January 30,Saturdays and Sundays (Start Time: 12:00 PM - End Time:  2:00 PM),,40.67744,-73.953657,6860,Community
+Brooklyn,NE Franklin Avenue & Prospect Place,,Year Round,,,24/7,,40.67517523,-73.95642579,6861,Smart Bin
+Brooklyn,NE Franklin Avenue & Lincoln Place,,Year Round,,,24/7,,40.67165234,-73.9575835,6862,Smart Bin
+Brooklyn,NW New York Avenue & Lincoln Place,,Year Round,,,24/7,,40.67081679,-73.94758726,6863,Smart Bin
+Brooklyn,NW Albany Avenue & St. Johns Place,,Year Round,,,24/7,,40.67121295,-73.93922322,6864,Smart Bin
+Brooklyn,SE Schenectady Avenue & Sterling Place,,Year Round,,,24/7,,40.67175004,-73.93367882,6865,Smart Bin
+Brooklyn,SW Schenectady Avenue & Lincoln Place,,Year Round,,,24/7,,40.67000811,-73.93383229,6866,Smart Bin
+Brooklyn,NE Kingston Avenue & Eastern Parkway,,Year Round,,,24/7,,40.66974388,-73.94214712,6867,Smart Bin
+Brooklyn,NE Kingston Avenue & St. Johns Place,,Year Round,,,24/7,,40.67132757,-73.94206872,6868,Smart Bin
+Brooklyn,SW Rogers Avenue & Lincoln Place,,Year Round,,,24/7,,40.67105449,-73.95313433,6869,Smart Bin
+Brooklyn,SE Classon Avenue & Bergen Street,,Year Round,,,24/7,,40.67765427,-73.95907033,6870,Smart Bin
+Brooklyn,SE Classon Avenue & Eastern Parkway,,Year Round,,,24/7,,40.67172239,-73.96123762,6871,Smart Bin
+Brooklyn,NW Vanderbilt Avenue & Plaza Street East,,Year Round,,,24/7,,40.67555402,-73.96972542,6872,Smart Bin
+Brooklyn,NE Underhill Avenue & Eastern Parkway,,Year Round,,,24/7,,40.67294824,-73.96760036,6873,Smart Bin
+Brooklyn,NE Underhill Avenue & Park Place,,Year Round,,,24/7,,40.67632311,-73.96635735,6874,Smart Bin
+Brooklyn,NE Underhill Avenue & Bergen Street,,Year Round,,,24/7,,40.67899565,-73.96529636,6875,Smart Bin
+Brooklyn,NW Grand Avenue & St. Marks Avenue,,Year Round,,,24/7,,40.67742445,-73.96256909,6876,Smart Bin
+Brooklyn,NE Washington Avenue & St. Johns Place,,Year Round,,,24/7,,40.67375901,-73.96297263,6877,Smart Bin
+Brooklyn,NW Classon Avenue & Park Place,,Year Round,,,24/7,,40.67499823,-73.9600769,6878,Smart Bin
+Brooklyn,SW Albany Avenue & Herkimer Street,,Year Round,,,24/7,,40.67916416,-73.9384984,6879,Smart Bin
+Brooklyn,NE Throop Avenue & Madison Street,,Year Round,,,24/7,,40.68588104,-73.94151686,6880,Smart Bin
+Brooklyn,SE Throop Avenue & Hart Street,,Year Round,,,24/7,,40.69399357,-73.94303803,6881,Smart Bin
+Brooklyn,SW Tompkins Avenue & Myrtle Avenue,,Year Round,,,24/7,,40.69586867,-73.94641945,6882,Smart Bin
+Brooklyn,SW Tompkins Avenue & Lafayette Avenue,,Year Round,,,24/7,,40.69070208,-73.94539269,6883,Smart Bin
+Brooklyn,SW Tompkins Avenue & Quincy Street,,Year Round,,,24/7,,40.68781722,-73.94466201,6884,Smart Bin
+Brooklyn,SW Tompkins Avenue & Putnam Avenue,,Year Round,,,24/7,,40.68484429,-73.94419473,6885,Smart Bin
+Brooklyn,SW Tompkins Avenue & Macon Street,,Year Round,,,24/7,,40.6819445,-73.94357062,6886,Smart Bin
+Brooklyn,NE Bedford Avenue & Herkimer Street,,Year Round,,,24/7,,40.68011675,-73.95329183,6887,Smart Bin
+Brooklyn,NE Bedford Avenue & Hancock Street,,Year Round,,,24/7,,40.68224732,-73.95370805,6888,Smart Bin
+Brooklyn,NE Bedford Avenue & Madison Street,,Year Round,,,24/7,,40.68441874,-73.95406112,6889,Smart Bin
+Brooklyn,NE Bedford Avenue & Quincy Street,,Year Round,,,24/7,,40.68664295,-73.95453823,6890,Smart Bin
+Brooklyn,NE Bedford Avenue & Clifton Place,,Year Round,,,24/7,,40.68886601,-73.95500922,6891,Smart Bin
+Brooklyn,SW Throop Avenue & Halsey Street,,Year Round,,,24/7,,40.68301997,-73.94089324,6892,Smart Bin
+Brooklyn,SW Nostrand Avenue & Greene Avenue,,Year Round,,,24/7,,40.68852761,-73.95122555,6893,Smart Bin
+Brooklyn,SW Nostrand Avenue & Putnam Avenue,,Year Round,,,24/7,,40.68416466,-73.95033189,6894,Smart Bin
+Brooklyn,SE Nostrand Avenue & Hancock Street,,Year Round,,,24/7,,40.68267936,-73.95003156,6895,Smart Bin
+Brooklyn,SE Bedford Avenue & Willoughby Avenue,,Year Round,,,24/7,,40.69313536,-73.95583136,6896,Smart Bin
+Manhattan,Hudson River Park Pier 46 at Charles St,Pier 46 at Charles St,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.734225,-74.010722,6897,Community
+Manhattan,Hudson River Park's Pier 40 at W. Houston St.,Pier 40 at Houston St. near dog park,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.7298117,-74.0110087,6898,Community
+Manhattan,Hudson River Park's Pier 51 at Horatio St.,Pier 51 at Horatio St. near playground,Year Round,,,Every day (Start Time: 7:00 AM - End Time:  7:00 PM),,40.738228,-74.0104549,6899,Community
+Manhattan,Christopher Park,"West 4th Street b/w Christopher St and Grove St., west side of Christopher Park",Year Round,,,Wednesdays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.733536,-74.002663,6900,Community
+Manhattan,Abingdon Square Greenmarket,W 12th St and 8th Ave,Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  2:00 PM),,40.737472,-74.005095,6901,Community
+Manhattan,Madison Square Park Food Scrap Drop-off,23rd St & Broadway,Year Round,,,Wednesdays (Start Time: 8:00 AM - End Time:  1:00 PM),,40.741669,-73.988969,6902,Community
+Manhattan,Union Square Greenmarket,"E 17th St & Union Square E, New York, NY",Year Round,,,"Mondays, Wednesdays, Fridays, and Saturdays (Start Time: 8:00 AM - End Time:  5:00 PM)",,40.73661,-73.9893,6903,Community
+Brooklyn,Fort Greene Greenmarket,Washington Park and Myrtle Ave,Year Round,,,Saturdays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.69288,-73.97391,6904,Community
+Brooklyn,Crown Heights,Nostrand Ave & Crown St,Year Round,,,Fridays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.666485,-73.950935,6905,Community
+Brooklyn,Maple Street Community Garden,"237 Maple St, Brooklyn, NY 11225",Year Round,,,Wednesdays and Saturdays (Start Time: 10:30 AM - End Time:  12:30 PM),,40.66085,-73.95283,6906,Community
+Manhattan,181st Street Food Scrap Drop-off,"W 181st St & Fort Washington Ave, New York, NY 10033",Year Round,,,Thursdays (Start Time: 8:00 AM - End Time:  12:30 PM),,40.850947,-73.938068,6907,Community
+Manhattan,NE Wadsworth Avenue & West 182nd Street,,Year Round,,,24/7,,40.85056736,-73.93452794,6908,Smart Bin
+Manhattan,NW Cabrini Blvd & West 187st Street,,Year Round,,,24/7,,40.85564858,-73.93795093,6909,Smart Bin
+Manhattan,NW Audubon Avenue & West 192nd Street,,Year Round,,,24/7,,40.8557228,-73.92730774,6910,Smart Bin
+Manhattan,SE Sickles Street & Nagle Avenue,,Year Round,,,24/7,,40.86078389,-73.92732243,6911,Smart Bin
+Manhattan,Inwood Greenmarket,Seaman Ave and Isham St (N corner),Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.870106,-73.920792,6912,Community
+Manhattan,SE Broadway & Academy Street,,Year Round,,,24/7,,40.86646568,-73.92500107,6913,Smart Bin
+Manhattan,SW West 212th Street & 10th Avenue,,Year Round,,,24/7,,40.86776487,-73.91663116,6914,Smart Bin
+Manhattan,Morris-Jumel Community Garden,457 West 162nd Street,Year Round,,,24/7,,40.8359312,-73.9391906,6915,Community
+Manhattan,NE Amsterdam Avenue & West 155th Street,,Year Round,,,24/7,,40.83175197,-73.9429852,6916,Smart Bin
+Manhattan,SW Amsterdam Avenue & West 160th Street,,Year Round,,,24/7,,40.83493151,-73.94070979,6917,Smart Bin
+Manhattan,NW Amsterdam Avenue & West 165th Street,,Year Round,,,24/7,,40.83803832,-73.93838162,6918,Smart Bin
+Manhattan,SW Audubon Avenue & West 169th St,,Year Round,,,24/7,,40.84129438,-73.93794253,6919,Smart Bin
+Manhattan,NE West 174th Street & Fort Washington Avenue,,Year Round,,,24/7,,40.8462165,-73.94024247,6920,Smart Bin
+Manhattan,1st Ave and 1st St,First Avenue between Houston and First Street (West Side),Year Round,,,Mondays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.723183,-73.988622,6921,Community
+Manhattan,Tompkins Square Greenmarket,"E 7th St & Avenue A, New York, NY 10009",Year Round,,,Sundays (Start Time: 8:00 AM - End Time:  5:00 PM),,40.725995,-73.983207,6922,Community
+Manhattan,Down to Earth Garden (formerly Children's Garden),"546 East 12th St, New York, NY 10009",Year Round,,,"Tuesdays and Sundays (Start Time: Tuesday: 1:30PM, Sunday 12:00pm - End Time:  Tuesday 4pm, Sunday 4pm)",Keep food scraps and plant material separated.,40.7280614,-73.9792926,6923,Community
+Manhattan,La Plaza Cultural Community Garden,674 East 9th Street,Seasonal,April 1,November 30,Saturdays and Sundays (Start Time: 2:00 PM - End Time:  4:00 PM),Please carefully read instructions here: https://bit.ly/laplazadropoff,40.7253498,-73.9786278,6924,Community
+Brooklyn,Kensington Food Scrap Drop-off,McDonald Ave & Albemarle Rd,Year Round,,,Saturdays (Start Time: 8:30 AM - End Time:  11:30 AM),,40.64496,-73.98016,6925,Community
+Brooklyn,Albemarle Road and McDonald Avenue,"Southwest corner of McDonald Avenue and Albemarle Road, near Church Avenue F subway entrance",Year Round,,,Tuesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.64491,-73.97997,6926,Community
+Brooklyn,Rappaport Playground,NW corner of Fort Hamilton Pkwy and 53rd Street,Year Round,,,Tuesdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.636583,-74.000556,6927,Community
+Manhattan,Dag Hammarskjold Plaza Greenmarket,E 47th St & 2nd Ave,Year Round,,,Wednesdays (Start Time: 8:00 AM - End Time:  12:30 PM),,40.752606,-73.969036,6928,Community
+Manhattan,St. Vartan Park,Near the 1st Ave. & E 36th St. entrance,Year Round,,,Saturdays (Start Time: 10:00 AM - End Time:  4:00 PM),,40.745061,-73.973126,6929,Community
+Brooklyn,Farm To People,"1100 Flushing Ave, Brooklyn, NY 11237",Year Round,,,"Sundays and Mondays (Start Time: Sunday: 9AM, Monday: 1PM - End Time:  Sunday: 1PM, Monday:7PM)",,40.7054315,-73.9269348,6930,Community
+Brooklyn,Sure We Can,"219 McKibben Street, Brooklyn, NY 11206",Year Round,,,Monday-Saturday (Start Time: 7:00 AM - End Time:  Monday-Friday at 5:00PM; Saturday at 1:00PM),,40.705441,-73.93882,6931,Community
+Brooklyn,Domino Park,"15 River Street Brooklyn, NY 11249",Year Round,,,"Mondays and Thursdays (Start Time: Mondays, 10:00 AM; Thursdays, 6:00 PM - End Time:  Mondays, 12:00 PM, Thursdays, 8:00 PM)",,40.714448,-73.968049,6932,Community
+Brooklyn,BK Rot,"1309 Dekalb Ave, Brooklyn, NY 11221 (Know Waste Lands Community Garden)",Year Round,,,Sundays (Start Time: 12:00 PM - End Time:  3:00 PM),,40.697694,-73.925806,6933,Community
+Brooklyn,EL Garden,"120 Jefferson St, Brooklyn, NY 11206",Year Round,,,24/7,,40.69955,-73.93066,6934,Community
+Brooklyn,SW Central Avenue & Noll Street,,Year Round,,,24/7,,40.70217279,-73.932044,6935,Smart Bin
+Brooklyn,NW Central Avenue & Troutman Street,,Year Round,,,24/7,,40.70038759,-73.92900282,6936,Smart Bin
+Brooklyn,NW Central Avenue & Hart Street,,Year Round,,,24/7,,40.69874266,-73.92599182,6937,Smart Bin
+Brooklyn,NE Bushwick Avenue & Dekalb Avenue,,Year Round,,,24/7,,40.69527857,-73.92825827,6938,Smart Bin
+Brooklyn,NE Bushwick Avenue & Suydam Street,,Year Round,,,24/7,,40.69683513,-73.9311051,6939,Smart Bin
+Brooklyn,NE Bushwick Avenue & Jefferson Street,,Year Round,,,24/7,,40.69840646,-73.93392293,6940,Smart Bin
+Brooklyn,NW Knickerbocker Avenue & Suydam Street,,Year Round,,,24/7,,40.70212779,-73.92382163,6941,Smart Bin
+Brooklyn,NE Knickerbocker Avenue & Starr Street,,Year Round,,,24/7,,40.70294705,-73.92537034,6942,Smart Bin
+Brooklyn,SW Knickerbocker Avenue & Jefferson Street,,Year Round,,,24/7,,40.70384592,-73.92688027,6943,Smart Bin
+Brooklyn,SW St. Nicholas Avenue & Willoughby Avenue,,Year Round,,,24/7,,40.70687908,-73.92025593,6944,Smart Bin
+Brooklyn,NW Central Avenue & Stanhope Street,,Year Round,,,24/7,,40.69747093,-73.92380286,6945,Smart Bin
+Brooklyn,NE St. Nicholas Avenue & Hart Street,,Year Round,,,24/7,,40.70608011,-73.91885549,6946,Smart Bin
+Brooklyn,SW St. Nicholas Avenue & Stockholm Street,,Year Round,,,24/7,,40.70516275,-73.9173401,6947,Smart Bin
+Brooklyn,NW St. Nicholas Avenue & Himrod Street,,Year Round,,,24/7,,40.70429971,-73.91590955,6948,Smart Bin
+Brooklyn,SW St. Nicholas Avenue & Greene Avenue,,Year Round,,,24/7,,40.70339218,-73.91434172,6949,Smart Bin
+Brooklyn,NW St. Nicholas Avenue & Menahan Street,,Year Round,,,24/7,,40.70252245,-73.91284202,6950,Smart Bin
+Brooklyn,NE Bushwick Avenue & Himrod Street,,Year Round,,,24/7,,40.69403514,-73.92593262,6951,Smart Bin
+Brooklyn,Bushwick Grows! Community Garden,"1474 Gates Ave, Brooklyn, NY 11237",Seasonal,May 1,November 28,Saturdays (Start Time: 10:00 AM - End Time:  1:00 PM),,40.697523,-73.913913,6952,Community
+Brooklyn,Moffat Street Community Garden,"9 Moffat St, Brooklyn, NY 11207",Year Round,,,Saturdays (Start Time: 10:30 AM - End Time:  12:30 PM),,40.6843647,-73.9107326,6953,Community
+Brooklyn,Wilson Ave Food Scrap Drop-off,Wilson Ave & Moffat St (near L train),Year Round,,,Thursdays (Start Time: 9:00 AM - End Time:  1:00 PM),,40.688793,-73.904826,6954,Community
+Brooklyn,NW Central Avenue & Green Avenue,,Year Round,,,24/7,,40.69617767,-73.92155219,6955,Smart Bin
+Brooklyn,NW Central Avenue & Linden Street,,Year Round,,,24/7,,40.69448294,-73.91845836,6956,Smart Bin
+Brooklyn,NW Central Avenue & Madison Street,,Year Round,,,24/7,,40.69273991,-73.9155059,6957,Smart Bin
+Brooklyn,NW Central Avenue & Hancock Street,,Year Round,,,24/7,,40.69101314,-73.91248927,6958,Smart Bin
+Brooklyn,NW Central Avenue & Covert Street,,Year Round,,,24/7,,40.68932721,-73.90952566,6959,Smart Bin
+Brooklyn,NW Central Avenue & Moffat Street,,Year Round,,,24/7,,40.68754817,-73.9064139,6960,Smart Bin
+Brooklyn,NE Bushwick Avenue & Vanderveer Street,,Year Round,,,24/7,,40.6816837,-73.90410114,6961,Smart Bin
+Brooklyn,SE Bushwick Avenue & Chauncey Street,,Year Round,,,24/7,,40.68422429,-73.90861827,6962,Smart Bin
+Brooklyn,NE Bushwick Avenue & Halsey Street,,Year Round,,,24/7,,40.68721972,-73.91390266,6963,Smart Bin
+Brooklyn,NW Bushwick Avenue & Cornelia Street,,Year Round,,,24/7,,40.68894515,-73.91693326,6964,Smart Bin
+Brooklyn,NE Bushwick Avenue & Palmetto Street,,Year Round,,,24/7,,40.69066678,-73.91995585,6965,Smart Bin
+Brooklyn,NW Bushwick Avenue & Menahan Street,,Year Round,,,24/7,,40.69235127,-73.9228439,6966,Smart Bin
+Brooklyn,NE Knickerbocker Avenue & Cooper Street,,Year Round,,,24/7,,40.6909578,-73.90433097,6967,Smart Bin
+Brooklyn,NE Knickerbocker Avenue & Covert Street,,Year Round,,,24/7,,40.69228268,-73.90657754,6968,Smart Bin
+Brooklyn,NE Knickerbocker Avenue & Halsey Street,,Year Round,,,24/7,,40.6931233,-73.90805186,6969,Smart Bin
+Brooklyn,NW Knickerbocker Avenue & Hancock Street,,Year Round,,,24/7,,40.69400281,-73.90962646,6970,Smart Bin
+Brooklyn,NE Knickerbocker Avenue & Putnam Avenue,,Year Round,,,24/7,,40.69529394,-73.91191365,6971,Smart Bin
+Brooklyn,NW Knickerbocker Avenue & Palmetto Street,,Year Round,,,24/7,,40.6965548,-73.91410537,6972,Smart Bin
+Brooklyn,NE Knickerbocker Avenue & Linden Street,,Year Round,,,24/7,,40.69738139,-73.91564916,6973,Smart Bin
+Brooklyn,SE Knickerbocker Avenue & Menahan Street,,Year Round,,,24/7,,40.69824109,-73.91711677,6974,Smart Bin
+Brooklyn,NW St. Nicholas Avenue & Linden Street,,Year Round,,,24/7,,40.70162462,-73.91143836,6975,Smart Bin
+Brooklyn,NW Irving Avenue & Weirfield Street,,Year Round,,,24/7,,40.69512203,-73.90726364,6976,Smart Bin
+Brooklyn,SW Irving Avenue & Schaefer Street,,Year Round,,,24/7,,40.69341063,-73.90425149,6977,Smart Bin
+Brooklyn,Aberdeen Community Garden,"91 Aberdeen St, Brooklyn, 11207",Year Round,,,"Sundays (Start Time: 1:00 PM - End Time:  4PM (Dec-Feb), 5PM (Mar.-Nov.))",,40.6840598,-73.9050492,6978,Community
+Queens,Ridgewood,Cypress Ave btw Myrtle Ave. and Putnam Ave.,Year Round,,,Saturdays (Start Time: 9:30 AM - End Time:  1:30 PM),,40.7003,-73.906675,6979,Community
+Queens,Glendale Community Garden,"74-10 88th St, Glendale, NY 11385",Year Round,,,Fridays and Saturdays (Start Time: 11:00 AM - End Time:  4:00 PM),,40.707547,-73.864884,6980,Community
+Brooklyn,McCarren Park Greenmarket,N 12th St and Driggs Ave,Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.71974,-73.953394,6981,Community
+Brooklyn,Transmitter Park Drop-Off,2 Greenpoint Ave and West Street,Year Round,,,Sundays (Start Time: 11:30 AM - End Time:  1:00 PM),,40.7296982,-73.9601997,6982,Community
+Brooklyn,North Brooklyn Compost,"Russell Street &, Nassau Ave, Brooklyn, NY 11222",Year Round,,,Sundays (Start Time: 10:00 AM - End Time:  1:00 PM),,40.724493,-73.94375,6983,Community
+Brooklyn,Brooklyn Borough Hall Saturday Greenmarket,Court St. and Montague St.,Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.693609,-73.990261,6984,Community
+Brooklyn,Vinegar Hill Community Garden,"199 York St, Brooklyn, NY 11201",Year Round,,,Sundays (Start Time: 11:30 AM - End Time:  2:00 PM),,40.701501,-73.98263,6985,Community
+Bronx,Mott Haven Food Scrap Drop-off,545 East 142nd Street,Year Round,,,Wednesdays (Start Time: 9:00 AM - End Time:  12:00 PM),,40.809894,-73.915999,6986,Community
+Bronx,Friends of Brook Park Community Garden,"494 E 141st St, The Bronx, NY 10454",Year Round,,,Saturdays and Sundays (Start Time: 10:00 AM - End Time:  4:00 PM),,40.8097074,-73.9185797,6987,Community
+Bronx,Padre Plaza Community Garden,"541 E 139th St, Bronx, NY 10454",Year Round,,,Mondays and Wednesdays (Start Time: 12:00 PM - End Time:  5:00 PM),,40.8079687,-73.917581,6988,Community
+Bronx,Rainbow Garden of Health,"757 Melrose Ave Bronx, NY 10451",Year Round,,,"Wednesdays, Thursdays, Saturdays (Start Time: 10:00 AM - End Time:  W&Th 1:00 PM, Sat 2:00 PM)",,40.8215402,-73.9155499,6989,Community
+Bronx,Lincoln Hospital Greenmarket,149th St between Park Ave and Morris Ave,Seasonal,April 1,November 19,Fridays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.817685,-73.924225,6990,Community
+Bronx,NW Gerard Avenue & East 150th Street,,Year Round,,,24/7,,40.82016891,-73.92886876,6991,Smart Bin
+Bronx,New Roots Community Farm,"670 Grand Concourse, The Bronx, NY 10451",Year Round,,,Fridays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.82135,-73.92506,6992,Community
+Bronx,BronxWorks Carolyn McLaughlin Community Center,1130 Grand Concourse,Year Round,,,Thursdays (Start Time: 10:00 AM - End Time:  1:00 PM),,40.83268,-73.918805,6993,Community
+Bronx,NW Morris Avenue & East 163rd Street,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.8274474,-73.91748946,6994,Smart Bin
+Bronx,NE Gerard Avenue & East 167th Street,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.83554927,-73.92029444,6995,Smart Bin
+Bronx,Target Bronx Community Garden,1024 Woodycrest Avenue,Year Round,,,Mondays (Start Time: 10:00 AM - End Time:  5:00 PM),Bins at gate during winter months.,40.83316,-73.92728,6996,Community
+Bronx,NE West 166th St & Dr. Martin Luther King Jr Boulevard,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.83628548,-73.92916451,6997,Smart Bin
+Bronx,New Settlement- 170 Farm Stand,New Settlement Community Center 1501 Jerome Ave.,Seasonal,July 14,November 24,Wednesdays (Start Time: 2:30 PM - End Time:  5:00 PM),,40.840005,-73.916636,6998,Community
+Bronx,New Settlement Community Center,"1501 Jerome Ave, Bronx, NY 10452",Year Round,,,"Thursday, Friday, Saturday (Start Time: Thursday/Friday 1:00 PM, Saturday 10:30 AM - End Time:  Thursday/Friday 5:00 PM, Saturday 12:30 PM)",,40.8432747,-73.9162121,6999,Community
+Bronx,NW Sheridan Avenue & Marcy Place,,Year Round,,,24/7,,40.83726123,-73.91363886,7000,Smart Bin
+Bronx,SE Townsend Avenue & East 174th Street,,Year Round,,,24/7,,40.84525287,-73.91305002,7001,Smart Bin
+Bronx,SE East 171st Street & Walton Avenue,,Year Round,,,24/7,,40.84078328,-73.91514052,7002,Smart Bin
+Bronx,SE Eastburn Avenue & East 174th Street,,Year Round,,,24/7,,40.84487807,-73.90844552,7003,Smart Bin
+Bronx,Kelly Street Garden,"924 Kelly St, The Bronx, NY 10459",Year Round,,,Saturdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.820124,-73.895674,7004,Community
+Bronx,Bronx River House / Starlight Park,1490 Sheridan Blvd,Year Round,,,Fridays (Start Time: 9:00 AM - End Time:  11:00 AM),,40.8328527,-73.8830803,7005,Community
+Bronx,NW Bruckner Boulevard & Evergreen Avenue,,Year Round,,,24/7,,40.82341084,-73.8798374,7006,Smart Bin
+Bronx,NE Taylor Avenue & Archer Street,,Year Round,,,24/7,,40.83778641,-73.866385,7007,Smart Bin
+Bronx,SW Beach Avenue & East 172nd Street,,Year Round,,,24/7,,40.83311105,-73.86649496,7008,Smart Bin
+Bronx,Parkchester,Westchester Ave and White Plains Rd.,Year Round,,,Fridays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.83343,-73.861655,7009,Community
+Bronx,SE Purdy Street & East Tremont Avenue,,Year Round,,,24/7,,40.84244869,-73.85514099,7010,Smart Bin
+Bronx,NW Seward Avenue & Croes Avenue,,Year Round,,,24/7,,40.81863911,-73.86810886,7011,Smart Bin
+Bronx,NE White Plains Road & Randall Avenue,,Year Round,,,24/7,,40.81794125,-73.85724719,7012,Smart Bin
+Bronx,NE Taylor Avenue & Lafayette Avenue,,Year Round,,,24/7,,40.82150344,-73.86303618,7013,Smart Bin
+Bronx,SW Pugsley Avenue & Watson Avenue,,Year Round,,,24/7,,40.82908299,-73.85662382,7014,Smart Bin
+Bronx,Montefiore,871 Prospect Ave,Year Round,,,Fridays (Start Time: 11:00 AM - End Time:  2:00 PM),,40.820667,-73.901845,7015,Community
+Bronx,Morrisania,McKinley Square at 169th St & Boston Rd,Year Round,,,Wednesdays (Start Time: 10:00 AM - End Time:  1:00 PM),,40.831187,-73.900567,7016,Community
+Queens,Corona,"Roosevelt Ave at 103 Street, Queens",Year Round,,,Fridays (Start Time: 8:00 AM - End Time:  1:30 PM),,40.749728,-73.862513,7017,Community
+Queens,Malcolm X FSDO,"111-26 Northern Blvd, Flushing, NY 11368",Year Round,,,Tuesdays (Start Time: 12:00 PM - End Time:  2:00 PM),,40.7496855,-73.8630721,7018,Community
+Queens,St. James Compost,"86-02 Broadway, Elmhurst, NY 11373",Year Round,,,Every day (Start Time: 9:00 AM - End Time:  6:00 PM),,40.73833,-73.87775,7019,Community
+Queens,Terraza 7,"40-19 Gleane Street, Elmhurst, NY, 11373",Year Round,,,Sundays (Start Time: 9:30 AM - End Time:  1:30 PM),,40.7475361,-73.8820084,7020,Community
+Queens,East Elmhurst Community School,"26-25 97th St, Queens, NY 11369",Year Round,,,Wednesdays (Start Time: 1:00 PM - End Time:  3:00 PM),,40.7616519,-73.8720745,7021,Community
+Queens,McIntosh Neighborhood Association,"25-16 McIntosh St, East Elmhurst, NY, 11369",Seasonal,April 1,November 30,Every 3rd Saturday of the month (Start Time: 10:00 AM - End Time:  12:00 PM),,40.7640828,-73.8695398,7022,Community
+Bronx,Fordham Plaza Food Scrap Drop-off,E Fordham Rd between Webster Ave & Third Ave,Year Round,,,Fridays (Start Time: 8:00 AM - End Time:  11:30 AM),,40.755111,-73.890783,7023,Community
+Queens,Jackson Heights Greenmarket,79th St and Northern Blvd,Year Round,,,Sundays (Start Time: 8:30 AM - End Time:  2:00 PM),,40.753687,-73.886999,7024,Community
+Queens,Farm Spot CSA,33-50 82nd street,Seasonal,June 23,October 27,Thursdays (Start Time: 6:00 PM - End Time:  7:30 PM),,40.754004,-73.885483,7025,Community
+Queens,JH Scraps,"35-20 69th Street, Jackson Heights, NY 11372",Year Round,,,Saturdays (Start Time: 11:00 AM - End Time:  1:00 PM),,40.750278,-73.89678,7026,Community
+Queens,Moore-Jackson Cemetery/Garden,"51st Street between 31st and 32nd Avenue, Woodside, NY 11377",Year Round,,,Saturdays (Start Time: 9:00 AM - End Time:  12:00 PM),,40.756149,-73.907915,7027,Community
+Queens,NW Broadway & 51st Street,,Year Round,,,24/7,,40.75446591,-73.90892347,7028,Smart Bin
+Queens,SW 31st Avenue & 51st Street,,Year Round,,,24/7,,40.75709741,-73.90776936,7029,Smart Bin
+Queens,Astoria Pug: Newtown,"30-36 41st Street, Astoria, NY",Year Round,,,Fridays (Start Time: 11:00 AM - End Time:  4:30 PM),,40.762667,-73.915111,7030,Community
+Queens,Astoria Pug: Steinway,"38-12 30th Ave, Queens, NY 11103",Year Round,,,Saturdays (Start Time: 9:00 AM - End Time:  3:00 PM),,40.764056,-73.915722,7031,Community
+Queens,SE 38th Street & 31st Avenue,,Year Round,,,24/7,,40.76184915,-73.91786514,7032,Smart Bin
+Queens,SE 31st Avenue & 49th Street,,Year Round,,,24/7,,40.75801393,-73.9099126,7033,Smart Bin
+Manhattan,Roosevelt Island Farmers Market,"543 Main St, New York, NY 10044",Year Round,,,Saturdays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.761833,-73.950139,7034,Community
+Queens,Commuter Composting at 21 St-Queensbridge F,NW Corner of 21st street at 41st Ave,Year Round,,,Tuesdays (Start Time: 8:00 AM - End Time:  10:00 AM),,40.7536858,-73.9422838,7035,Community
+Queens,SW 24th Street & 34th Avenue,,Year Round,,,24/7,,40.76185785,-73.93165268,7036,Smart Bin
+Queens,NE 35th Avenue & 21st Street,,Year Round,,,24/7,,40.7614937,-73.93533366,7037,Smart Bin
+Queens,NE 35th Avenue & 12th Street,,Year Round,,,24/7,,40.7626748,-73.93803459,7038,Smart Bin
+Queens,SW 40th Avenue & 21st Street,,Year Round,,,24/7,,40.75538494,-73.9411558,7039,Smart Bin
+Queens,NW Queens Plaza North & 21st Street,,Year Round,,,24/7,,40.75271287,-73.94388688,7040,Smart Bin
+Queens,SE 40th Avenue & 10th Street,,Year Round,,,24/7,,40.75704525,-73.94426437,7041,Smart Bin
+Queens,Socrates Sculpture Park,"Broadway & Vernon Blvd, Queens, NY 11106",Year Round,,,Every day (Start Time: 9:00 AM - End Time:  Dusk),,40.768389,-73.937,7042,Community
+Queens,Astoria Pug: 41st Street,Ditmars Boulevard and 41st Street,Year Round,,,Mondays (Start Time: 8:00 AM - End Time:  2:00 PM),,40.7724122,-73.9053388,7043,Community
+Queens,Astoria Pug: Ditmars,Ditmars #1 Municipal Parking Field 22-18 33rd Street,Year Round,,,Saturdays (Start Time: 9:00 AM - End Time:  3:45 PM),,40.774194,-73.911611,7044,Community
+Queens,Astoria Pug: Hoyt,"Northwest corner of Hoyt Avenue North and 21st Street, in a courtyard that?s officially called SITTING AREA",Year Round,,,Saturdays (Start Time: 9:00 AM - End Time:  4:00 PM),,40.77538,-73.92302,7045,Community
+Queens,Astoria Pug: Broadway,"32-11 31st St, Queens, NY 11106",Year Round,,,Saturdays (Start Time: 9:00 AM - End Time:  3:00 PM),,40.761472,-73.925611,7046,Community
+Queens,Astoria Pug: Most Precious Blood,"32-23 36th St, Queens, NY 11106 (inside parking lot)",Year Round,,,24/7,,40.75914,-73.92146,7047,Community
+Queens,PS 17 Wellness Council & Q300 Green Team,"28-37 29th Street, Queens, NY, 11102",Seasonal,September 1,June 30,Fridays (Start Time: 2:00 PM - End Time:  3:00 PM),,40.767878,-73.923199,7048,Community
+Queens,NE 31st Avenue & 37th Street,,Year Round,,,24/7,,40.76221915,-73.91862696,7049,Smart Bin
+Queens,NW 31st Avenue & 35th Street,,Year Round,,,24/7,,40.76300516,-73.92028387,7050,Smart Bin
+Queens,SE 31st Avenue & 35th Street,,Year Round,,,24/7,,40.76300516,-73.92025169,7051,Smart Bin
+Queens,SE 33rd Street & 31st Avenue,,Year Round,,,24/7,,40.76373288,-73.9218766,7052,Smart Bin
+Queens,NW 31st Street & Broadway,,Year Round,,,24/7,,40.74770458,-73.98830542,7053,Smart Bin
+Queens,SE 32nd Street & 31st Avenue,,Year Round,,,24/7,,40.7640621,-73.92266642,7054,Smart Bin
+Queens,NW 29th Street & 31st Avenue,,Year Round,,,24/7,,40.76524039,-73.9249537,7055,Smart Bin
+Queens,SE 31st Avenue & 29th Street,,Year Round,,,24/7,,40.7653054,-73.92509318,7056,Smart Bin
+Queens,SE 31st Avenue & Crescent Street,,Year Round,,,24/7,,40.7658945,-73.92644247,7057,Smart Bin
+Queens,NW Crescent Street & 30th Drive,,Year Round,,,24/7,,40.76692312,-73.92600542,7058,Smart Bin
+Queens,NE Crescent Street & 31st Road,,Year Round,,,24/7,,40.76501698,-73.92712022,7059,Smart Bin
+Queens,SE 31st Avenue & 36th Street,,Year Round,,,24/7,,40.76261438,-73.91946512,7060,Smart Bin
+Queens,SE Crescent Street & 30th Drive,,Year Round,,,24/7,,40.76691499,-73.92598396,7061,Smart Bin
+Queens,SE 31st Street & 31st Avenue,,Year Round,,,24/7,,40.7644474,-73.92350873,7062,Smart Bin
+Queens,SW 31st Avenue & 23rd Street,,Year Round,,,24/7,,40.76687064,-73.9285643,7063,Smart Bin
+Queens,NE 21st Street & 31st Avenue,,Year Round,,,24/7,,40.76745966,-73.92985537,7064,Smart Bin
+Queens,SE 31st Avenue & 14th Street,,Year Round,,,24/7,,40.76836834,-73.93204633,7065,Smart Bin
+Queens,SW 21st Street & 30th Drive,,Year Round,,,24/7,,40.76836471,-73.92909919,7066,Smart Bin
+Queens,SE 27 Avenue & 1 Street,,Year Round,,,24/7,,40.77578952,-73.93612059,7067,Smart Bin
+Queens,NW 8th Street & Astoria Blvd,,Year Round,,,24/7,,40.77282415,-73.93264252,7068,Smart Bin
+Queens,SW 8th Street & 27th Ave,,Year Round,,,24/7,,40.77441138,-73.93179982,7069,Smart Bin
+Brooklyn,Cortelyou Greenmarket,Argyle Rd and Cortelyou Rd,Year Round,,,Sundays (Start Time: 9:00 AM - End Time:  1:00 PM),,40.641438,-73.966333,7070,Community
+Brooklyn,Q Gardens,"58 E 18th St, Brooklyn, NY 11226",Year Round,,,"Tuesdays, Fridays, Saturdays, and Sundays (Start Time: Tuesday 6pm; Friday - Sunday dawn - End Time:  Tuesday 8pm; Fridays + Saturdays all night; Sundays until 4:00PM)",,40.649778,-73.963194,7071,Community
+Brooklyn,Flatbush Junction Food Scrap Drop-off,Hillel Pl & Flatbush Ave,Year Round,,,Fridays (Start Time: 8:30 AM - End Time:  2:30 PM),,40.632583,-73.948111,7072,Community
+Brooklyn,Rogers / Tilden / Veronica Place Garden,"2601 - 2603 Tilden Avenue, Brooklyn 11226",Year Round,,,Saturdays (Start Time: 10:00 AM - End Time:  12:00 PM),,40.6472062,-73.9526235,7073,Community
+Brooklyn,Little Haiti Food Scrap Drop-off Site,Newkirk Ave & Nostrand Ave,Year Round,,,Wednesdays (Start Time: 9:30 AM - End Time:  1:30 PM),,40.6400446,-73.9482956,7074,Community
+Brooklyn,Wyckoff Farmhouse Museum,"5816 Clarendon Rd, Brooklyn, NY 11203",Seasonal,March 1,January 31,Every day (Start Time: Dawn - End Time:  Dusk),,40.64451,-73.92038,7075,Community
+Brooklyn,Cypress Hills,"Fulton Street, between Crescent & Hemlock Streets",Year Round,,,Fridays (Start Time: 10:00 AM - End Time:  1:00 PM),,40.683883,-73.871694,7076,Community
+Brooklyn,East New York Farms: Success Community Garden,461 Williams Avenue,Year Round,,,24/7,,40.66469,-73.8975,7077,Community
+Brooklyn,East New York Farms: UCC Youth Farm,613 New Lots Avenue,Year Round,,,24/7,,40.66547,-73.88668,7078,Community
+Brooklyn,East New York Farms: 400 Montauk Ave Block Association Garden,"392 Montauk Ave., Brooklyn, NY 11208",Seasonal,March 1,November 30,24/7,,40.66845,-73.87674,7079,Community
+Brooklyn,East New York Farms: Concerned Residents of Barbey Street Community Garden,"351 Barbey St, Brooklyn, NY 11207",Seasonal,March 1,November 30,24/7,,40.6742335,-73.8878004,7080,Community
+Brooklyn,East New York Farms: Ashford Learning Garden,"341 Ashford St, Brooklyn, NY 11207",Seasonal,March 1,November 30,24/7,,40.674065,-73.885109,7081,Community
+Brooklyn,East New York Farms: Nehemiah Ten Community Garden,"567 Barbey St, Brooklyn, NY 11207",Seasonal,March 1,November 30,24/7,,40.668722,-73.885866,7082,Community
+Brooklyn,East New York Farms: St. John Community Garden,"474 New Jersey Ave, Brooklyn, NY 11207",Seasonal,March 1,November 30,24/7,,40.6676529,-73.8940832,7083,Community
+Brooklyn,East New York Farms: Poppa & Momma Jones Historical Garden,"337 Van Siclen Ave, Brooklyn, NY 11207",Seasonal,March 1,November 30,24/7,,40.671653,-73.889806,7084,Community
+Brooklyn,Rockaway Avenue Community Compost Site,"1149 Rockaway Avenue, Brooklyn NY, 11236",Year Round,,,24/7,,40.6516768,-73.9059912,7085,Community
+Brooklyn,Rockaway Parkway,1425 Rockaway Pkwy,Year Round,,,Wednesday (Start Time: 10:00 AM - End Time:  2:00 PM),,40.645419,-73.902365,7086,Community
+Bronx,NW Valentine Avenue & East 183rd Street,,Year Round,,,24/7,,40.8569378,-73.89817197,7087,Smart Bin
+Bronx,SE Marion Avenue & East 187th Street,,Year Round,,,24/7,,40.85962091,-73.89477383,7088,Smart Bin
+Bronx,SE Field Place & Morris Avenue,,Year Round,,,24/7,,40.85948902,-73.90117766,7089,Smart Bin
+Bronx,Community Access - Davidson Ave,1750 Davidson Ave,Year Round,,,Thursdays (Start Time: 8:30 AM - End Time:  1:00 PM),,40.848245,-73.913085,7090,Community
+Bronx,Francis Martin Library,"2150 University Avenue Bronx, NY 10453",Year Round,,,Monday (Start Time: 12:00 PM - End Time:  1:00 PM),,40.8575626,-73.909437,7091,Community
+Bronx,SE West Tremont Avenue & University Avenue,,Year Round,,,24/7,,40.85071849,-73.91548052,7092,Smart Bin
+Bronx,NE West Burnside Avenue & Sedgewick,,Year Round,,,24/7,,40.85503945,-73.9167976,7093,Smart Bin
+Bronx,SW Mount Hope Place & Walton Avenue,,Year Round,,,24/7,,40.84924129,-73.90952888,7094,Smart Bin
+Bronx,NE East 181st Street & Morris Avenue,,Year Round,,,24/7,,40.85507027,-73.9039638,7095,Smart Bin
+Bronx,Drew Gardens,"1070 East Tremont Avenue. between Bronx Street and, Boston Rd, The Bronx, NY 10460",Year Round,,,"Mondays, Wednesdays, and Fridays (Start Time: 4:00 PM - End Time:  7:00 PM)",,40.839897,-73.879181,7096,Community
+Bronx,NW Daly Avenue & Elsmere Street,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.8413412,-73.88424572,7097,Smart Bin
+Bronx,La Familia Verde Farmer's Market,Tremont Ave between LaFontaine and Arthur Ave (Tremont Park),Seasonal,July 1,November 30,Tuesdays (Start Time: 8:00 AM - End Time:  2:00 PM),Visit the Center Farm stand to drop off your food scraps.,40.846468,-73.894107,7098,Community
+Bronx,Mary Mitchell Center,"2007 Mapes Ave, Bronx, NY 10460",Year Round,,,Monday-Friday (Start Time: 9:00 AM - End Time:  5:00 PM),,40.844901,-73.887287,7099,Community
+Bronx,NE East 176th Street & Washington Avenue,,Year Round,,,24/7,,40.84609947,-73.89863974,7100,Smart Bin
+Bronx,SW East 179th Street & Clinton Avenue,,Year Round,,,24/7,,40.84642014,-73.88888859,7101,Smart Bin
+Bronx,SW Bathgate Avenue & East 182 Street,,Year Round,,,24/7,,40.8534318,-73.89302043,7102,Smart Bin
+Bronx,SE East 183 Street & Cambreleng Avenue,,Year Round,,,24/7,,40.85243592,-73.88642779,7103,Smart Bin
+Bronx,NW East 183rd Street & Washington Avenue,,Year Round,,,24/7,,40.85537992,-73.89312774,7104,Smart Bin
+Bronx,SW East 187th Street & Southern Boulevard,,Year Round,,,24/7,,40.85350238,-73.88166497,7105,Smart Bin
+Bronx,NE Bathgate Avenue & East 189th Street,,Year Round,,,24/7,,40.85876347,-73.88835017,7106,Smart Bin
+Bronx,New Beginnings Community Garden,2502 Davidson Ave,Year Round,,,"Fridays, Saturdays, and Sundays (Start Time: Sat+Sun:2PM, Friday:5pm - End Time:  Sat.+Sun.:5pm, Friday:6pm)",,40.864176,-73.900932,7107,Community
+Bronx,NW Loring Place North & Hall of Fame Terrace,,Year Round,,,24/7,,40.85894173,-73.91091206,7108,Smart Bin
+Bronx,SW East 193rd Street & Grand Concourse,,Year Round,,,24/7,,40.86556241,-73.89503153,7109,Smart Bin
+Bronx,Lehman College,"Gate 8: Bedford Park Blvd West & Paul Ave Bronx, NY 10468",Year Round,,,Mondays (Start Time: 9:00 AM - End Time:  12:00 PM),,40.873838,-73.895344,7110,Community
+Bronx,James Baldwin Outdoor Learning Center,"100 W Mosholu Pkwy S, The Bronx, NY 10468",Seasonal,June 1,October 31,Saturdays (Start Time: 10:00 AM - End Time:  2:00 PM),Site entrance is on the Goulden Ave side of campus.,40.88207,-73.88825,7111,Community
+Bronx,NW Bainbridge Avenue & East Mosholu Parkway S,,Year Round,,,24/7,"Download the app to access bins. Accepts all food scraps, including meat and dairy. Do not leave food scraps outside of bin!",40.87231172,-73.88236741,7112,Smart Bin
+Bronx,Keepers House Edible Garden,3400 Reservoir Oval East,Year Round,,,Every day (Start Time: 9:00 AM - End Time:  8:00 PM),,40.87896,-73.87585,7113,Community
+Bronx,Norwood,E Gun Hill Road and Dekalb Ave. (SE corner),Year Round,,,Thursdays (Start Time: 9:00 AM - End Time:  2:00 PM),,40.88201,-73.880346,7114,Community
+Bronx,NE Hull Avenue & East 207th Street,,Year Round,,,24/7,,40.87534992,-73.87557722,7115,Smart Bin
+Bronx,NE East Mosholu Parkway North & Van Cortlandt Avenue,,Year Round,,,24/7,,40.87636168,-73.88141877,7116,Smart Bin
+Bronx,SE Kings College Place & Gun Hill Road,,Year Round,,,24/7,,40.88000347,-73.87598176,7117,Smart Bin
+Bronx,Kingsbridge Heights Community Center,"3101 Kingsbridge Terrace, Bronx NY 10463",Year Round,,,Wednesdays (Start Time: 12:00 PM - End Time:  2:00 PM),,40.877299,-73.900709,7118,Community
+Bronx,SW Heath Avenue & West Kingsbridge Road,,Year Round,,,24/7,,40.87277465,-73.90460286,7119,Smart Bin
+Bronx,Riverdale Neighborhood House,"5521 Mosholu Ave Bronx, NY 10471",Year Round,,,Thursdays (Start Time: 1:00 PM - End Time:  6:00 PM),,40.9035436,-73.9038447,7120,Community
+Bronx,Mediator's Composting Initiative,"260 West 231 Street Bronx, NY 10463",Year Round,,,Saturdays (Start Time: 10:00 AM - End Time:  12:00 PM),"Donation: 25 cents per pound. Drop off location is by Bx7, Bx10, BX1 bus stop.",40.879849,-73.906856,7121,Community
+Bronx,Spuyten Duyvil PreSchool,3041 Kingsbridge Avenue,Seasonal,September 1,June 30,Fridays (Start Time: 8:00 AM - End Time:  12:00 PM),"Remove all plastic, stickers and zip ties before dropping off food scraps.",40.879247,-73.90727,7122,Community
+Manhattan,East 96th Street Food Scrap Drop-off,96th St & Lexington Ave,Year Round,,,Fridays (Start Time: 7:30 AM - End Time:  11:30 AM),,40.785792,-73.950833,7123,Community
+Manhattan,Asphalt Green Food Scrap Drop-off,East 91st St & York Ave,Year Round,,,Sundays (Start Time: 7:30 AM - End Time:  12:30 PM),,40.779055,-73.944665,7124,Community
+Bronx,NW Zerega Avenue & Waterbury Avenue,,Year Round,,,24/7,,40.83505714,-73.84547152,7125,Smart Bin
+Bronx,NE Glebe Avenue & Zerega Avenue,,Year Round,,,24/7,,40.83883362,-73.84944695,7126,Smart Bin
+Bronx,The Garden at Preston,"2780 Schurz Ave, The Bronx, NY 10465 (Intersection of Schurz Avenue and Huntington Avenue)",Seasonal,March 1,November 30,Tuesdays (Start Time: 4:00 PM - End Time:  7:00 PM),,40.8139813,-73.8190803,7127,Community
+Bronx,"SW 	Throgs Neck Expressway & Randall Avenue",,Year Round,,,24/7,,40.82798941,-73.81833016,7128,Smart Bin
+Bronx,NE Lafayette Avenue & Cross Bronx Expressway,,Year Round,,,24/7,,40.82661116,-73.83171543,7129,Smart Bin
+Bronx,SW Jarvis Avenue & Roberts Avenue,,Year Round,,,24/7,,40.84607372,-73.82947838,7130,Smart Bin
+Bronx,NE City Island Avenue & Winter Street,,Year Round,,,24/7,,40.8439937,-73.78528103,7131,Smart Bin
+Bronx,NW Parkview Avenue & Middletown Road,,Year Round,,,24/7,,40.84519732,-73.826664,7132,Smart Bin
+Bronx,Albert Einstein College of Medicine (AECOM) Garden Club,Near 1975 Eastchester Road,Year Round,,,Wednesdays (Start Time: 4:00 PM - End Time:  5:00 PM),,40.8532261,-73.8434618,7133,Community
+Queens,Forest Hills Greenmarket,MacDonald Park: Queens Blvd and 70th Ave,Year Round,,,Sundays (Start Time: 9:00 AM - End Time:  1:00 PM),,40.721268,-73.846877,7134,Community
+Queens,Commonpoint Queens in partnership with The Forest Hills Green Team,"NE corner of 67 Rd & 108th Street 67-09 108th St, Forest Hills, NY 11375",Year Round,,,Sundays (Start Time: 10:00 AM - End Time:  1:00 PM),,40.728415,-73.84711,7135,Community
+Queens,The Compost Collective,"The corner of Yellowstone Blvd, and Kessel Street Forest Hills, NY 11375",Seasonal,March 1,January 31,Saturdays (Start Time: 12:00 PM - End Time:  2:00 PM),,40.71645,-73.85778,7136,Community
+Queens,Kew Gardens Food Scrap Drop-off,Metropolitan Ave & Audley St,Year Round,,,Thursdays (Start Time: 9:30 AM - End Time:  12:30 PM),,40.707626,-73.836079,7137,Community
+Queens,Kew Gardens Cinemas Park,"8105 Lefferts Blvd, Kew Gardens, NY 11415",Year Round,,,Sundays (Start Time: 8:30 AM - End Time:  12:00 PM),,40.70888,-73.82917,7138,Community
+Queens,Astoria Pug: Hunter's Point,46th Avenue and 5th Street,Year Round,,,Tuesdays (Start Time: 9:00 AM - End Time:  12:00 PM),,40.74777,-73.95486,7139,Community
+Queens,Smiling Hogshead Ranch,"Pearson Pl & Skillman Ave, Queens, NY 11101",Year Round,,,Every day (Start Time: Dawn - End Time:  Dusk),,40.7432328,-73.9431336,7140,Community
+Queens,The Connected Chef,49-09 5th Street and 49th Avenue,Year Round,,,Fridays and Saturdays (Start Time: Fridays-8:30AM/Saturdays-9AM - End Time:  Fridays-3:30PM/Saturdays-2PM),,40.74387,-73.9562,7141,Community
+Queens,45th Street Composters,"41-12 45th Street (45th St & Skillman Ave, Queens, NY 11104)",Year Round,,,Sundays (Start Time: 10:30 AM - End Time:  1:00 PM),,40.746199,-73.919118,7142,Community
+Queens,Woodside Sunnyside Composting,"38-63-38-1 50th St, Woodside, NY 11377",Year Round,,,"Sundays (Start Time: 2:00 PM - End Time:  5:00 PM (Spring, Summer))",,40.75013,-73.91369,7143,Community
+Queens,Rusty Wheelbarrow Farm,"72-2 Woodside Ave, Woodside, NY 11377",Year Round,,,Saturdays (Start Time: 10:30 AM - End Time:  1:00 PM),,40.7427093,-73.892547,7144,Community
+Queens,Sunnyside Greenmarket,Skillman Ave between 42nd St. and 43rd St.,Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  12:00 PM),,40.746948,-73.921208,7145,Community
+Brooklyn,Genovesi Environmental Study Center,"7151 Avenue T, Brooklyn, NY 11234",Year Round,,,Monday-Friday (Start Time: 9:00 AM - End Time:  3:00 PM),,40.6221465,-73.9084944,7146,Community
+Staten Island,Arden Heights,Arden Avenue and Forest Green,Year Round,,,Saturdays (Start Time: 1:00 PM - End Time:  2:00 PM),,40.556014,-74.194626,7147,Community
+Staten Island,Rossville,Gladwin St and Pitney Ave,Year Round,,,Mondays (Start Time: 12:00 PM - End Time:  2:00 PM),,40.530764,-74.222539,7148,Community
+Staten Island,Pleasant Plains,Bloomingdale Rd and Drumgoole Road East,Year Round,,,Mondays (Start Time: 12:00 PM - End Time:  2:00 PM),,40.52797,-74.216605,7149,Community
+Staten Island,Staten Island Mall Greenmarket,"Staten Island Mall, Marsh Ave & Ring Rd, Staten Island, NY 10314",Seasonal,June 11,November 19,Saturdays (Start Time: 8:30 AM - End Time:  12:30 PM),,40.583757,-74.161931,7150,Community
+Staten Island,Venture House,"1442 Castleton Avenue, 10302",Year Round,,,Fridays (Start Time: 10:30 AM - End Time:  2:30 PM),,40.634203,-74.131071,7151,Community
+Staten Island,NW Innis Street & St Josephs Avenue,,Year Round,,,24/7,,40.6338326,-74.14213367,7152,Smart Bin
+Staten Island,SW Maple Parkway & Walloon Street,,Year Round,,,24/7,,40.63264998,-74.15641999,7153,Smart Bin
+Staten Island,NW Houston Street & Willowbrook Road,,Year Round,,,24/7,,40.62267656,-74.1443428,7154,Smart Bin
+Staten Island,Manor Heights,"Woodward Ave and Woolley Ave, 10314",Year Round,,,Thursdays (Start Time: 4:00 PM - End Time:  5:30 PM),,40.605671,-74.140879,7155,Community
+Queens,Queens Botanical Garden Public Food Scrap Drop-Off,"Parking Garden at QBG 42-80 Crommelin Avenue, Flushing, NY 11355",Year Round,,,Every day (Start Time: 8:00 AM - End Time:  5:00 PM),,40.75159,-73.82981,7156,Community
+Queens,College Point FSDO,College Point Blvd & 14th Ave,Year Round,,,Fridays (Start Time: 8:30 AM - End Time:  1:00 PM),,40.7859379,-73.8458402,7157,Community
+Queens,St. Anastasia Roman Catholic Church,246-02 Northern Blvd; Enter the path to the right of the school yard to the student garden,Year Round,,,Fridays and Saturdays (Start Time: Fridays 8 AM; Saturdays 12 PM - End Time:  Fridays 12 PM; Saturdays 12:30 PM),,40.7657836,-73.7408196,7158,Community
+Queens,King Manor Museum,"150-03 Jamaica Ave, Jamaica, NY 11432",Year Round,,,Fridays and Saturdays (Start Time: Friday 10 AM; Saturday 9:30 - End Time:  Friday 4:00; Saturdays 2:30pm),,40.70216,-73.80445,7159,Community
+Queens,Paradise Garden,"107-31 Inwood St, Queens, NY 11435",Seasonal,July 1,December 31,Fridays (Start Time: 12:00 PM - End Time:  3:00 PM),,40.69056,-73.80395,7160,Community
+Queens,Discovery Community Garden,"108-56 Union Hall St, Jamaica, NY 11433",Year Round,,,Wednesdays (Start Time: 1:00 PM - End Time:  3:00 PM),,40.6944987,-73.7913159,7161,Community
+Queens,Brewer Food Scrap Drop-off Site,Guy R Brewer Blvd and Baisley Blvd. (Corner Near Walgreens),Year Round,,,Wednesdays (Start Time: 10:00 AM - End Time:  12:00 PM),,40.678179,-73.77964,7162,Community
+Queens,Office of Assemblymember Anderson,131-15 Rockaway Boulevard,Year Round,,,Tuesdays and Wednesdays (Start Time: 12:00 PM - End Time:  4:00 PM),,40.6749729,-73.8066806,7163,Community
+Queens,Garden of Resilience,"179-18 145th Dr, Jamaica, NY 11434",Year Round,,,Saturdays (Start Time: 9:00 AM - End Time:  1:00 PM),,40.66392,-73.76626,7164,Community
+Queens,Queens County Farm Museum,"73-50 Little Neck Parkway, Queens, NY 11004",Year Round,,,Every day (Start Time: 10:00 AM - End Time:  4:00 PM),"Farm-wide admission is charged for weekend events on 10-12 days each calendar year. Also, stop by the Farm Store to find a map for the location of tumblers for drop-off.",40.748406,-73.721002,7165,Community
+Queens,Edgemere Farm,"385 Beach 45th St, Far Rockaway, NY 11691",Year Round,,,"Wednesdays, Thursdays, Fridays, and Saturdays (Start Time: 10:00 AM - End Time:  Wednesday-Friday at 5:00PM; Saturdays at 3:00PM)",,40.595012,-73.7765544,7166,Community
+Queens,Far Rock Urban Agro-Education Center,"45-55 Beach Channel Dr, Far Rockaway, NY, 11691",Seasonal,July 1,November 30,Tuesdays and Thursdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.59549,-73.77648,7167,Community
+Staten Island,Compost Demonstration Site at Snug Harbor Cultural Center & Botanical Garden,Compost Demonstration Site at Snug Harbor Cultural Center & Botanical Garden 1000 Richmond Terrace,Year Round,,,Every day (Start Time: Dawn - End Time:  Dusk),,40.641619,-74.1012686,7168,Community
+Staten Island,H.E.A.L.T.H for Youths Skyline Community Garden,1 Clyde Place,Year Round,,,24/7,,40.639901,-74.0902865,7169,Community
+Staten Island,St. George Greenmarket,St. Marks Pl and Hyatt St,Year Round,,,Saturdays (Start Time: 8:00 AM - End Time:  1:00 PM),,40.641967,-74.077928,7170,Community
+Staten Island,NE Richmond Terrace & Ferry Terminal Viaduct,,Year Round,,,24/7,,40.642384,-74.07508662,7171,Smart Bin
+Staten Island,SE Stuyvesant Place & Schuyler Street,,Year Round,,,24/7,,40.64326009,-74.07702302,7172,Smart Bin
+Staten Island,NE Layton Avenue & Jersey Street,,Year Round,,,24/7,,40.64150894,-74.08683873,7173,Smart Bin
+Staten Island,Olivet Heavenly Harvest,"97 Myrtle Avenue, Staten Island, NY",Seasonal,April 1,November 30,Saturdays (Start Time: 10:00 AM - End Time:  2:00 PM),,40.63034,-74.11616,7174,Community
+Staten Island,Grymes Hill Wagner College,"1 Campus Rd, Staten Island, NY 10301",Seasonal,September 1,June 30,24/7,,40.613444,-74.095028,7175,Community
+Staten Island,SW Campbell Avenue & Henderson Avenue,,Year Round,,,24/7,,40.63731785,-74.11628747,7176,Smart Bin
+Staten Island,Staten Island Urban Center,208 Bay Street,Year Round,,,Saturdays (Start Time: 11:00 AM - End Time:  1:30 PM),,40.6369271,-74.0767091,7177,Community
+Staten Island,NW Hill Street & Tompkins Avenue,,Year Round,,,24/7,,40.62214355,-74.07829579,7178,Smart Bin
+Staten Island,West Brighton,Chappell Street and Henderson Avenue,Year Round,,,Fridays (Start Time: 4:00 PM - End Time:  5:30 PM),,40.636758,-74.119727,7179,Community
+Staten Island,NE Vermont Avenue & Hylan Blvd,,Year Round,,,24/7,,40.61263857,-74.06931152,7180,Smart Bin
+Staten Island,NE Victory Blvd & Slosson Avenue,,Year Round,,,24/7,,40.61363601,-74.11677964,7181,Smart Bin
+Staten Island,Grace Foundation,460w Brielle Avenue,Year Round,,,Mondays (Start Time: 9:00 AM - End Time:  12:00 PM),,40.592723,-74.135113,7182,Community
+Staten Island,Midland Beach,Bedford Ave and Mason Ave,Seasonal,April 1,October 31,Wednesdays (Start Time: 3:30 PM - End Time:  5:00 PM),,40.575904,-74.09677,7183,Community
+Staten Island,South Beach,"21 Robin Road, Staten Island NY",Year Round,,,Fridays (Start Time: 1:30 PM - End Time:  4:30 PM),,40.595579,-74.062991,7184,Community

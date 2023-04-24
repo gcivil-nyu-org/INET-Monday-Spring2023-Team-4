@@ -715,7 +715,7 @@
   top: 108px;
   left: 1254px;
   border-radius: 8px;
-  background-color: var(--color-mediumaquamarine);
+  background-color: #1e7e3482;
   width: 154px;
   display: flex;
   flex-direction: row;
@@ -880,6 +880,14 @@
   color: var(--color-gray-200);
   font-family: var(--font-montserrat);
 }
+/* .add-bin-flow-child24 {
+  position: absolute;
+  top: 67px;
+  left: 0;
+  background-color: var(--color-gray-500);
+  width: 1440px;
+  height: 956px;
+} */
 .add-bin-flow-child25 {
   position: absolute;
   top: 227px;
@@ -889,6 +897,13 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.43);
   width: 711px;
   height: 637px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 500ms;
+}
+.add-bin-flow-child25:target {
+  visibility: visible;
+  opacity: 1;
 }
 .feather-iconschevron-down,
 .feather-iconschevron-down1 {
@@ -945,10 +960,12 @@
 .add-bin-flow-child30,
 .add-bin-flow-child31,
 .add-bin-flow-child32,
-.add-bin-flow-child33 {
+.add-bin-flow-child33,
+.add-bin-flow-child34,
+.add-bin-flow-child35 {
   position: absolute;
-  top: 345px;
-  left: 434px;
+  top: 125px;
+  left: 34px;
   border-radius: var(--br-5xs);
   background-color: var(--color-silver-100);
   border: 1px solid var(--color-darkgray-100);
@@ -962,53 +979,87 @@
 .add-bin-flow-child30,
 .add-bin-flow-child31,
 .add-bin-flow-child32,
-.add-bin-flow-child33 {
-  top: 462px;
+.add-bin-flow-child33,
+.add-bin-flow-child34,
+.add-bin-flow-child35 {
+  top: 220px;
 }
 .add-bin-flow-child28,
 .add-bin-flow-child29,
 .add-bin-flow-child30,
 .add-bin-flow-child31,
 .add-bin-flow-child32,
-.add-bin-flow-child33 {
-  top: 571px;
+.add-bin-flow-child33,
+.add-bin-flow-child34,
+.add-bin-flow-child35 {
+  top: 315px;
 }
 .add-bin-flow-child29,
 .add-bin-flow-child30,
 .add-bin-flow-child31,
 .add-bin-flow-child32,
-.add-bin-flow-child33 {
-  top: 462px;
-  left: 775px;
+.add-bin-flow-child33,
+.add-bin-flow-child34,
+.add-bin-flow-child35 {
+  top: 220px;
+  left: 381px;
 }
 .add-bin-flow-child30,
 .add-bin-flow-child31,
 .add-bin-flow-child32,
-.add-bin-flow-child33 {
-  top: 571px;
+.add-bin-flow-child33,
+.add-bin-flow-child34,
+.add-bin-flow-child35 {
+  top: 315px;
 }
 .add-bin-flow-child31,
 .add-bin-flow-child32,
-.add-bin-flow-child33 {
-  top: 659px;
-  left: 434px;
+.add-bin-flow-child33,
+.add-bin-flow-child34,
+.add-bin-flow-child35 {
+  top: 410px;
+  left: 36px;
   width: 659px;
   height: 99px;
 }
 .add-bin-flow-child32,
 .add-bin-flow-child33 {
-  top: 345px;
-  left: 775px;
+  top: 125px;
+  left: 381px;
   width: 115px;
   height: 40px;
 }
 .add-bin-flow-child33 {
-  left: 936px;
+  left: 564px;
+}
+.add-bin-flow-child34,
+.add-bin-flow-child35 {
+  top: 315px;
+  left: 381px;
+  width: 115px;
+  height: 40px;
+}
+.add-bin-flow-child35 {
+  left: 538px;
 }
 .bin-number {
   position: absolute;
-  top: 322px;
-  left: 434px;
+  top: 97px;
+  left: 36px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.to {
+  position: absolute;
+  top: 134px;
+  left: 519px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.phone-number2 {
+  position: absolute;
+  top: 287px;
+  left: 542px;
   font-weight: 500;
   color: var(--color-black);
 }
@@ -1019,8 +1070,8 @@
 .operating-hours,
 .phone-number {
   position: absolute;
-  top: 439px;
-  left: 434px;
+  top: 192px;
+  left: 36px;
   font-weight: 500;
   color: var(--color-black);
 }
@@ -1029,28 +1080,28 @@
 .host-name,
 .operating-hours,
 .phone-number {
-  top: 548px;
+  top: 287px;
 }
 .add-notes,
 .address-line1,
 .operating-hours,
 .phone-number {
-  top: 439px;
-  left: 775px;
+  top: 192px;
+  left: 381px;
 }
 .add-notes,
 .operating-hours,
 .phone-number {
-  top: 548px;
+  top: 287px;
 }
 .add-notes,
 .operating-hours {
-  top: 636px;
-  left: 434px;
+  top: 382px;
+  left: 36px;
 }
 .operating-hours {
-  top: 319px;
-  left: 775px;
+  top: 95px;
+  left: 381px;
 }
 .add-bin-number,
 .address-line-1,
@@ -1117,17 +1168,29 @@
   left: 1058px;
 }
 .add-bin {
-  position: relative;
+  position: absolute;
+  top: 542px;
+  left: 553px;
   letter-spacing: -0.04em;
   font-weight: 600;
   display: inline-block;
   width: 138px;
   flex-shrink: 0;
+  background: var(--color-mediumaquamarine);
+  padding: var(--padding-base);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--gray-10);
+  font-family: var(--body-text-inter-14-regular);
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
 }
 .button1 {
   position: absolute;
-  top: 791px;
-  left: 965px;
+  top: 542px;
+  left: 566px;
   border-radius: var(--br-5xs);
   background-color: var(--color-mediumaquamarine);
   width: 108px;
@@ -1152,16 +1215,16 @@
 }
 .add-compost-bin1 {
   position: absolute;
-  top: 265px;
-  left: 434px;
+  top: 39px;
+  left: 34px;
   font-size: var(--font-size-5xl);
   font-weight: 500;
   color: var(--color-black);
 }
 .feather-iconsx-circle1 {
   position: absolute;
-  top: 270px;
-  left: 1069px;
+  top: 39px;
+  left: 664px;
   width: 24px;
   height: 24px;
   overflow: hidden;

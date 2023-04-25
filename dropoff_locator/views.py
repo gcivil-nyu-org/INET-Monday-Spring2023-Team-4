@@ -1,6 +1,5 @@
-from django.shortcuts import render
-from django.views.generic import TemplateView
-from filters import SiteFilter
+from django.shortcuts import render, get_object_or_404
+from .filters import SiteFilter
 from .models import Site
 
 def locations(request):

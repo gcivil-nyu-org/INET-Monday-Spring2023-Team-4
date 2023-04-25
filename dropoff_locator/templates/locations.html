@@ -106,8 +106,8 @@
       {% for location in locations %}
 
       <tr>
-          <th><a href="{% url 'dropoff_locator:site_details' location.id %}">{{ location.borough }}</a></td>
-          <th>{{ location.name }}</th>
+          <th>{{ location.borough }}</td>
+          <th><a href="{% url 'dropoff_locator:site_details' location.id %}">{{ location.name }}</a></th>
           <td>{{ location.type }}</td>
 
       </tr>

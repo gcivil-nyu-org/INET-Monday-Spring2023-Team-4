@@ -5,7 +5,7 @@ from PIL import Image
 
 # Extending User Model Using a One-To-One Link
 class Profile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
     avatar = models.ImageField(default="default.jpg", upload_to="profile_images")
     bio = models.TextField()
     url = models.CharField(max_length=225, null=True)
@@ -23,3 +23,6 @@ class Profile(models.Model):
             new_img = (100, 100)
             img.thumbnail(new_img)
             img.save(self.avatar.path)
+
+
+    

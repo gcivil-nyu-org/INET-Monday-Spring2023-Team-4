@@ -30,3 +30,20 @@ class Site(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class SiteSeason(models.Model):
+    site = models.OneToOneField(Site, on_delete=models.CASCADE, primary_key=True)
+    start = models.CharField(max_length=15)
+    end = models.CharField(max_length=15)
+
+
+class SiteSchedule(models.Model):
+    site = models.OneToOneField(Site, on_delete=models.CASCADE, primary_key=True)
+    mon = models.CharField(max_length=55, null=True)
+    tues = models.CharField(max_length=55, null=True)
+    wed = models.CharField(max_length=55, null=True)
+    thurs = models.CharField(max_length=55, null=True)
+    fri = models.CharField(max_length=55, null=True)
+    sat = models.CharField(max_length=55, null=True)
+    sun = models.CharField(max_length=55, null=True)

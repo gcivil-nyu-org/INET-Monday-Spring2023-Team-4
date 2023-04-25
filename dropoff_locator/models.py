@@ -30,6 +30,18 @@ class Site(models.Model):
 
     def __str__(self):
         return self.name
+    
+    def get_season(self):
+        if (self.type != "User Listing"):
+            if (self.season == "Seasonal"):
+                season = SiteSeason.objects.filter(site=self).get()
+                return season
+
+    def get_schedule(self):
+        if (self.type != "User Listing"):
+            if (self.is_always_open == False):
+                schedule = SiteSchedule.objects.filter(site=self).get()
+                return schedule
 
 
 class SiteSeason(models.Model):

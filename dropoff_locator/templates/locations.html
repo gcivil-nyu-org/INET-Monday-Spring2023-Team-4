@@ -78,6 +78,12 @@
         {% endfor %}
     </script>
 </div>
+
+<form method="GET" action="{% url 'dropoff_locator:locator_view' %}">
+  {{ form.as_p }}
+  <input type="submit" value="Submit" class="btn btn-primary" />
+</form>
+
 <style type="text/css">
   #table {
     width: 100%;

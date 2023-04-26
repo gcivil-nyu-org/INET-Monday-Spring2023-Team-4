@@ -24,6 +24,15 @@
       href="https://fonts.googleapis.com/css2?family=Bungee:wght@400&display=swap"
     />
   </head>
+  <!-- <script>
+    window.addEventListener('mouseup', function(event) {
+      var box = document.getElementById('addcompost');
+      var sou = document.getElementById('but')
+      if(event.target != box && event.target.parentNode != box && event.target != sou){
+        box.style.display = 'none'
+      }
+    });
+  </script> -->
   <body width="10%">
     <div class="acceptor-flow-2">
       <div class="bg-blur"></div>
@@ -96,12 +105,12 @@
       <div class="acceptor-flow-2-child15"></div>
       <div class="you-are-a">You are a</div>
       <div class="acceptor-flow-2-child16"></div>
-      <div class="donor"><a href="{% url 'Locator View' %}">Donor</a></div>
+      <div class="donor"><a href="{% url 'dropoff_locator:locator_view' %}">Donor</a></div>
       <div class="acceptor"><a href="{% url 'acceptor_view' %}">Acceptor</a></div>
-      <div class="facility"><a href="{% url 'Locator View' %}">Facility</a></div>
+      <div class="facility"><a href="{% url 'dropoff_locator:locator_view' %}">Facility</a></div>
       <div class="restaurant"><a href="{% url 'acceptor_view' %}">Restaurant</a></div>
       <div class="button">
-        <div class="add-compost-bin">+ Add Compost Bin</div>
+        <div class="add-compost-bin" id="sou"><a href="#addcompost" id="but">+ Add Compost Bin</a></div>
       </div>
       <img class="group-icon" alt="" src="{% static 'images/group-262.svg' %}" /><img
         class="acceptor-flow-2-child17"
@@ -168,6 +177,79 @@
         alt=""
         src="{% static 'images/correct-1@2x.png' %}"
       />
+    </div>
+    <!-- <div class="add-bin-flow-child24"></div> -->
+    <div class="add-bin-flow-child25" id="addcompost">
+      <div class="add-compost-bin1">Add Compost Bin</div>
+
+      <!-- <img
+        class="feather-iconschevron-down"
+        alt=""
+        src="./public/feather-iconschevrondown.svg"
+      />
+
+      <img
+        class="feather-iconschevron-down1"
+        alt=""
+        src="./public/feather-iconschevrondown.svg"
+      /> -->
+
+      <!-- <div class="checkbox">
+        <div class="checkboxinactivedefaulton">
+          <div class="checkboxinactivedefaulton-child"></div>
+        </div>
+        <div class="label">Label</div>
+      </div> -->
+      <!-- <div class="add-bin-flow-child26"></div> -->
+      <!-- <div class="add-bin-flow-child27"></div> -->
+      <!-- <div class="add-bin-flow-child28"></div> -->
+      <!-- <div class="add-bin-flow-child29"></div> -->
+      <!-- <div class="add-bin-flow-child30"></div> -->
+      <!-- <div class="add-bin-flow-child31"></div> -->
+      <!-- <div class="add-bin-flow-child32"></div> -->
+      <!-- <div class="add-bin-flow-child33"></div> -->
+      <form action="{% url 'acceptor_view' %}" method="POST">
+        {% csrf_token %}
+        <input class="add-bin-flow-child26" type="text" name="ntaname" placeholder="ntaname" required />
+        <input class="add-bin-flow-child27" type="text" name="siteaddr" required />
+        <input class="add-bin-flow-child32" type="time" name="fromtime" required />
+        <div class="to">to</div>
+        <input class="add-bin-flow-child33" type="time" name="totime" required />
+        <input class="add-bin-flow-child28" type="text" name="website"/>
+        <input class="add-bin-flow-child29" type="text" name="borough" required />
+        <input class="add-bin-flow-child34" type="text" name="lat" required />
+        <input class="add-bin-flow-child35" type="text" name="lon" required />
+        <input div class="add-bin-flow-child31" type="textarea" name="notes" placeholder="Add what kind of scraps are allowed and what’s not"/>
+        <button class="add-bin" type="submit">Add Bin</button>
+      </form>
+      <div class="bin-number">Bin Name*</div>
+      <div class="address-line">Address*</div>
+      <div class="host-name">WebSite</div>
+      <div class="address-line1">Borough*</div>
+      <div class="phone-number">Latitude*</div>
+      <div class="phone-number2">Longitude*</div>
+      <div class="add-notes">Add notes</div>
+      <div class="operating-hours">Operating hours*</div>
+      <!-- <div class="add-bin-number">Add bin number</div> -->
+      <!-- <div class="address-line-1">Address line 1</div> -->
+      <!-- <div class="alliance-of-downtown">Alliance of Downtown Brooklyn</div> -->
+      <!-- <div class="address-line-2">Address line 2</div>
+      <div class="address-line-21">Address line 2</div> -->
+      <!-- <div class="add-what-kind">
+        Add what kind of scraps are allowed and what’s not
+      </div> -->
+      <!-- <div class="change">change</div> -->
+      <!-- <div class="am">am</div> -->
+      <!-- <div class="open-24-hours">Open 24 hours</div> -->
+      <!-- <div class="pm">pm</div> -->
+      <!-- <div class="button1">
+        <div class="add-bin">Add Bin</div>
+      </div> -->
+      <a href="#"><img
+        class="feather-iconsx-circle1"
+        alt=""
+        src="{% static 'images/feather-iconsxcircle1.svg' %}"
+      /></a>
     </div>
   </body>
 {% endblock content %}

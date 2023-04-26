@@ -9,6 +9,7 @@ coveralls==3.3.1
 cryptography==38.0.1
 defusedxml==0.7.1
 Django==3.2
+django-filter==23.1
 docopt==0.6.2
 flake8==5.0.4
 idna==3.4

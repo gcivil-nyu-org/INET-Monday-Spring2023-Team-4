@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from .filters import SiteFilter
 from .models import Site
 
+
 def locations(request):
     site_filter = SiteFilter(request.GET, queryset=Site.objects.all())
     context = {"form": site_filter.form, "locations": site_filter.qs}

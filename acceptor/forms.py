@@ -7,19 +7,25 @@ class NewSiteForm(ModelForm):
         model = Site
         fields = ["name", "address", "borough", "notes"]
         widgets = {
-            'name': TextInput(attrs={
-                'class': "form-control",
-                'style': 'max-width: 300px;',
-                'placeholder': 'Name'
-                }),
-            'address': TextInput(attrs={
-                'class': "form-control",
-                'style': 'max-width: 300px;',
-                'placeholder': '123 Main St'
-                }),
-            'notes': Textarea(attrs={
-                'class': "form-control",
-                'style': 'max-width: 300px;',
-                'placeholder': 'Notes'
-                }),
+            "name": TextInput(
+                attrs={
+                    "class": "form-control",
+                    "style": "max-width: 300px;",
+                    "placeholder": "Name",
+                }
+            ),
+            "address": TextInput(
+                attrs={
+                    "class": "form-control",
+                    "style": "max-width: 300px;",
+                    "placeholder": "123 Main St",
+                }
+            ),
+            "notes": Textarea(
+                attrs={
+                    "class": "form-control",
+                    "style": "max-width: 300px;",
+                    "placeholder": "Dropoff only available on weekends",
+                }
+            ),
         }

@@ -6,7 +6,8 @@ from django.contrib.auth import views as auth_views
 from users.views import CustomLoginView, ResetPasswordView, ChangePasswordView
 from dropoff_locator.views import locations
 from users.forms import LoginForm
-#from google import views as view
+
+# from google import views as view
 
 urlpatterns = [
     path("admin/", admin.site.urls),

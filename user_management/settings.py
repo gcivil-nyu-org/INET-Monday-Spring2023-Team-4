@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     "social_django",
     "dropoff_locator",
     "acceptor.apps.AcceptorConfig",
-    "donor_request"
+    "donor_request",
 ]
 
 MIDDLEWARE = [

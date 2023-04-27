@@ -32,7 +32,7 @@
         </div>
         <div class="as-an-acceptor">
             {% if user.is_authenticated %}
-                  <a href="{% url 'acceptor_view' %}">As an Acceptor</a>
+                  <a href="{% url 'acceptor:acceptor_view' %}">As an Acceptor</a>
               {% else %}
                   <a href="{% url 'login' %}">As an Acceptor</a>
               {% endif %}

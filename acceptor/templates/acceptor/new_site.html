@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Add New Listing</h1>
+  <form action="{% url 'acceptor:new_site' %}" method="post">
+      {% csrf_token %}
+  <div class="form-group">
+      <h3>Name: </h3>{{ form.name }}
+  </div>
+  <div class="form-group">
+      <h3>Street Address: </h3>{{ form.address }}
+  </div>
+  <div class="form-group">
+    <h3>Borough: </h3>{{ form.borough }}
+  </div>
+  <div class="form-group">
+    <h3>Add notes: </h3>{{ form.notes }} 
+  </div>
+  <div class="form-group">
+    <input class="btn btn-primary" type="submit" value="Add Listing">
+  </div>
+  </form>
+</div>

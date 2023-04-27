@@ -1,40 +1,73 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from dashboard.models import dashboard
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse
 from django.contrib import messages
+from .forms import NewSiteForm
+from users.models import Profile, SiteHost
+from dropoff_locator.models import Site
+
+@login_required
+def dashboard(request):
+    profile = Profile.objects.get(user=request.user)
+    sites = profile.sites.all()
+    context = {"user": request.user, "sites": sites}
+    return render(request, "acceptor/acceptor.html", context)
 
 
 @login_required
-def acceptor(request):
+def create_listing(request):
     if request.method == "POST":
-        ntaname = request.POST["ntaname"]
-        siteaddr = request.POST["siteaddr"]
-        fromtime = request.POST["fromtime"]
-        totime = request.POST["totime"]
-        website = request.POST["website"]
+        form = NewSiteForm(request.POST)
+        name = request.POST["name"]
+        address = request.POST["address"]
         borough = request.POST["borough"]
-        lat = request.POST["lat"]
-        lon = request.POST["lon"]
         notes = request.POST["notes"]
+        #lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
 
-        data = dashboard(
-            ntaname=ntaname,
-            siteaddr=siteaddr,
-            hours="From" + fromtime + "to" + totime,
-            website=website,
-            borough=borough,
-            lat=lat,
-            lon=lon,
-            notes=notes,
-            hosted=request.user.username,
-        )
+        #add site to site table
+        form.save()
 
-        data.save()
-        messages.success(request, "Bin Added Successfully.")
-        return redirect(to="acceptor_view")
+        #add site and user to sitehost table
+        self = Profile.objects.get(user=request.user)
+        SiteHost(site=new_site, host=self).save()
 
-    bins = dashboard.objects.all()
-    context = {"bins": bins}
-    return render(request, "acceptor/acceptor.html", context)
+        messages.success(request, "Listing Added Successfully")
+        return redirect(to="acceptor:acceptor_view")
+    
+    initial_data = {
+        'type': "User Listing",
+        'is_always_open': False,
+        'lat': 40.69438,
+        'lon': -73.98648,
+    }
+    context = {"form": NewSiteForm(initial=initial_data)}
+    return render(request, "acceptor/new_site.html", context)
+
+
+@login_required
+def update_listing(request, pk):
+    site = get_object_or_404(Site, pk=pk)
+    form = NewSiteForm(request.POST or None, instance = site)
+
+    if form.is_valid():
+        form.save()
+        messages.success(request, "Listing Updated")
+        return redirect('acceptor:acceptor_view')
+    
+    return render(request, "acceptor/edit_site.html", {"form":form})
+    
+
+@login_required
+def delete_listing(request, pk):
+    site = get_object_or_404(Site, pk=pk)
+    if request.method == "POST":
+        if 'confirm' in request.POST:
+            site.delete()
+            messages.success(request, "Listing Deleted")
+        return redirect('acceptor:acceptor_view')
+      
+    return render(request, "acceptor/delete_site.html", {"site":site})
+
+

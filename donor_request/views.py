@@ -35,8 +35,9 @@ def create_request(request, site_id):
 
 @login_required
 def inbox(request):
-    user = request.user
-    sent = Message.objects.filter(sender=user)
-    received = Message.objects.filter(receiver=user)
-    context = {"user": user, "sent": sent, "received": received}
-    return render(request, "inbox.html", context)
+    #     user = request.user
+    #     sent = Message.objects.filter(sender=user)
+    #     received = Message.objects.filter(receiver=user)
+    #     context = {"user": user, "sent": sent, "received": received}
+    # return render(request, "inbox.html", context)
+    return render("inbox.html")

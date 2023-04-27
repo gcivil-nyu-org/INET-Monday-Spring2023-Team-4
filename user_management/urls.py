@@ -6,11 +6,12 @@ from django.contrib.auth import views as auth_views
 from users.views import CustomLoginView, ResetPasswordView, ChangePasswordView
 from dropoff_locator.views import locations
 from users.forms import LoginForm
+#from google import views as view
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("users.urls")),
-    path("acceptor/", include("acceptor.urls")),
+    path("acceptor/", include("acceptor.urls", namespace="acceptor")),
     path("map/", include("dropoff_locator.urls", namespace="dropoff_locator")),
     path("inbox/", include("donor_request.urls", namespace="donor_request")),
     path(

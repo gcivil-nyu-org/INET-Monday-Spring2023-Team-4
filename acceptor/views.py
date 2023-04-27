@@ -27,14 +27,13 @@ def create_listing(request):
         # add site to user's profile
         self = Profile.objects.get(user=request.user)
         self.sites.add(new_site)
-        
+
         # accepted_items = request.POST.getlist('accepted_items')
         # for accepted_item in accepted_items:
         #     item_id = int(accepted_item)
         #     item = Item.objects.get(pk=item_id)
         #     SiteAccepted(site=new_site, item=item).save()
 
-        
         # messages.success(request, "Listing Added Successfully")
 
         return redirect(to="acceptor:acceptor_view")

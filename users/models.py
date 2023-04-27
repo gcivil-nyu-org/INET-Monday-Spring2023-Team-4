@@ -36,4 +36,3 @@ class SiteHost(models.Model):
 
     def __str__(self):
         return "{}_{}".format(self.site.__str__(), self.host.__str__())
-        

@@ -5,7 +5,13 @@ from dropoff_locator.models import Item, Site
 class NewSiteForm(ModelForm):
     class Meta:
         model = Site
-        fields = ["name", "address", "borough", "notes", "accepted_items",]
+        fields = [
+            "name",
+            "address",
+            "borough",
+            "notes",
+            "accepted_items",
+        ]
         widgets = {
             "name": TextInput(
                 attrs={

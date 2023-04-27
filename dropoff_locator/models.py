@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class ItemCategory(models.IntegerChoices):
     ONE = 1, "Fruit and vegetable scraps, eggshells, nuts"
     TWO = 2, "Rice, pasta, bread, grains, cereal"
@@ -11,12 +12,14 @@ class ItemCategory(models.IntegerChoices):
     EIGHT = 8, "Plant and yard waste"
     NINE = 9, "Commercial food scraps"
 
+
 class Item(models.Model):
     id = models.IntegerField(choices=ItemCategory.choices, primary_key=True)
     description = models.CharField(max_length=50, null=True)
 
     def __str__(self):
         return self.description
+
 
 class Site(models.Model):
     BOROUGHS = [
@@ -45,7 +48,9 @@ class Site(models.Model):
     lat = models.FloatField(null=True)
     lon = models.FloatField(null=True)
     notes = models.TextField(null=True)
-    accepted_items = models.ManyToManyField(Item, through="SiteAccepted", related_name="accepts")
+    accepted_items = models.ManyToManyField(
+        Item, through="SiteAccepted", related_name="accepts"
+    )
 
     def __str__(self):
         return self.name
@@ -85,4 +90,7 @@ class SiteAccepted(models.Model):
     item = models.ForeignKey(Item, on_delete=models.CASCADE, unique=False)
 
     class Meta:
-        unique_together = ('site', 'item',)
+        unique_together = (
+            "site",
+            "item",
+        )

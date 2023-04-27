@@ -5,7 +5,7 @@ from django.urls import reverse
 from django.contrib import messages
 from .forms import NewSiteForm
 from users.models import Profile, SiteHost
-from dropoff_locator.models import Site
+from dropoff_locator.models import Site, Item, SiteAccepted
 
 
 @login_required
@@ -20,14 +20,23 @@ def dashboard(request):
 def create_listing(request):
     if request.method == "POST":
         form = NewSiteForm(request.POST)
-        # add site to site table
+
+        # create new site
         new_site = form.save()
 
-        # add site and user to sitehost table
+        # add site to user's profile
         self = Profile.objects.get(user=request.user)
-        SiteHost(site=new_site, host=self).save()
+        self.sites.add(new_site)
+        
+        # accepted_items = request.POST.getlist('accepted_items')
+        # for accepted_item in accepted_items:
+        #     item_id = int(accepted_item)
+        #     item = Item.objects.get(pk=item_id)
+        #     SiteAccepted(site=new_site, item=item).save()
 
-        messages.success(request, "Listing Added Successfully")
+        
+        # messages.success(request, "Listing Added Successfully")
+
         return redirect(to="acceptor:acceptor_view")
 
     # lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
@@ -59,6 +68,8 @@ def delete_listing(request, pk):
     site = get_object_or_404(Site, pk=pk)
     if request.method == "POST":
         if "confirm" in request.POST:
+            SiteAccepted.objects.filter(site=site).delete()
+            SiteHost.objects.filter(site=site).delete()
             site.delete()
             messages.success(request, "Listing Deleted")
         return redirect("acceptor:acceptor_view")

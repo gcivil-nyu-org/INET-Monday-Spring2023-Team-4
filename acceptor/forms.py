@@ -1,11 +1,11 @@
-from django.forms import ModelForm, TextInput, Textarea
-from dropoff_locator.models import Site
+from django.forms import ModelForm, TextInput, Textarea, CheckboxSelectMultiple
+from dropoff_locator.models import Item, Site
 
 
 class NewSiteForm(ModelForm):
     class Meta:
         model = Site
-        fields = ["name", "address", "borough", "notes"]
+        fields = ["name", "address", "borough", "notes", "accepted_items",]
         widgets = {
             "name": TextInput(
                 attrs={
@@ -25,7 +25,14 @@ class NewSiteForm(ModelForm):
                 attrs={
                     "class": "form-control",
                     "style": "max-width: 300px;",
-                    "placeholder": "Dropoff only available on weekends",
+                    "placeholder": "ex. Dropoff available only on weekends",
+                }
+            ),
+            "accepted_items": CheckboxSelectMultiple(
+                attrs={
+                    "class": "form-control",
+                    "style": "max-width: 300px;",
+                    "choices": Item.objects.all(),
                 }
             ),
         }

@@ -35,5 +35,5 @@ class SiteHost(models.Model):
     host = models.ForeignKey(Profile, on_delete=models.CASCADE, unique=False)
 
     def __str__(self):
-        # return "{}_{}".format(self.site.__str__(), self.host.__str__())
-        return self.site.__str__()
+        return "{}_{}".format(self.site.__str__(), self.host.__str__())
+        

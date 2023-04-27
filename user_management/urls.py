@@ -12,6 +12,7 @@ urlpatterns = [
     path("", include("users.urls")),
     path("acceptor/", include("acceptor.urls")),
     path("map/", include("dropoff_locator.urls", namespace="dropoff_locator")),
+    path("inbox/", include("donor_request.urls", namespace="donor_request")),
     path(
         "login/",
         CustomLoginView.as_view(

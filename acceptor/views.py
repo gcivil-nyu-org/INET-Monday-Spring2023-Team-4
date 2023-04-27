@@ -22,19 +22,15 @@ def create_listing(request):
         form = NewSiteForm(request.POST)
 
         # create new site
-        new_site = form.save()
+        if form.is_valid():
+            new_site = form.save()
+            new_site.lat = 40.69438
+            new_site.lon = -73.98648
+            new_site.save()
 
         # add site to user's profile
         self = Profile.objects.get(user=request.user)
         self.sites.add(new_site)
-
-        # accepted_items = request.POST.getlist('accepted_items')
-        # for accepted_item in accepted_items:
-        #     item_id = int(accepted_item)
-        #     item = Item.objects.get(pk=item_id)
-        #     SiteAccepted(site=new_site, item=item).save()
-
-        # messages.success(request, "Listing Added Successfully")
 
         return redirect(to="acceptor:acceptor_view")
 
@@ -42,8 +38,6 @@ def create_listing(request):
     initial_data = {
         "type": "User Listing",
         "is_always_open": False,
-        "lat": 40.69438,
-        "lon": -73.98648,
     }
     context = {"form": NewSiteForm(initial=initial_data)}
     return render(request, "acceptor/new_site.html", context)

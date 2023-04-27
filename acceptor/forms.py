@@ -6,6 +6,7 @@ class NewSiteForm(ModelForm):
     class Meta:
         model = Site
         fields = [
+            "type",
             "name",
             "address",
             "borough",

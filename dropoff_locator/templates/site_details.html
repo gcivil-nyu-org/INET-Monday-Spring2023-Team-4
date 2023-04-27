@@ -9,7 +9,9 @@
 
 {% if location.type == "User Listing" %}
   <h4>Request drop-off</h4>
+
 {% else %}
+
 <h3> Open Hours: </h3>
     {% if location.season == "Seasonal" %}
       <p>Open hours are applicable between {{ season.start }} and {{ season.end }}.</p>

@@ -2,7 +2,7 @@
 .profile-page-inner,
 .profile-page-item {
   position: absolute;
-  top: 597px;
+  top: 435px;
   left: 331px;
   border-radius: var(--br-5xs);
   background-color: var(--color-silver-100);
@@ -13,10 +13,10 @@
 }
 .profile-page-inner,
 .profile-page-item {
-  top: 697px;
+  top: 535px;
 }
 .profile-page-inner {
-  top: 598px;
+  top: 435px;
   left: 771px;
   width: 420px;
   height: 140px;
@@ -25,29 +25,29 @@
 .email-id,
 .username {
   position: absolute;
-  top: 574px;
+  top: 412px;
   left: 331px;
   font-weight: 500;
 }
 .bio,
 .email-id {
-  top: 674px;
+  top: 512px;
 }
 .bio {
-  top: 575px;
+  top: 412px;
   left: 771px;
 }
 .change-password,
 .change-picture {
   position: absolute;
-  top: 494px;
+  top: 332px;
   left: 666px;
   font-size: var(--font-size-xs);
   font-family: var(--font-montserrat);
   color: var(--color-cornflowerblue);
 }
 .change-password {
-  top: 535px;
+  top: 373px;
   left: 659px;
 }
 .save {
@@ -59,8 +59,8 @@
   flex-shrink: 0;
 }
 .button {
-  top: 817px;
-  left: 955px;
+  top: 784px;
+  left: 612px;
   border-radius: var(--br-5xs);
   width: 108px;
   display: flex;
@@ -81,8 +81,8 @@
   background-color: var(--color-mediumaquamarine);
 }
 .button1 {
-  top: 817px;
-  left: 1083px;
+  top: 784px;
+  left: 740px;
   border-radius: var(--br-5xs);
   width: 108px;
   display: flex;
@@ -100,12 +100,12 @@
   top: -15px;
   left: -7px;
   border-radius: var(--br-base) var(--br-base) 0 0;
-  width: 1447px;
-  height: 431px;
+  width: 1701px;
+  height: 277px;
 }
 .unsplashjmurdhtm7ng-icon {
   position: absolute;
-  top: 369px;
+  top: 207px;
   left: 652px;
   width: 122px;
   height: 122px;

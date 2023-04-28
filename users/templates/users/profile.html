@@ -46,7 +46,7 @@
             </button>
         </div>
     {% endif %}
-    <form method="post" enctype="multipart/form-data">
+    <!-- <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <div class="form-row">
             <div class="col-md-5">
@@ -68,7 +68,7 @@
         <br><br>
         <button type="submit" class="btn btn-dark btn-lg">Save Changes</button>
         <button type="reset" class="btn btn-dark btn-lg">Reset</button>
-    </form>
+    </form> -->
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <div class="profile-page">
@@ -80,12 +80,12 @@
         <div class="bio">Bio</div>
         <div class="change-picture"></div>{{ profile_form.avatar }}
         <div class="change-password"><a href="{% url 'password_change' %}">Change Password</a></div>
-        <div class="button">
+        <!-- <div class="button">
             <div class="save">Save</div>
         </div>
         <div class="button1">
             <div class="save">Reset</div>
-        </div>
+        </div> -->
         <div class="rectangle-div"></div>
         <img
             class="unsplashjmurdhtm7ng-icon"
@@ -93,8 +93,8 @@
             src="{{ user.profile.avatar.url }} " style="cursor: pointer;"
         />
         </div>
-        <button type="submit" class="button"><div class="save">Save</div></button>
-        <button type="reset" class="btn btn-dark btn-lg">Reset</button>
+        <button type="submit" class="button">Save</button>
+        <button type="reset" class="button1">Reset</button>
     </form>
   </body>
 </html>

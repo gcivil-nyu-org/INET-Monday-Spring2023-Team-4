@@ -79,6 +79,10 @@
   position: absolute;
   background-color: var(--color-mediumaquamarine);
 }
+.rectangle-div2 {
+  position: absolute;
+  background-color: var(--color-mediumaquamarine);
+}
 .button1 {
   top: 784px;
   left: 740px;
@@ -96,6 +100,13 @@
   font-family: var(--title-1);
 }
 .rectangle-div {
+  top: -15px;
+  left: -7px;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  width: 1701px;
+  height: 277px;
+}
+.rectangle-div2 {
   top: -15px;
   left: -7px;
   border-radius: var(--br-base) var(--br-base) 0 0;

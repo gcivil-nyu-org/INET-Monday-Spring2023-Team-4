@@ -46,29 +46,6 @@
             </button>
         </div>
     {% endif %}
-    <!-- <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <div class="form-row">
-            <div class="col-md-5">
-                <div class="form-group">
-                    <label class="small mb-1">Username:</label>
-                        {{ user_form.username }}
-                    <label class="small mb-1">Email:</label>
-                        {{ user_form.email }}
-                </div>
-                <div class="form-group">
-                    <a href="{% url 'password_change' %}">Change Password</a>
-                    <hr>
-                    <label class="small mb-1">Change Avatar:</label>
-                    {{ profile_form.avatar }}
-                </div>
-                <label class="small mb-1">Bio:</label> {{ profile_form.bio }}
-            </div>
-        </div>
-        <br><br>
-        <button type="submit" class="btn btn-dark btn-lg">Save Changes</button>
-        <button type="reset" class="btn btn-dark btn-lg">Reset</button>
-    </form> -->
     <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
         <div class="profile-page">
@@ -80,12 +57,6 @@
         <div class="bio">Bio</div>
         <div class="change-picture"></div>{{ profile_form.avatar }}
         <div class="change-password"><a href="{% url 'password_change' %}">Change Password</a></div>
-        <!-- <div class="button">
-            <div class="save">Save</div>
-        </div>
-        <div class="button1">
-            <div class="save">Reset</div>
-        </div> -->
         <div class="rectangle-div"></div>
         <img
             class="unsplashjmurdhtm7ng-icon"

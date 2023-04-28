@@ -3,9 +3,6 @@
 {% block content %}
 {% load static %}
 <!DOCTYPE html>
-<style>
-#compostable-2-icon{}
-</style>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -25,15 +22,17 @@
   <body>
     <div class="donor-flow-8">
       <div class="mapframe">
-        <div id="map" style="width: 100%; height: 100%;">
+        <div id="map" style="width: 100%; height: 768px;">
             <script>
                 var trashIcon = "{% static 'images/trash.png' %}";
+                var rCenterIcon = "{% static 'images/recycling-center.png' %}";
             </script>
             <script>
                 var map;
                 var lastWindow = -1;
                 var geocoder = new google.maps.Geocoder();
                 const trashIconJS = trashIcon;
+                const rCenterIconJS = rCenterIcon;
                 function initMap() {
                   map = new google.maps.Map(document.getElementById('map'), {
                     center: {lat: 40.73089125, lng: -73.99758504},
@@ -47,61 +46,40 @@
                   {% endfor %}
                 }
             </script>
-            <script>
-                {% for location in locations %}
-                    var contentString = 
-                        '<div id="content">' +
-                        "</div>" +
-                        '<h1 id="firstHeading" class="firstHeading"><b>{{ location.sitename }}</b></h1>' +
-                        '<h2 id="secondHeading" class="secondHeading">{{ location.siteaddr }}</h2>' +
-                        '<h2><b>Hours:</b></h2>' +
-                        '<p>{{ location.hours }}</p>' +
-                        "</div>";
-                    var marker{{ forloop.counter }} = new google.maps.Marker({
-                        position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
-                        map: map,
-                        icon: trashIconJS,
-                        title: '{{ location.sitename }}'
-                    });
-                    var infowindow{{ location.id }} = new google.maps.InfoWindow({
-                        content: contentString
-                    });
-                    marker{{ forloop.counter }}.addListener('click', function() {
-                        console.log('Marker clicked');
-                        closeAllInfoWindows();
-                        infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
-                        map.panTo(marker{{ forloop.counter }}.getPosition());
-                        map.setZoom(18);
-                    });
-                    infowindow{{ location.id }}.addListener('closeclick', function() {            
-                        map.setZoom(15);
 
-                    });
-                {% endfor %}
-            </script>
             </div>
       </div>
-      <div class="bg-blur"></div>
-      <div class="div">11209</div>
-      <img class="side-menu-icon" alt="" src="{% static 'images/side-menu.svg' %}" />
-
-      <div class="compost-nearby">Compost nearby</div>
-      <div class="search">
+      <div class="bg-blur">
+        <div class="div">11209</div>
+        <div class="compost-nearby">Compost nearby</div>
+        <div class="search">
+     
         <div class="akar-iconssearch-parent">
-          <img
-            class="akar-iconssearch"
-            alt=""
-            src="{% static 'images/akariconssearch.svg' %}"
-          />
+              <img
+                class="akar-iconssearch"
+                alt=""
+                src="{% static 'images/akariconssearch.svg' %}"
+              />
 
-          <div class="search1">Search...</div>
+              <div class="search1">Search...</div>
         </div>
         <img
           class="vuesaxlinearsetting-4-icon"
           alt=""
           src="{% static 'images/vuesaxlinearsetting4.svg' %}"
         />
+        <form method="GET" action="{% url 'dropoff_locator:locator_view' %}">
+            {{ form.as_p }}
+            <input type="submit" value="Submit" class="btn btn-primary" />
+        </form>    
       </div>
+
+
+
+
+
+
+      <!--
       <div class="card-shipment">
         <div class="card-shipment-child"></div>
         <div class="card-shipment-item"></div>
@@ -141,138 +119,110 @@
 
         <img class="ellipse-icon" alt="" />
       </div>
-      <img
-        class="compostable-2-icon"
-        alt=""
-        src="{% static 'images/compostable-2@2x.png' %}"
-      />
+
 
       <img
         class="iconsaxlinearlocation"
         alt=""
         src="{% static 'images/iconsaxlinearlocation.svg' %}"
       />
+-->     {% for location in locations %}
+        <script>
+            
+                var contentString = 
+                    '<div id="content">' +
+                    "</div>" +
+                    '<h1 id="firstHeading" class="firstHeading"><b>{{ location.sitename }}</b></h1>' +
+                    '<h2 id="secondHeading" class="secondHeading">{{ location.siteaddr }}</h2>' +
+                    '<h2><b>Hours:</b></h2>' +
+                    '<p>{{ location.hours }}</p>' +
+                    "</div>";
+                {% if Site.type == "NYC Smart Bin" %}
+                    var marker{{ forloop.counter }} = new google.maps.Marker({
+                        position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
+                        map: map,
+                        icon: trashIconJS,
+                        title: '{{ location.sitename }}'
+                    });
+                {% elif Site.type == "NYC Community Site" %}
+                    var marker{{ forloop.counter }} = new google.maps.Marker({
+                        position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
+                        map: map,
+                        icon: rCenterIconJS,
+                        title: '{{ location.sitename }}'
+                    });
+                {% else %}
+                    var marker{{ forloop.counter }} = new google.maps.Marker({
+                        position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
+                        map: map,
+                        icon: trashIconJS,
+                        title: '{{ location.sitename }}'
+                    });                    
+                var infowindow{{ location.id }} = new google.maps.InfoWindow({
+                    content: contentString
+                });
+                {% endif %}
+                marker{{ forloop.counter }}.addListener('click', function() {
+                    console.log('Marker clicked');
+                    closeAllInfoWindows();
+                    infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
+                    map.panTo(marker{{ forloop.counter }}.getPosition());
+                    map.setZoom(18);
+                });
+                infowindow{{ location.id }}.addListener('closeclick', function() {            
+                    map.setZoom(15);
 
-      <div class="card-shipment-parent">
+                });
+            
+        </script>
+        <div class="card-shipment-parent">
         <div class="card-shipment1">
           <div class="rectangle-div"></div>
-          <div class="line-div"></div>
+          <div class="card-shipment-child3"></div>
+          <!-- <div class="line-div"></div> -->
           <div class="card-shipment-child1"></div>
-          <div class="bin-20170023461">BIN-2017002346</div>
+          <div class="bin-20170023461">{{ location.name }}</div>
           <div class="alliance-for-downtown-new-york-group">
             <div class="alliance-for-downtown1">
-              Alliance for Downtown New York
+              [ Host field in model? ]
             </div>
             <div class="accepts-food-wastes">
               Accepts food wastes and plastics
             </div>
-            <div class="jay-street">370 Jay Street</div>
+            <div class="card-address">{{ location.address }}</div>
             <div class="hosted-by1">Hosted by</div>
           </div>
-          <div class="open-2471">Open 24/7</div>
+          <div class="open-2471">[ Insert hours ]</div>
           <img class="call-icon1" alt="" src="{% static 'images/call.svg' %}" />
 
           <img class="message-icon1" alt="" src="{% static 'images/message.svg' %}" />
 
           <img class="card-shipment-child2" alt="" />
         </div>
-        <div class="div1">4.7</div>
+        <div class="div1">[ Insert Rating ]</div>
         <img
           class="iconsaxbulkstar1"
           alt=""
           src="{% static 'images/iconsaxbulkstar1.svg' %}"
         />
-      </div>
-      <div class="card-shipment-group">
-        <div class="card-shipment1">
-          <div class="card-shipment-child3"></div>
-          <div class="line-div"></div>
-          <div class="card-shipment-child1"></div>
-          <div class="bin-20170023461">BIN-2017002346</div>
-          <div class="alliance-for-downtown-new-york-group">
-            <div class="alliance-for-downtown1">
-              Alliance for Downtown New York
-            </div>
-            <div class="accepts-food-wastes">
-              Accepts food wastes and plastics
-            </div>
-            <div class="jay-street">370 Jay Street</div>
-            <div class="hosted-by1">Hosted by</div>
-          </div>
-          <div class="open-2471">Open 24/7</div>
-          <img class="call-icon1" alt="" src="{% static 'images/call1.svg' %}" />
-
-          <img class="message-icon1" alt="" src="{% static 'images/message_grey.svg' %}" />
-
-          <img class="card-shipment-child6" alt="" />
         </div>
-        <div class="div1">4.7</div>
-        <img
-          class="iconsaxbulkstar1"
-          alt=""
-          src="{% static 'images/iconsaxbulkstar1.svg' %}"
-        />
+
+        {% endfor %}
+
       </div>
-      <div class="card-shipment-container">
-        <div class="card-shipment1">
-          <div class="card-shipment-child3"></div>
-          <div class="line-div"></div>
-          <div class="card-shipment-child1"></div>
-          <div class="bin-20170023461">BIN-2017002346</div>
-          <div class="alliance-for-downtown-new-york-group">
-            <div class="alliance-for-downtown1">
-              Alliance for Downtown New York
-            </div>
-            <div class="accepts-food-wastes">
-              Accepts food wastes and plastics
-            </div>
-            <div class="jay-street">370 Jay Street</div>
-            <div class="hosted-by1">Hosted by</div>
-          </div>
-          <div class="open-2471">Open 24/7</div>
-          <img class="call-icon1" alt="" src="{% static 'images/call1.svg' %}" />
+      
+      <img class="side-menu-icon" alt="" src="{% static 'images/side-menu.svg' %}" />
+      <img
+        class="compostable-2-icon"
+        alt=""
+        src="{% static 'images/compostable-2@2x.png' %}"
+      />
 
-          <img class="message-icon1" alt="" src="{% static 'images/message_grey.svg' %}" />
 
-          <img class="card-shipment-child10" alt="" />
-        </div>
-        <div class="div1">4.7</div>
-        <img
-          class="iconsaxbulkstar1"
-          alt=""
-          src="{% static 'images/iconsaxbulkstar1.svg' %}"
-        />
-      </div>
-      <div class="card-shipment-parent1">
-        <div class="card-shipment1">
-          <div class="card-shipment-child3"></div>
-          <div class="line-div"></div>
-          <div class="card-shipment-child1"></div>
-          <div class="bin-20170023461">BIN-2017002346</div>
-          <div class="alliance-for-downtown-new-york-group">
-            <div class="alliance-for-downtown1">
-              Alliance for Downtown New York
-            </div>
-            <div class="accepts-food-wastes">
-              Accepts food wastes and plastics
-            </div>
-            <div class="jay-street">370 Jay Street</div>
-            <div class="hosted-by1">Hosted by</div>
-          </div>
-          <div class="open-2471">Open 24/7</div>
-          <img class="call-icon1" alt="" src="{% static 'images/call1.svg' %}" />
 
-          <img class="message-icon1" alt="" src="{% static 'images/message_grey.svg' %}" />
 
-          <img class="card-shipment-child14" alt="" />
-        </div>
-        <div class="div1">4.7</div>
-        <img
-          class="iconsaxbulkstar1"
-          alt=""
-          src="{% static 'images/iconsaxbulkstar1.svg' %}"
-        />
-      </div>
+
+
       <div class="donor-flow-8-child"></div>
       <div class="you-are-a">You are a</div>
       <div class="donor-flow-8-item"></div>

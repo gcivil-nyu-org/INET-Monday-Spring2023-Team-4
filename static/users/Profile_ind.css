@@ -1,0 +1,124 @@
+.profile-page-child,
+.profile-page-inner,
+.profile-page-item {
+  position: absolute;
+  top: 597px;
+  left: 331px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-silver-100);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 318px;
+  height: 40px;
+}
+.profile-page-inner,
+.profile-page-item {
+  top: 697px;
+}
+.profile-page-inner {
+  top: 598px;
+  left: 771px;
+  width: 420px;
+  height: 140px;
+}
+.bio,
+.email-id,
+.username {
+  position: absolute;
+  top: 574px;
+  left: 331px;
+  font-weight: 500;
+}
+.bio,
+.email-id {
+  top: 674px;
+}
+.bio {
+  top: 575px;
+  left: 771px;
+}
+.change-password,
+.change-picture {
+  position: absolute;
+  top: 494px;
+  left: 666px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-montserrat);
+  color: var(--color-cornflowerblue);
+}
+.change-password {
+  top: 535px;
+  left: 659px;
+}
+.save {
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  display: inline-block;
+  width: 138px;
+  flex-shrink: 0;
+}
+.button {
+  top: 817px;
+  left: 955px;
+  border-radius: var(--br-5xs);
+  width: 108px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--title-1-size);
+  color: var(--gray-1);
+  font-family: var(--title-1);
+}
+.button,
+.button1,
+.rectangle-div {
+  position: absolute;
+  background-color: var(--color-mediumaquamarine);
+}
+.button1 {
+  top: 817px;
+  left: 1083px;
+  border-radius: var(--br-5xs);
+  width: 108px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--title-1-size);
+  color: var(--gray-1);
+  font-family: var(--title-1);
+}
+.rectangle-div {
+  top: -15px;
+  left: -7px;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  width: 1447px;
+  height: 431px;
+}
+.unsplashjmurdhtm7ng-icon {
+  position: absolute;
+  top: 369px;
+  left: 652px;
+  width: 122px;
+  height: 122px;
+  object-fit: cover;
+}
+.profile-page {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-text-inter-14-regular-size);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

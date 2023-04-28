@@ -110,6 +110,7 @@
   width: 122px;
   height: 122px;
   object-fit: cover;
+  border-style: ridge;
 }
 .profile-page {
   position: relative;

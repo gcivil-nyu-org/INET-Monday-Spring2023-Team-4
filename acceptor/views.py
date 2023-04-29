@@ -13,7 +13,7 @@ from dropoff_locator.models import Site, SiteAccepted
 @login_required
 def dashboard(request):
     sites = request.user.profile.sites.all()
-    
+
     context = {"user": request.user, "sites": sites}
     return render(request, "acceptor/acceptor.html", context)
 

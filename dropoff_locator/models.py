@@ -32,7 +32,7 @@ class Site(models.Model):
     SCHEDULE_TYPES = [
         ("Year Round", "Year Round"),
         ("Seasonal", "Seasonal"),
-        ("User", "User")
+        ("User", "User"),
     ]
     SITE_TYPES = [
         ("NYC Smart Bin", "NYC Smart Bin"),

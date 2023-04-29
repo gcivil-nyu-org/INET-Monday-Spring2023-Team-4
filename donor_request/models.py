@@ -6,15 +6,19 @@ from django.utils import timezone
 
 class Request(models.Model):
     STATUS = [
-        ("Sent", "Sent"), #messages not yet read by host
+        ("Sent", "Sent"),  # messages not yet read by host
         ("OpenNotScheduled", "OpenNotScheduled"),
         ("Scheduled", "Scheduled"),
         ("Rejected", "Rejected"),
         ("Completed", "Completed"),
         ("Canceled", "Canceled"),
     ]
-    donor = models.ForeignKey(Profile, on_delete=models.CASCADE, unique=False, related_name="requests")
-    host = models.ForeignKey(Profile, on_delete=models.CASCADE, unique=False, related_name="receives")
+    donor = models.ForeignKey(
+        Profile, on_delete=models.CASCADE, unique=False, related_name="requests"
+    )
+    host = models.ForeignKey(
+        Profile, on_delete=models.CASCADE, unique=False, related_name="receives"
+    )
     site = models.ForeignKey(Site, on_delete=models.CASCADE, unique=False)
     status = models.CharField(max_length=25, choices=STATUS, default="Sent")
 

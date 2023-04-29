@@ -8,7 +8,7 @@ from .forms import MessageForm
 from .filters import RequestFilter
 
 
-#donor required
+# donor required
 @login_required
 def create_request(request, pk):
     user = request.user.profile
@@ -26,7 +26,12 @@ def create_request(request, pk):
             return redirect(to="site_details", pk=pk)
 
     form = MessageForm()
-    context = {"form": form, "user": user, "site": site, "host": host,}
+    context = {
+        "form": form,
+        "user": user,
+        "site": site,
+        "host": host,
+    }
     return render(request, "donor_request/request.html", context)
 
 
@@ -34,8 +39,8 @@ def create_request(request, pk):
 def send_response(request, pk):
     curr_request = Request.objects.get(pk=pk)
     user = request.user.profile
-    
-    #pk is response_id
+
+    # pk is response_id
     if request.method == "POST":
         form = MessageForm(request.POST)
         if form.is_valid():
@@ -44,14 +49,14 @@ def send_response(request, pk):
             new_message.save()
             messages.success(request, "Request Sent")
             return redirect(to="request_thread", pk=pk)
-    
+
     form = MessageForm()
 
     context = {
-        "form": MessageForm(), 
-        #"request": curr_request, 
-        #"sender": user, 
-        #"receiver": curr_request.host if user is curr_request.donor else curr_request.donor,
+        "form": MessageForm(),
+        # "request": curr_request,
+        # "sender": user,
+        # "receiver": curr_request.host if user is curr_request.donor else curr_request.donor,
     }
     return render(request, "donor_request/response.html", context)
 
@@ -59,15 +64,14 @@ def send_response(request, pk):
 def view_thread(request, pk):
     pass
 
+
 @login_required
 def inbox(request):
-    if request.method == 'POST':
-        user = request.user.profile    
+    if request.method == "POST":
+        user = request.user.profile
         filter = RequestFilter(request.GET, queryset=Request.objects.filter(donor=user))
         context = {"form": filter.form, "requests": filter.qs}
         return render(request, "donor_request/inbox.html", context)
-    
-
 
     #     user = request.user
     #     sent = Message.objects.filter(sender=user)
@@ -79,4 +83,3 @@ def inbox(request):
 
 def request_thread(request):
     pass
-

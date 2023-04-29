@@ -25,7 +25,7 @@ class Profile(models.Model):
             new_img = (100, 100)
             img.thumbnail(new_img)
             img.save(self.avatar.path)
-        
+
 
 class SiteHost(models.Model):
     site = models.ForeignKey(Site, on_delete=models.CASCADE, unique=False)

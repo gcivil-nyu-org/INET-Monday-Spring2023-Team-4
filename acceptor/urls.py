@@ -8,8 +8,5 @@ urlpatterns = [
     path("new-site/", views.create_listing, name="new_site"),
     path("<int:pk>/edit/", views.update_listing, name="edit_site"),
     path("<int:pk>/delete/", views.delete_listing, name="delete_site"),
-    #path("map/", include("dropoff_locator.urls", namespace="dropoff_locator")),
+    # path("map/", include("dropoff_locator.urls", namespace="dropoff_locator")),
 ]
-
-
-

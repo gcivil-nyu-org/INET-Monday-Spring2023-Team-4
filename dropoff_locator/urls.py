@@ -9,5 +9,3 @@ urlpatterns = [
     path("<int:pk>/", site_details, name="site_details"),
     path("<int:pk>/new-request/", donor_new_request, name="new_request"),
 ]
-
-

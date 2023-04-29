@@ -15,24 +15,26 @@ def dashboard(request):
     if request.method == "POST":
         ntaname = request.POST["ntaname"]
         siteaddr = request.POST["siteaddr"]
-        fromtime = request.POST["fromtime"]
-        totime = request.POST["totime"]
-        website = request.POST["website"]
+        # fromtime = request.POST["fromtime"]
+        # totime = request.POST["totime"]
+        # website = request.POST["website"]
         borough = request.POST["borough"]
         lat = request.POST["lat"]
         lon = request.POST["lon"]
         notes = request.POST["notes"]
+        accepted_items = request.POST["accepted_items"]
 
         data = dashboard(
-            ntaname=ntaname,
-            siteaddr=siteaddr,
-            hours="From" + fromtime + "to" + totime,
-            website=website,
+            name=ntaname,
+            address=siteaddr,
+            # hours="From" + fromtime + "to" + totime,
+            # website=website,
             borough=borough,
             lat=lat,
             lon=lon,
             notes=notes,
-            hosted=request.user.username,
+            accepted_items=accepted_items,
+            # hosted=request.user.username,
         )
 
         self = request.user.profile

@@ -31,7 +31,7 @@
       {% for request in requests %}
 
       <tr>
-          <th>{{ request.site }}</td>
+          <th><a href="{% url 'donor_request:request_thread' request.pk %}">{{ request.site }}</a></td>
           <th>{{ request.host }}</a></th>
           <td>{{ request.status }}</td>
 

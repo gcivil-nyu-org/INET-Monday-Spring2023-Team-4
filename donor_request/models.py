@@ -21,6 +21,8 @@ class Request(models.Model):
     )
     site = models.ForeignKey(Site, on_delete=models.CASCADE, unique=False)
     status = models.CharField(max_length=25, choices=STATUS, default="Sent")
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
 
 
 class Message(models.Model):

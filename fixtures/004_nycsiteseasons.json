@@ -3,264 +3,264 @@
     "model": "dropoff_locator.SiteSeason",
     "pk": 6721,
     "fields": {
-      "start": "1-May",
-      "end": "1-Nov"
+      "start": "May 1",
+      "end": "Nov 1"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6765,
     "fields": {
-      "start": "1-Apr",
-      "end": "31-Oct"
+      "start": "Apr 1",
+      "end": "Oct 1"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6806,
     "fields": {
-      "start": "1-Apr",
-      "end": "31-Oct"
+      "start": "Apr 1",
+      "end": "Oct 1"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6820,
     "fields": {
-      "start": "1-Apr",
-      "end": "31-Oct"
+      "start": "Apr 1",
+      "end": "Oct 1"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6821,
     "fields": {
-      "start": "1-Mar",
-      "end": "30-Nov"
+      "start": "Mar 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6822,
     "fields": {
-      "start": "1-Apr",
-      "end": "31-Oct"
+      "start": "Apr 1",
+      "end": "Oct 31"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6824,
     "fields": {
-      "start": "1-Apr",
-      "end": "31-Oct"
+      "start": "Apr 1",
+      "end": "Oct 31"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6860,
     "fields": {
-      "start": "31-Mar",
-      "end": "30-Jan"
+      "start": "Mar 31",
+      "end": "Jan 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6924,
     "fields": {
-      "start": "1-Apr",
-      "end": "30-Nov"
+      "start": "Apr 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6952,
     "fields": {
-      "start": "1-May",
-      "end": "28-Nov"
+      "start": "May 1",
+      "end": "Nov 28"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6990,
     "fields": {
-      "start": "1-Apr",
-      "end": "19-Nov"
+      "start": "Apr 1",
+      "end": "Nov 19"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 6998,
     "fields": {
-      "start": "14-Jul",
-      "end": "24-Nov"
+      "start": "Jul 14",
+      "end": "Nov 24"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7022,
     "fields": {
-      "start": "1-Apr",
-      "end": "30-Nov"
+      "start": "Apr 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7025,
     "fields": {
-      "start": "23-Jun",
-      "end": "27-Oct"
+      "start": "Jun 23",
+      "end": "Oct 27"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7048,
     "fields": {
-      "start": "1-Sep",
-      "end": "30-Jun"
+      "start": "Sep 1",
+      "end": "Jun 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7075,
     "fields": {
-      "start": "1-Mar",
-      "end": "31-Jan"
+      "start": "Mar 1",
+      "end": "Jan 31"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7079,
     "fields": {
-      "start": "1-Mar",
-      "end": "30-Nov"
+      "start": "Mar 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7080,
     "fields": {
-      "start": "1-Mar",
-      "end": "30-Nov"
+      "start": "Mar 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7081,
     "fields": {
-      "start": "1-Mar",
-      "end": "30-Nov"
+      "start": "Mar 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7082,
     "fields": {
-      "start": "1-Mar",
-      "end": "30-Nov"
+      "start": "Mar 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7083,
     "fields": {
-      "start": "1-Mar",
-      "end": "30-Nov"
+      "start": "Mar 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7084,
     "fields": {
-      "start": "1-Mar",
-      "end": "30-Nov"
+      "start": "Mar 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7098,
     "fields": {
-      "start": "1-Jul",
-      "end": "30-Nov"
+      "start": "Jul 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7111,
     "fields": {
-      "start": "1-Jun",
-      "end": "31-Oct"
+      "start": "Jun 1",
+      "end": "Oct 31"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7122,
     "fields": {
-      "start": "1-Sep",
-      "end": "30-Jun"
+      "start": "Sep 1",
+      "end": "Jun 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7127,
     "fields": {
-      "start": "1-Mar",
-      "end": "30-Nov"
+      "start": "Mar 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7136,
     "fields": {
-      "start": "1-Mar",
-      "end": "31-Jan"
+      "start": "Mar 1",
+      "end": "Jan 31"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7150,
     "fields": {
-      "start": "11-Jun",
-      "end": "19-Nov"
+      "start": "Jun 11",
+      "end": "Nov 19"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7160,
     "fields": {
-      "start": "1-Jul",
-      "end": "31-Dec"
+      "start": "Jul 1",
+      "end": "Dec 31"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7167,
     "fields": {
-      "start": "1-Jul",
-      "end": "30-Nov"
+      "start": "Jul 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7174,
     "fields": {
-      "start": "1-Apr",
-      "end": "30-Nov"
+      "start": "Apr 1",
+      "end": "Nov 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7175,
     "fields": {
-      "start": "1-Sep",
-      "end": "30-Jun"
+      "start": "Sep 1",
+      "end": "Jun 30"
     }
   },
   {
     "model": "dropoff_locator.SiteSeason",
     "pk": 7183,
     "fields": {
-      "start": "1-Apr",
-      "end": "31-Oct"
+      "start": "Apr 1",
+      "end": "Oct 31"
     }
   }
 ]

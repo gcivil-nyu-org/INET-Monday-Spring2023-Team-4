@@ -1,0 +1,37 @@
+
+<h1>{{ location.name }}</h1>
+<h3> Host(s): </h3>
+{% for host in hosts %}
+<ul> 
+  <li>{{ host }}</a></li>
+</ul>
+{% endfor %}
+
+{% if location.type == "User Listing" %}
+  <h4>Request drop-off</h4>
+{% else %}
+<h3> Open Hours: </h3>
+    {% if location.season == "Seasonal" %}
+      <p>Open hours are applicable between {{ season.start }} and {{ season.end }}.</p>
+    {% else %}
+      <p> This location is open year-round. </p>
+    {% endif %}
+  
+    {% if location.is_always_open %}
+      <p><b>Monday: </b>Open 24/7</p>
+      <p><b>Tuesday: </b>Open 24/7</p>
+      <p><b>Wednesday: </b>Open 24/7</p>
+      <p><b>Thursday: </b>Open 24/7</p>
+      <p><b>Friday: </b>Open 24/7</p>
+      <p><b>Saturday: </b>Open 24/7</p>
+      <p><b>Sunday: </b>Open 24/7</p>
+    {% else %}
+      <p><b>Monday: </b>{{ schedule.mon }}</p>
+      <p><b>Tuesday: </b>{{ schedule.tues }}</p>
+      <p><b>Wednesday: </b>{{ schedule.wed }}</p>
+      <p><b>Thursday: </b>{{ schedule.thurs }}</p>
+      <p><b>Friday: </b>{{ schedule.fri }}</p>
+      <p><b>Saturday: </b>{{ schedule.sat }}</p>
+      <p><b>Sunday: </b>{{ schedule.sun }}</p>
+    {% endif %}
+  {% endif %}

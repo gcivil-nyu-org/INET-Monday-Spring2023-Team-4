@@ -1,15 +1,74 @@
 {% extends "users/base.html" %}
 {% block title %}Logout{% endblock title %}
 {% block content %}
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-        <h5 class="card-title">You have been logged out</h5>
-        <p class="card-text">
-            Thanks for your time, contact me for any comments or suggestions using my email address.
-        </p>
-        <br><hr><a href="{% url 'login' %}" class="btn btn-primary">Sign in again</a>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{% static 'users/logout_global.css' %}"/>
+    <link rel="stylesheet" href="{% static 'users/logout.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bungee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="logout">
+      <div class="bg">
+        <div class="bg1"></div>
+        <div class="composts">COMPOSTS</div>
+      </div>
+      <div class="now-account">
+        <div class="go-back-to-container">
+          <span>Go back to</span>
+          <span class="span"> </span>
+          <span class="login"><a href="{% url 'login' %}">Login</a></span>
         </div>
+      </div>
+      <div class="logo">
+        <div class="title">
+          <div class="thank-you-for">Thank you for using NYC Compost</div>
+        </div>
+      </div>
+      <img
+        class="compostable-1-icon"
+        alt=""
+        src="{% static 'images/compostable-21@2x.png' %}"
+      />
+
+      <img
+        class="unsplashpashrakideu-icon"
+        alt=""
+        src="{% static 'images/unsplashpashrakideu@2x.png' %}"
+      />
+
+      <img
+        class="kindpng-1591284-1-icon"
+        alt=""
+        src="{% static 'images/kindpng-1591284-3@2x.png' %}"
+      />
     </div>
-
-
+  </body>
+</html>
 {% endblock content %}

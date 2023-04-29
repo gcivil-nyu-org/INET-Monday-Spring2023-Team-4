@@ -11,7 +11,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("users.urls")),
     path("acceptor/", include("acceptor.urls")),
-    path("map/", locations, name="Locator View"),
+    path("map/", include("dropoff_locator.urls", namespace="dropoff_locator")),
     path(
         "login/",
         CustomLoginView.as_view(

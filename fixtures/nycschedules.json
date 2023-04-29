@@ -1,0 +1,2667 @@
+[
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7022,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 10:00 AM - End Time: 12:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7165,
+      "mon": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "tues": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "wed": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "thurs": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "fri": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "sat": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "sun": "Start Time: 10:00 AM - End Time: 4:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6771,
+      "mon": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "tues": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "wed": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "thurs": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "fri": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "sat": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "sun": "Start Time: 10:00 AM - End Time: 6:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6719,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6732,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6733,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6737,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6738,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6739,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6740,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6897,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6898,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6899,
+      "mon": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 7:00 PM",
+      "sun": "Start Time: 7:00 AM - End Time: 7:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7156,
+      "mon": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "tues": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "wed": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "thurs": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "fri": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "sat": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "sun": "Start Time: 8:00 AM - End Time: 5:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7019,
+      "mon": "Start Time: 9:00 AM - End Time: 6:00 PM",
+      "tues": "Start Time: 9:00 AM - End Time: 6:00 PM",
+      "wed": "Start Time: 9:00 AM - End Time: 6:00 PM",
+      "thurs": "Start Time: 9:00 AM - End Time: 6:00 PM",
+      "fri": "Start Time: 9:00 AM - End Time: 6:00 PM",
+      "sat": "Start Time: 9:00 AM - End Time: 6:00 PM",
+      "sun": "Start Time: 9:00 AM - End Time: 6:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7113,
+      "mon": "Start Time: 9:00 AM - End Time: 8:00 PM",
+      "tues": "Start Time: 9:00 AM - End Time: 8:00 PM",
+      "wed": "Start Time: 9:00 AM - End Time: 8:00 PM",
+      "thurs": "Start Time: 9:00 AM - End Time: 8:00 PM",
+      "fri": "Start Time: 9:00 AM - End Time: 8:00 PM",
+      "sat": "Start Time: 9:00 AM - End Time: 8:00 PM",
+      "sun": "Start Time: 9:00 AM - End Time: 8:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7042,
+      "mon": "Start Time: 9:00 AM - End Time: Dusk",
+      "tues": "Start Time: 9:00 AM - End Time: Dusk",
+      "wed": "Start Time: 9:00 AM - End Time: Dusk",
+      "thurs": "Start Time: 9:00 AM - End Time: Dusk",
+      "fri": "Start Time: 9:00 AM - End Time: Dusk",
+      "sat": "Start Time: 9:00 AM - End Time: Dusk",
+      "sun": "Start Time: 9:00 AM - End Time: Dusk"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6722,
+      "mon": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "tues": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "wed": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "thurs": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "fri": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "sat": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "sun": "Start Time: Check ferry schedule - End Time: Check ferry schedule"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6723,
+      "mon": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "tues": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "wed": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "thurs": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "fri": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "sat": "Start Time: Check ferry schedule - End Time: Check ferry schedule",
+      "sun": "Start Time: Check ferry schedule - End Time: Check ferry schedule"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6734,
+      "mon": "Start Time: Dawn - End Time: Dusk",
+      "tues": "Start Time: Dawn - End Time: Dusk",
+      "wed": "Start Time: Dawn - End Time: Dusk",
+      "thurs": "Start Time: Dawn - End Time: Dusk",
+      "fri": "Start Time: Dawn - End Time: Dusk",
+      "sat": "Start Time: Dawn - End Time: Dusk",
+      "sun": "Start Time: Dawn - End Time: Dusk"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6760,
+      "mon": "Start Time: Dawn - End Time: Dusk",
+      "tues": "Start Time: Dawn - End Time: Dusk",
+      "wed": "Start Time: Dawn - End Time: Dusk",
+      "thurs": "Start Time: Dawn - End Time: Dusk",
+      "fri": "Start Time: Dawn - End Time: Dusk",
+      "sat": "Start Time: Dawn - End Time: Dusk",
+      "sun": "Start Time: Dawn - End Time: Dusk"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6807,
+      "mon": "Start Time: Dawn - End Time: Dusk",
+      "tues": "Start Time: Dawn - End Time: Dusk",
+      "wed": "Start Time: Dawn - End Time: Dusk",
+      "thurs": "Start Time: Dawn - End Time: Dusk",
+      "fri": "Start Time: Dawn - End Time: Dusk",
+      "sat": "Start Time: Dawn - End Time: Dusk",
+      "sun": "Start Time: Dawn - End Time: Dusk"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6815,
+      "mon": "Start Time: Dawn - End Time: Dusk",
+      "tues": "Start Time: Dawn - End Time: Dusk",
+      "wed": "Start Time: Dawn - End Time: Dusk",
+      "thurs": "Start Time: Dawn - End Time: Dusk",
+      "fri": "Start Time: Dawn - End Time: Dusk",
+      "sat": "Start Time: Dawn - End Time: Dusk",
+      "sun": "Start Time: Dawn - End Time: Dusk"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7075,
+      "mon": "Start Time: Dawn - End Time: Dusk",
+      "tues": "Start Time: Dawn - End Time: Dusk",
+      "wed": "Start Time: Dawn - End Time: Dusk",
+      "thurs": "Start Time: Dawn - End Time: Dusk",
+      "fri": "Start Time: Dawn - End Time: Dusk",
+      "sat": "Start Time: Dawn - End Time: Dusk",
+      "sun": "Start Time: Dawn - End Time: Dusk"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7140,
+      "mon": "Start Time: Dawn - End Time: Dusk",
+      "tues": "Start Time: Dawn - End Time: Dusk",
+      "wed": "Start Time: Dawn - End Time: Dusk",
+      "thurs": "Start Time: Dawn - End Time: Dusk",
+      "fri": "Start Time: Dawn - End Time: Dusk",
+      "sat": "Start Time: Dawn - End Time: Dusk",
+      "sun": "Start Time: Dawn - End Time: Dusk"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7168,
+      "mon": "Start Time: Dawn - End Time: Dusk",
+      "tues": "Start Time: Dawn - End Time: Dusk",
+      "wed": "Start Time: Dawn - End Time: Dusk",
+      "thurs": "Start Time: Dawn - End Time: Dusk",
+      "fri": "Start Time: Dawn - End Time: Dusk",
+      "sat": "Start Time: Dawn - End Time: Dusk",
+      "sun": "Start Time: Dawn - End Time: Dusk"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7184,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 1:30 PM - End Time: 4:30 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7076,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 10:00 AM - End Time: 1:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7151,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 10:30 AM - End Time: 2:30 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7015,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 11:00 AM - End Time: 2:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7030,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 11:00 AM - End Time: 4:30 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7160,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 12:00 PM - End Time: 3:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7048,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 2:00 PM - End Time: 3:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7179,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 4:00 PM - End Time: 5:30 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7123,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 7:30 AM - End Time: 11:30 AM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7017,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 1:30 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7023,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 11:30 AM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7122,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6990,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6992,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7009,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6729,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 12:30 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7157,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:30 AM - End Time: 1:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6755,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:30 AM - End Time: 12:30 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7072,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:30 AM - End Time: 2:30 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6824,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 9:00 AM - End Time: 10:00 AM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7005,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 9:00 AM - End Time: 11:00 AM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6905,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6980,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 11:00 AM - End Time: 4:00 PM",
+      "sat": "Start Time: 11:00 AM - End Time: 4:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6822,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 9:00 AM - End Time: 1:00 PM",
+      "sat": "Start Time: 9:00 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7159,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "sat": "Start Time: 9:30 AM - End Time: 2:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7158,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sat": "Start Time: 12:00 PM - End Time: 12:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7141,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:30 AM - End Time: 3:30 PM",
+      "sat": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7107,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: 5:00 PM - End Time: 6:00 PM",
+      "sat": "Start Time: 2:00 PM - End Time: 5:00 PM",
+      "sun": "Start Time: 2:00 PM - End Time: 5:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7091,
+      "mon": "Start Time: 12:00 PM - End Time: 1:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7146,
+      "mon": "Start Time: 9:00 AM - End Time:  3:00 PM",
+      "tues": "Start Time: 9:00 AM - End Time:  3:00 PM",
+      "wed": "Start Time: 9:00 AM - End Time:  3:00 PM",
+      "thurs": "Start Time: 9:00 AM - End Time:  3:00 PM",
+      "fri": "Start Time: 9:00 AM - End Time:  3:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7099,
+      "mon": "Start Time: 9:00 AM - End Time:  5:00 PM",
+      "tues": "Start Time: 9:00 AM - End Time:  5:00 PM",
+      "wed": "Start Time: 9:00 AM - End Time:  5:00 PM",
+      "thurs": "Start Time: 9:00 AM - End Time:  5:00 PM",
+      "fri": "Start Time: 9:00 AM - End Time:  5:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6931,
+      "mon": "Start Time: 7:00 AM - End Time: 5:00 PM",
+      "tues": "Start Time: 7:00 AM - End Time: 5:00 PM",
+      "wed": "Start Time: 7:00 AM - End Time: 5:00 PM",
+      "thurs": "Start Time: 7:00 AM - End Time: 5:00 PM",
+      "fri": "Start Time: 7:00 AM - End Time: 5:00 PM",
+      "sat": "Start Time: 7:00 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6823,
+      "mon": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "thurs": "Closed",
+      "fri": "Start Time: 10:00 AM - End Time: 6:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6996,
+      "mon": "Start Time: 10:00 AM - End Time: 5:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7148,
+      "mon": "Start Time: 12:00 PM - End Time: 2:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7149,
+      "mon": "Start Time: 12:00 PM - End Time: 2:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7043,
+      "mon": "Start Time: 8:00 AM - End Time: 2:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7110,
+      "mon": "Start Time: 9:00 AM - End Time: 12:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7182,
+      "mon": "Start Time: 9:00 AM - End Time: 12:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6726,
+      "mon": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6921,
+      "mon": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6932,
+      "mon": "Start Time: 10:00 AM - End Time: 12:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 6:00 PM - End Time: 8:00 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6988,
+      "mon": "Start Time: 12:00 PM - End Time: 5:00 PM",
+      "tues": "Closed",
+      "wed": "Start Time: 12:00 PM - End Time: 5:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7096,
+      "mon": "Start Time: 4:00 PM - End Time: 7:00 PM",
+      "tues": "Closed",
+      "wed": "Start Time: 4:00 PM - End Time: 7:00 PM",
+      "thurs": "Closed",
+      "fri": "Start Time: 4:00 PM - End Time: 7:00 PM",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6903,
+      "mon": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "tues": "Closed",
+      "wed": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "thurs": "Closed",
+      "fri": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "sat": "Start Time: 8:00 AM - End Time: 5:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7147,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 1:00 PM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6952,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7121,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7073,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7111,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7004,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7174,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6929,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7144,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:30 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6953,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:30 AM - End Time: 12:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7026,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 11:00 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7177,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 11:00 AM - End Time: 1:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6821,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 11:00 AM - End Time: 3:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6829,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 11:00 AM - End Time: 3:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7136,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 12:00 PM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6720,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7170,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6762,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6912,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6981,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6984,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7145,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6761,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 12:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6790,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 12:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6901,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6778,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:00 AM - End Time: 3:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6925,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:30 AM - End Time: 11:30 AM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7150,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 8:30 AM - End Time: 12:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7164,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7027,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6904,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7034,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7031,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 3:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7046,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 3:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7044,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 3:45 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7045,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 4:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6979,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:30 AM - End Time: 1:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6987,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 4:00 PM",
+      "sun": "Start Time: 10:00 AM - End Time: 4:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6860,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 12:00 PM - End Time: 2:00 PM",
+      "sun": "Start Time: 12:00 PM - End Time: 2:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6721,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 12:00 PM - End Time: 4:00 PM",
+      "sun": "Start Time: 12:00 PM - End Time: 4:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6924,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 2:00 PM - End Time: 4:00 PM",
+      "sun": "Start Time: 2:00 PM - End Time: 4:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6978,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 1:00 PM - End Time: 4:00 PM "
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6983,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 10:00 AM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7135,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 10:00 AM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6846,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 10:00 AM - End Time: 3:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7142,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 10:30 AM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6763,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 11:00 AM - End Time: 4:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6728,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 11:00 AM - End Time: 2:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6982,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 11:30 AM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6985,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 11:30 AM - End Time: 2:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6743,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 12:00 PM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6764,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 12:00 PM - End Time: 2:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6933,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 12:00 PM - End Time: 3:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7143,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 2:00 PM - End Time: 5:00 PM "
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7124,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 7:30 AM - End Time: 12:30 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6750,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 8:00 AM - End Time: 12:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6781,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 8:00 AM - End Time: 12:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6922,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 8:00 AM - End Time: 5:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7138,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 8:30 AM - End Time: 12:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7024,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 8:30 AM - End Time: 2:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6767,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 9:00 AM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7070,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 9:00 AM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7134,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 9:00 AM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6779,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 9:00 AM - End Time: 11:00 AM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6730,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 9:00 AM - End Time: 3:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7020,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 9:30 AM - End Time: 1:30 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6782,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 7:00 PM - End Time: 8:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 9:00 AM - End Time: 10:00 AM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6930,
+      "mon": "Start Time: 1:00 PM - End Time: 7:00 PM",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 9:00 AM - End Time: 1:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6999,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 1:00 PM - End Time: 5:00 PM",
+      "fri": "Start Time: 1:00 PM - End Time: 5:00 PM",
+      "sat": "Start Time: 10:30 AM - End Time: 12:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7120,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 1:00 PM - End Time: 6:00 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6993,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 1:00 PM - End Time: 6:00 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7155,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 4:00 PM - End Time: 5:30 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7025,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 4:00 PM - End Time: 5:30 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6748,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 4:00 PM - End Time: 5:30 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6731,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 4:00 PM - End Time: 5:30 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6773,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 4:00 PM - End Time: 5:30 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6907,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 4:00 PM - End Time: 5:30 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7090,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 4:00 PM - End Time: 5:30 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6859,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 8:30 AM - End Time: 11:30 AM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6954,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 8:30 AM - End Time: 11:30 AM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6725,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 8:30 AM - End Time: 11:30 AM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6727,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 8:30 AM - End Time: 11:30 AM)",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7114,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 8:30 AM - End Time: 11:30 AM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7137,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 8:30 AM - End Time: 11:30 AM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6820,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Closed",
+      "thurs": "Start Time: 1:00 PM - End Time: 4:00 PM",
+      "fri": "Closed",
+      "sat": "Start Time: 11:00 AM - End Time: 3:00 PM",
+      "sun": "Start Time: 11:00 AM - End Time: 3:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6806,
+      "mon": "Closed",
+      "tues": "Start Time: 5:00 PM - End Time: 7:00 PM",
+      "wed": "Start Time: 7:30 AM - End Time: 9:00 AM",
+      "thurs": "Start Time: 6:00 PM - End Time: 7:00 PM",
+      "fri": "Start Time: 8:00 AM - End Time: 10:00 AM",
+      "sat": "Start Time: 10:00 AM - End Time: 12:00 PM",
+      "sun": "Start Time: 10:00 AM - End Time: 12:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6768,
+      "mon": "Closed",
+      "tues": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6769,
+      "mon": "Closed",
+      "tues": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6770,
+      "mon": "Closed",
+      "tues": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6926,
+      "mon": "Closed",
+      "tues": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6927,
+      "mon": "Closed",
+      "tues": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7018,
+      "mon": "Closed",
+      "tues": "Start Time: 12:00 PM - End Time: 2:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7127,
+      "mon": "Closed",
+      "tues": "Start Time: 4:00 PM - End Time: 7:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7035,
+      "mon": "Closed",
+      "tues": "Start Time: 8:00 AM - End Time: 10:00 AM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6717,
+      "mon": "Closed",
+      "tues": "Start Time: 8:00 AM - End Time: 11:00 AM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7098,
+      "mon": "Closed",
+      "tues": "Start Time: 8:00 AM - End Time: 2:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6736,
+      "mon": "Closed",
+      "tues": "Start Time: 9:00 AM - End Time: 12:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7139,
+      "mon": "Closed",
+      "tues": "Start Time: 9:00 AM - End Time: 12:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6923,
+      "mon": "Closed",
+      "tues": "Start Time: Tuesday: 1:30 PM - End Time: 4:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Start Time: 12:00 PM - End Time: 4:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7167,
+      "mon": "Closed",
+      "tues": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "wed": "Closed",
+      "thurs": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7163,
+      "mon": "Closed",
+      "tues": "Start Time: 12:00 PM - End Time: 4:00 PM",
+      "wed": "Start Time: 12:00 PM - End Time: 4:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7071,
+      "mon": "Closed",
+      "tues": "Start Time: 6:00 PM - 8:00 PM",
+      "wed": "Closed",
+      "thurs": "Closed",
+      "fri": "Start Time: Dawn - End Time: All night",
+      "sat": "Start Time: Dawn - End Time: All night",
+      "sun": "Start Time: Dawn - End Time: 4:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7086,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7021,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 1:00 PM - End Time: 3:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7161,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 1:00 PM - End Time: 3:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6805,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 1:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7016,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 1:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7162,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 12:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6784,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6785,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6786,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6787,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6788,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7118,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 12:00 PM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6802,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 2:00 PM - End Time: 7:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6998,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 2:30 PM - End Time: 5:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7183,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 3:30 PM - End Time: 5:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7133,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 4:00 PM - End Time: 5:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6735,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 7:30 AM - End Time: 1:30 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6783,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 7:30 AM - End Time: 10:30 AM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6902,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 8:00 AM - End Time: 1:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6928,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 8:00 AM - End Time: 12:30 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6759,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 8:30 AM - End Time: 12:30 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6986,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 9:00 AM - End Time: 12:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6724,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6741,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6900,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 9:00 AM - End Time: 2:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7074,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 9:30 AM - End Time: 1:30 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Closed",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6906,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:30 AM - End Time: 12:30 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 10:30 AM - End Time: 12:30 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6847,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 8:00 AM - End Time: 10:00 AM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 11:00 AM - End Time: 1:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6765,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 4:30 PM - End Time: 6:30 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 9:00 AM - End Time: 1:00 PM",
+      "sun": "Start Time: 10:00 AM - End Time: 2:00 PM"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6766,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 5:00 PM - End Time: 6:00 PM",
+      "thurs": "Closed",
+      "fri": "Closed",
+      "sat": "Start Time: 11:00 AM - End Time: 12:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 7166,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 5:00 PM",
+      "thurs": "Start Time: 10:00 AM - End Time: 5:00 PM",
+      "fri": "Start Time: 10:00 AM - End Time: 5:00 PM",
+      "sat": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSchedule",
+    "fields": {
+      "site": 6989,
+      "mon": "Closed",
+      "tues": "Closed",
+      "wed": "Start Time: 10:00 AM - End Time: 1:00 PM",
+      "thurs": "Start Time: 10:00 AM - End Time: 1:00 PM",
+      "fri": "Closed",
+      "sat": "Start Time: 10:00 AM - End Time: 2:00 PM",
+      "sun": "Closed"
+    }
+  }
+]

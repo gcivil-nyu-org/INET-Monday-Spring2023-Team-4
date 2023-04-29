@@ -1,5 +1,6 @@
 from django.contrib import admin
+from .models import Request, Message
 
-# from .models import Profile
+admin.site.register(Request)
+admin.site.register(Message)
 
-# admin.site.register(Profile)

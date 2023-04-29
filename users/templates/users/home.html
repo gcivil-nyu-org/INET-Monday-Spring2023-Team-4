@@ -23,8 +23,11 @@
         <div class="welcome-choose-how">
           Welcome, {{user.first_name.title|default:'Guest'}}! Choose how you want to clean our planet
         </div>
+
+      <form action="" method="POST">{% csrf_token %}
         <div class="as-a-donor">
               {% if user.is_authenticated %}
+                  <button type="submit" name="donor">As a Donor</button>
                   <a href="{% url 'dropoff_locator:locator_view' %}">As a Donor</a>
               {% else %}
                   <a href="{% url 'login' %}">As a Donor</a>
@@ -32,11 +35,14 @@
         </div>
         <div class="as-an-acceptor">
             {% if user.is_authenticated %}
+                  <button type="submit" name="host">As an Acceptor</button>
                   <a href="{% url 'acceptor:acceptor_view' %}">As an Acceptor</a>
               {% else %}
                   <a href="{% url 'login' %}">As an Acceptor</a>
               {% endif %}
         </div>
+      </form>
+
         <div class="as-a-facility">
             {% if user.is_authenticated %}
                   <a href="{% url 'dropoff_locator:locator_view' %}">As a Facility</a>

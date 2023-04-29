@@ -12,9 +12,10 @@ from users.forms import LoginForm
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("users.urls")),
+    path("main/", include("dashboard.urls", namespace="donor")),
     path("acceptor/", include("acceptor.urls", namespace="acceptor")),
     path("map/", include("dropoff_locator.urls", namespace="dropoff_locator")),
-    path("inbox/", include("donor_request.urls", namespace="donor_request")),
+    path("messages/", include("donor_request.urls", namespace="donor_request")),
     path(
         "login/",
         CustomLoginView.as_view(

@@ -1,17 +1,19 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
+from django import http
+from django.http import HttpResponse
 from django.urls import reverse
 from django.contrib import messages
 from .forms import NewSiteForm
 from users.models import Profile, SiteHost
-from dropoff_locator.models import Site, Item, SiteAccepted
+from dropoff_locator.models import Site, SiteAccepted
 
 
 @login_required
 def dashboard(request):
-    profile = Profile.objects.get(user=request.user)
-    sites = profile.sites.all()
+    sites = request.user.profile.sites.all()
+    
     context = {"user": request.user, "sites": sites}
     return render(request, "acceptor/acceptor.html", context)
 
@@ -28,9 +30,9 @@ def create_listing(request):
             new_site.lon = -73.98648
             new_site.save()
 
-        # add site to user's profile
-        self = Profile.objects.get(user=request.user)
-        self.sites.add(new_site)
+            # add site to user's profile
+            self = request.user.profile
+            self.sites.add(new_site)
 
         return redirect(to="acceptor:acceptor_view")
 

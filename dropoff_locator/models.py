@@ -32,6 +32,7 @@ class Site(models.Model):
     SCHEDULE_TYPES = [
         ("Year Round", "Year Round"),
         ("Seasonal", "Seasonal"),
+        ("User", "User")
     ]
     SITE_TYPES = [
         ("NYC Smart Bin", "NYC Smart Bin"),
@@ -47,7 +48,7 @@ class Site(models.Model):
     is_always_open = models.BooleanField(default=False)
     lat = models.FloatField(null=True)
     lon = models.FloatField(null=True)
-    notes = models.TextField(null=True)
+    notes = models.TextField(null=True, blank=True)
     accepted_items = models.ManyToManyField(
         Item, through="SiteAccepted", related_name="accepts"
     )

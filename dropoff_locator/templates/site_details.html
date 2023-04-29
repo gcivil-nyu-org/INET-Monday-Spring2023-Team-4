@@ -8,7 +8,7 @@
 {% endfor %}
 
 {% if location.type == "User Listing" %}
-  <h4>Request drop-off</h4>
+  <h4><a href="{% url 'donor_request:create_request' location.id %}">Request a drop-off</h4>
 
 {% else %}
 

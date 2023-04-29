@@ -8,5 +8,5 @@ class RequestFilter(django_filters.FilterSet):
         model = Request
         fields = {
             "host": ["exact"],
-            "status": ['exact'],
+            "status": ["exact"],
         }

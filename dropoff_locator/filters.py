@@ -10,5 +10,3 @@ class SiteFilter(django_filters.FilterSet):
             "type": ["exact"],
             "accepted_items": ["exact"],
         }
-
-

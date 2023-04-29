@@ -12,6 +12,9 @@ from dropoff_locator.models import Site, SiteAccepted
 
 @login_required
 def dashboard(request):
+
+    sites = request.user.profile.sites.all()
+
     if request.method == "POST":
         ntaname = request.POST["ntaname"]
         siteaddr = request.POST["siteaddr"]
@@ -22,9 +25,9 @@ def dashboard(request):
         lat = request.POST["lat"]
         lon = request.POST["lon"]
         notes = request.POST["notes"]
-        accepted_items = request.POST["accepted_items"]
+        # accepted_items = request.POST["accepted_items"]
 
-        data = dashboard(
+        data = Site(
             name=ntaname,
             address=siteaddr,
             # hours="From" + fromtime + "to" + totime,
@@ -33,19 +36,20 @@ def dashboard(request):
             lat=lat,
             lon=lon,
             notes=notes,
-            accepted_items=accepted_items,
+            # accepted_items=accepted_items,
             # hosted=request.user.username,
         )
 
+        data.save()
         self = request.user.profile
         self.sites.add(data)
 
         messages.success(request, "Bin Added Successfully.")
         return redirect(to="acceptor:acceptor_view")
     
-    sites = request.user.profile.sites.all()
     context = {"user": request.user, "sites": sites}
     return render(request, "acceptor/acceptor.html", context)
+    
 
     # messages.success(request, "Bin Added Successfully.")
     #     return redirect(to="acceptor_view")
@@ -66,9 +70,9 @@ def dashboard(request):
 
     #     return redirect(to="acceptor:acceptor_view")
 
-    # # lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
-    #     context = {"form": NewSiteForm()}
-    #     return render(request, "acceptor/acceptor.html", context)
+    # lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
+        # context = {"form": NewSiteForm()}
+        # return render(request, "acceptor/acceptor.html", context)
 
 @login_required
 def update_listing(request, pk):

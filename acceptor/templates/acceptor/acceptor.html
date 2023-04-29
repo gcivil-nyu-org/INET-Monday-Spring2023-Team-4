@@ -89,16 +89,6 @@
       />
       <div class="alliance-for-downtown1">{{ user.username }}</div>
       {% for site in sites %}
-      {% if bin.hosted == user.username %}
-      <!-- <div class="acceptor-flow-2-child6">
-        <div class="bin-2017002346-wrapper">
-          <div class="sai-teja"> {{ bin.ntaname }} </div>
-        </div>
-        <div class="open-2471">{{ bin.borough }}</div>
-          <div class="acceptor-flow-2-child9"></div>
-          <div class="accepts-food-wastes">Notes: {{ bin.notes }}<br><br>Hours: {{ bin.hours }}</div>
-          <br>
-      </div> -->
       <div class="acceptor-flow-2-child6">
         <div class="bin-2017002346-wrapper">
           <div class="sai-teja"> {{ site.name }} </div>
@@ -114,16 +104,16 @@
           <div><a href="{% url 'acceptor:edit_site' site.id %}"><b>Edit</b></a></div>
           <div><a href="{% url 'acceptor:delete_site' site.id %}"><b>Delete</b></a></div>
       </div>
+          <div>
       <!-- <div class="jay-street"></div> -->
-      
       {% endfor %}
       <div class="acceptor-flow-2-child15"></div>
       <div class="you-are-a">You are a</div>
       <div class="acceptor-flow-2-child16"></div>
       <div class="donor"><a href="{% url 'dropoff_locator:locator_view' %}">Donor</a></div>
-      <div class="acceptor"><a href="{% url 'acceptor_view' %}">Acceptor</a></div>
+      <div class="acceptor"><a href="{% url 'acceptor:acceptor_view' %}">Acceptor</a></div>
       <div class="facility"><a href="{% url 'dropoff_locator:locator_view' %}">Facility</a></div>
-      <div class="restaurant"><a href="{% url 'acceptor_view' %}">Restaurant</a></div>
+      <div class="restaurant"><a href="{% url 'acceptor:acceptor_view' %}">Restaurant</a></div>
       <div class="button">
         <div class="add-compost-bin" id="sou"><a href="#addcompost" id="but">+ Add Compost Bin</a></div>
       </div>
@@ -223,7 +213,7 @@
       <!-- <div class="add-bin-flow-child31"></div> -->
       <!-- <div class="add-bin-flow-child32"></div> -->
       <!-- <div class="add-bin-flow-child33"></div> -->
-      <form action="{% url 'acceptor_view' %}" method="POST">
+      <form action="{% url 'acceptor:acceptor_view' %}" method="POST">
         {% csrf_token %}
         <input class="add-bin-flow-child26" type="text" name="ntaname" placeholder="ntaname" required />
         <input class="add-bin-flow-child27" type="text" name="siteaddr" required />

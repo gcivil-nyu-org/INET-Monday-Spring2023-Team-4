@@ -7,6 +7,5 @@ class RequestFilter(django_filters.FilterSet):
     class Meta:
         model = Request
         fields = {
-            "host": ["exact"],
             "status": ["exact"],
         }

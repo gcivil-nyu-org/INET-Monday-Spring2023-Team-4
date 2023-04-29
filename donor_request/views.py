@@ -69,12 +69,19 @@ def view_thread(request, pk):
 @login_required
 def inbox(request):
     user = request.user.profile
-    user_requests = RequestFilter(
-        request.GET, queryset=Request.objects.filter(donor=user).order_by("-updated")
-    )
-    context = {"form": user_requests.form, "requests": user_requests.qs}
-    return render(request, "donor_request/inbox.html", context)
 
+    if request.session["profile"] == "donor":
+        user_requests = RequestFilter(
+            request.GET, queryset=Request.objects.filter(donor=user).order_by("-updated")
+        )
+        context = {"form": user_requests.form, "requests": user_requests.qs}
+        return render(request, "donor_request/inbox.html", context)
+    elif request.session["profile"] == "host":
+        user_requests = RequestFilter(
+            request.GET, queryset=Request.objects.filter(host=user).order_by("-updated")
+        )
+        context = {"form": user_requests.form, "requests": user_requests.qs}
+        return render(request, "donor_request/inbox.html", context)
 
 def request_thread(request, pk):
     user_request = get_object_or_404(Request, pk=pk)

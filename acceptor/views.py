@@ -13,31 +13,60 @@ from dropoff_locator.models import Site, SiteAccepted
 @login_required
 def dashboard(request):
     if request.method == "POST":
-        form = NewSiteForm(request.POST)
+        ntaname = request.POST["ntaname"]
+        siteaddr = request.POST["siteaddr"]
+        fromtime = request.POST["fromtime"]
+        totime = request.POST["totime"]
+        website = request.POST["website"]
+        borough = request.POST["borough"]
+        lat = request.POST["lat"]
+        lon = request.POST["lon"]
+        notes = request.POST["notes"]
 
-        # create new site
-        if form.is_valid():
-            new_site = form.save()
-            new_site.lat = 40.69438
-            new_site.lon = -73.98648
-            new_site.save()
+        data = dashboard(
+            ntaname=ntaname,
+            siteaddr=siteaddr,
+            hours="From" + fromtime + "to" + totime,
+            website=website,
+            borough=borough,
+            lat=lat,
+            lon=lon,
+            notes=notes,
+            hosted=request.user.username,
+        )
 
-            # add site to user's profile
-            self = request.user.profile
-            self.sites.add(new_site)
+        self = request.user.profile
+        self.sites.add(data)
 
+        messages.success(request, "Bin Added Successfully.")
         return redirect(to="acceptor:acceptor_view")
-
-    # lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
-        context = {"form": NewSiteForm()}
-        return render(request, "acceptor/acceptor.html", context)
-
+    
     sites = request.user.profile.sites.all()
     context = {"user": request.user, "sites": sites}
     return render(request, "acceptor/acceptor.html", context)
 
     # messages.success(request, "Bin Added Successfully.")
     #     return redirect(to="acceptor_view")
+
+    # if request.method == "POST":
+    #     form = NewSiteForm(request.POST)
+
+    #     # create new site
+    #     if form.is_valid():
+    #         new_site = form.save()
+    #         new_site.lat = 40.69438
+    #         new_site.lon = -73.98648
+    #         new_site.save()
+
+    #         # add site to user's profile
+    #         self = request.user.profile
+    #         self.sites.add(new_site)
+
+    #     return redirect(to="acceptor:acceptor_view")
+
+    # # lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
+    #     context = {"form": NewSiteForm()}
+    #     return render(request, "acceptor/acceptor.html", context)
 
 @login_required
 def update_listing(request, pk):

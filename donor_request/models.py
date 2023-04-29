@@ -7,7 +7,7 @@ from django.utils import timezone
 class Request(models.Model):
     STATUS = [
         ("Sent", "Sent"),  # messages not yet read by host
-        ("OpenNotScheduled", "OpenNotScheduled"),
+        ("Open", "Open"),
         ("Scheduled", "Scheduled"),
         ("Rejected", "Rejected"),
         ("Completed", "Completed"),

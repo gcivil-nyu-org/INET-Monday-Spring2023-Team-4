@@ -6,3 +6,4 @@ class MessageForm(ModelForm):
     class Meta:
         model = Message
         fields = ("text",)
+        

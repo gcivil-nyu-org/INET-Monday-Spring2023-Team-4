@@ -19,11 +19,12 @@ def create_request(request, pk):
         form = MessageForm(request.POST)
         if form.is_valid():
             text = form.cleaned_data.get("text")
-            new_request = Request(donor=user, site=site).save()
+            new_request = Request(donor=user, host=host, site=site)
+            new_request.save()
             initial_message = Message(request=new_request, sender=user, text=text)
             initial_message.save()
             messages.success(request, "Request Sent")
-            return redirect(to="site_details", pk=pk)
+            return redirect(to="dropoff_locator:site_details", pk=pk)
 
     form = MessageForm()
     context = {
@@ -67,19 +68,13 @@ def view_thread(request, pk):
 
 @login_required
 def inbox(request):
-    if request.method == "POST":
-        user = request.user.profile
-        filter = RequestFilter(request.GET, queryset=Request.objects.filter(donor=user))
-        context = {"form": filter.form, "requests": filter.qs}
-        return render(request, "donor_request/inbox.html", context)
-
-    #     user = request.user
-    #     sent = Message.objects.filter(sender=user)
-    #     received = Message.objects.filter(receiver=user)
-    #     context = {"user": user, "sent": sent, "received": received}
-    # return render(request, "inbox.html", context)
-    return render("donor_request:inbox.html")
+    user = request.user.profile
+    user_requests = RequestFilter(request.GET, queryset=Request.objects.filter(donor=user))
+    context = {"form": user_requests.form, "requests": user_requests.qs}
+    return render(request, "donor_request/inbox.html", context)
 
 
-def request_thread(request):
-    pass
+def request_thread(request, pk):
+    context = {}
+    return render (request, "donor_request/view_request.html", context)
+    

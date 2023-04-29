@@ -11,6 +11,7 @@ def locations(request):
 
 def site_details(request, pk):
     site = get_object_or_404(Site, pk=pk)
+    accepted_items = site.accepted_items.all()  
     hosts = site.hosts.all()
     season = site.get_season()
     schedule = site.get_schedule()
@@ -19,5 +20,6 @@ def site_details(request, pk):
         "hosts": hosts,
         "season": season,
         "schedule": schedule,
+        "items": accepted_items,
     }
     return render(request, "site_details.html", context)

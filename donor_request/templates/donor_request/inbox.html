@@ -1,3 +1,7 @@
+{% extends "users/base.html" %}
+{% block title %} Inbox {% endblock title%}
+{% block content %}
+{% load static %}
 
 <form method="GET">
   {{ form.as_p }}
@@ -13,6 +17,7 @@
     word-break: break-word;
   }
 </style>
+<div></div>
 <div id="table">
     <table class="table is-fullwidth is-striped is-bordered">
       <thead>
@@ -20,16 +25,14 @@
           <th>Site</th>
           <th>Host</th>
           <th>Status</th>
-          <th>Last Message</th>
       </tr>
       </thead>
       <tbody>
       {% for request in requests %}
 
       <tr>
-          <th>{{ request.site__name }}</td>
-          <th>{{ request.host__username }}</a></th>
-          <td>{{ request.status }}</td>
+          <th>{{ request.site }}</td>
+          <th>{{ request.host }}</a></th>
           <td>{{ request.status }}</td>
 
       </tr>
@@ -39,3 +42,4 @@
 </div>
 
 
+{% endblock %}

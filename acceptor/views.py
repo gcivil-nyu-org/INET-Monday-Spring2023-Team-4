@@ -37,11 +37,7 @@ def create_listing(request):
         return redirect(to="acceptor:acceptor_view")
 
     # lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
-    initial_data = {
-        "type": "User Listing",
-        "is_always_open": False,
-    }
-    context = {"form": NewSiteForm(initial=initial_data)}
+    context = {"form": NewSiteForm()}
     return render(request, "acceptor/new_site.html", context)
 
 

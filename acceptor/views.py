@@ -11,7 +11,6 @@ from dropoff_locator.models import Site, SiteAccepted
 
 @login_required
 def dashboard(request):
-
     sites = request.user.profile.sites.all()
 
     if request.method == "POST":
@@ -45,10 +44,9 @@ def dashboard(request):
 
         messages.success(request, "Bin Added Successfully.")
         return redirect(to="acceptor:acceptor_view")
-    
+
     context = {"user": request.user, "sites": sites}
     return render(request, "acceptor/acceptor.html", context)
-    
 
     # messages.success(request, "Bin Added Successfully.")
     #     return redirect(to="acceptor_view")
@@ -70,8 +68,9 @@ def dashboard(request):
     #     return redirect(to="acceptor:acceptor_view")
 
     # lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
-        # context = {"form": NewSiteForm()}
-        # return render(request, "acceptor/acceptor.html", context)
+    # context = {"form": NewSiteForm()}
+    # return render(request, "acceptor/acceptor.html", context)
+
 
 @login_required
 def update_listing(request, pk):

@@ -6,7 +6,7 @@
   background-color: var(--white-white);
   box-shadow: var(--border-shadow-left);
   height: 958px;
-  overflow: hidden;
+  overflow: auto;
 }
 .bg-blur,
 .div,

@@ -126,55 +126,54 @@
         alt=""
         src="{% static 'images/iconsaxlinearlocation.svg' %}"
       />
--->     {% for location in locations %}
-        <script>
-            
-                var contentString = 
-                    '<div id="content">' +
-                    "</div>" +
-                    '<h1 id="firstHeading" class="firstHeading"><b>{{ location.sitename }}</b></h1>' +
-                    '<h2 id="secondHeading" class="secondHeading">{{ location.siteaddr }}</h2>' +
-                    '<h2><b>Hours:</b></h2>' +
-                    '<p>{{ location.hours }}</p>' +
-                    "</div>";
-                {% if Site.type == "NYC Smart Bin" %}
-                    var marker{{ forloop.counter }} = new google.maps.Marker({
-                        position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
-                        map: map,
-                        icon: trashIconJS,
-                        title: '{{ location.sitename }}'
-                    });
-                {% elif Site.type == "NYC Community Site" %}
-                    var marker{{ forloop.counter }} = new google.maps.Marker({
-                        position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
-                        map: map,
-                        icon: rCenterIconJS,
-                        title: '{{ location.sitename }}'
-                    });
-                {% else %}
-                    var marker{{ forloop.counter }} = new google.maps.Marker({
-                        position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
-                        map: map,
-                        icon: trashIconJS,
-                        title: '{{ location.sitename }}'
-                    });                    
-                var infowindow{{ location.id }} = new google.maps.InfoWindow({
-                    content: contentString
-                });
-                {% endif %}
-                marker{{ forloop.counter }}.addListener('click', function() {
-                    console.log('Marker clicked');
-                    closeAllInfoWindows();
-                    infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
-                    map.panTo(marker{{ forloop.counter }}.getPosition());
-                    map.setZoom(18);
-                });
-                infowindow{{ location.id }}.addListener('closeclick', function() {            
-                    map.setZoom(15);
 
-                });
-            
-        </script>
+-->  
+    {% for location in locations %}   
+    <script>
+
+        var markers = [];   
+        var iconType;
+        {% if location.type == "NYC Smart Bin" %}
+            iconType = trashIconJS;
+        {% elif location.type == "NYC Community Site" %}
+            iconType = rCenterIconJS;
+        {% endif %}
+        var contentString = 
+            '<div id="content">' +
+            "</div>" +
+            '<h1 id="firstHeading" class="firstHeading"><b>{{ location.name }}</b></h1>' +
+            '<h2 id="secondHeading" class="secondHeading">{{ location.address }}</h2>' +
+            '<h2><b>Hours:</b></h2>' +
+            '<p>{{ location.hours }}</p>' +
+            "</div>";
+            var marker{{ forloop.counter }} = new google.maps.Marker({
+                animation: google.maps.Animation.DROP,
+                position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
+                map: map,
+                icon: iconType,
+                title: '{{ location.name }}'
+            });
+            console.log('marker{{ forloop.counter }} Created');
+        var infowindow{{ forloop.counter }} = new google.maps.InfoWindow({
+            content: contentString
+        });
+        marker{{ forloop.counter }}.addListener('click', function() {
+            console.log('Marker clicked');
+            closeAllInfoWindows();
+            infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
+            map.panTo(marker{{ forloop.counter }}.getPosition());
+            map.setZoom(17);
+        });
+        infowindow{{ forloop.counter }}.addListener('closeclick', function() {            
+            map.setZoom(16.5);
+
+        });
+        markers.push(marker{{ forloop.counter }});
+
+
+    </script>
+
+
         <div class="card-shipment-parent">
         <div class="card-shipment1">
           <div class="rectangle-div"></div>
@@ -206,8 +205,13 @@
           src="{% static 'images/iconsaxbulkstar1.svg' %}"
         />
         </div>
-
         {% endfor %}
+        <script>
+            map.addListener("click", () => {
+                map.setZoom(16.5);
+              closeAllInfoWindows();
+            });
+        </script>
 
       </div>
       
@@ -236,7 +240,7 @@
 </html>
 
 
-
+{% endblock content %}
 <!--
 
 <html lang="en">
@@ -358,4 +362,3 @@
       </tbody>
     </table>
 </div>
-{% endblock content %}

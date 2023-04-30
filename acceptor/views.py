@@ -72,28 +72,28 @@ def dashboard(request):
     # return render(request, "acceptor/acceptor.html", context)
 
 
-@login_required
-def update_listing(request, pk):
-    site = get_object_or_404(Site, pk=pk)
-    form = NewSiteForm(request.POST or None, instance=site)
+# @login_required
+# def update_listing(request, pk):
+#     site = get_object_or_404(Site, pk=pk)
+#     form = NewSiteForm(request.POST or None, instance=site)
 
-    if form.is_valid():
-        form.save()
-        messages.success(request, "Listing Updated")
-        return redirect("acceptor:acceptor_view")
+#     if form.is_valid():
+#         form.save()
+#         messages.success(request, "Listing Updated")
+#         return redirect("acceptor:acceptor_view")
 
-    return render(request, "acceptor/edit_site.html", {"form": form})
+#     return render(request, "acceptor/edit_site.html", {"form": form})
 
 
-@login_required
-def delete_listing(request, pk):
-    site = get_object_or_404(Site, pk=pk)
-    if request.method == "POST":
-        if "confirm" in request.POST:
-            SiteAccepted.objects.filter(site=site).delete()
-            SiteHost.objects.filter(site=site).delete()
-            site.delete()
-            messages.success(request, "Listing Deleted")
-        return redirect("acceptor:acceptor_view")
+# @login_required
+# def delete_listing(request, pk):
+#     site = get_object_or_404(Site, pk=pk)
+#     if request.method == "POST":
+#         if "confirm" in request.POST:
+#             SiteAccepted.objects.filter(site=site).delete()
+#             SiteHost.objects.filter(site=site).delete()
+#             site.delete()
+#             messages.success(request, "Listing Deleted")
+#         return redirect("acceptor:acceptor_view")
 
-    return render(request, "acceptor/delete_site.html", {"site": site})
+#     return render(request, "acceptor/delete_site.html", {"site": site})

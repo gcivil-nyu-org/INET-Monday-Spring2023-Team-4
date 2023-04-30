@@ -5,7 +5,6 @@ from django import http
 from django.http import HttpResponse
 from django.urls import reverse
 from django.contrib import messages
-from .forms import NewSiteForm
 from users.models import Profile, SiteHost
 from dropoff_locator.models import Site, SiteAccepted
 

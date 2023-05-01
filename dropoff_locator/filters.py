@@ -8,5 +8,5 @@ class SiteFilter(django_filters.FilterSet):
         fields = {
             "borough": ["exact"],
             "type": ["exact"],
-            "accepted_items": ["exact"],
+            #"accepted_items": ["exact"],
         }

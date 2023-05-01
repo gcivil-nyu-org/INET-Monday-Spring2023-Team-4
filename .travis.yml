@@ -23,6 +23,7 @@ deploy:
     bucket: elasticbeanstalk-us-east-1-420156536504
     on:
       branch: develop
+    skip_cleanup: true
   - provider: elasticbeanstalk
     access_key_id: $ACCESSKEYID
     secret_access_key: $SECRETACCESSKEY
@@ -32,3 +33,4 @@ deploy:
     bucket: elasticbeanstalk-us-east-1-420156536504
     on:
       branch: main
+    skip_cleanup: true

@@ -39,5 +39,5 @@ deploy:
     env: "NYC-Composts-prod"
     bucket_name: "elasticbeanstalk-us-east-1-420156536504"
     on:
-      branch: main
     skip_cleanup: true
+

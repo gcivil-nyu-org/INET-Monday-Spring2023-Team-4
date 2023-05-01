@@ -8,7 +8,6 @@ from django.contrib import messages
 from .forms import NewSiteForm
 from users.models import Profile, SiteHost
 from dropoff_locator.models import Site, SiteAccepted, Item
-from bootstrap_modal_forms.generic import BSModalCreateView
 
 
 @login_required
@@ -40,13 +39,6 @@ def create_listing(request):
     context = {"form": NewSiteForm(), "items": Item.objects.all(), "boroughs": ['Manhattan', 'Brooklyn', 'Queens', 'Bronx', 'Staten Island']}
     return render(request, "acceptor/new_site.html", context)
 
-# class SiteCreateView(BSModalCreateView):
-#     template_name = 'acceptor/new_site.html'
-#     form_class = NewSiteForm
-#     success_message = 'Success: Your listing was created'
-#     success_url = reverse_lazy('acceptor:acceptor_view')
-
-
 @login_required
 def update_listing(request, pk):
     site = get_object_or_404(Site, pk=pk)
@@ -72,13 +64,3 @@ def delete_listing(request, pk):
         return redirect("acceptor:acceptor_view")
 
     return render(request, "acceptor/delete_site.html", {"site": site})
-
-
-def update_session(request):
-    if not request.is_ajax() or not request.method=='POST':
-        return HttpResponseNotAllowed(['POST'])
-    
-    breakpoint()
-
-    request.session['profile'] = 'donor'
-    return HttpResponse('ok')

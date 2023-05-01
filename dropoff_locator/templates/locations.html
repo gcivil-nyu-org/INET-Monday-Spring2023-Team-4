@@ -124,25 +124,33 @@
       <div class="card-shipment-child3"></div>
       <!-- <div class="line-div"></div> -->
       <div class="card-shipment-child1"></div>
-      <div class="bin-20170023461">{{ location.name }}</div>
+      <div class="bin-20170023461"><a href="{% url 'dropoff_locator:site_details' location.pk %}">{{ location.name }}</a></div>
       <div class="alliance-for-downtown-new-york-group">
         <div class="alliance-for-downtown1">
-          [ Host field in model? ]
+          {{ location.type }}
         </div>
         <div class="accepts-food-wastes">
-          Accepts food wastes and plastics
+          {% if location.type == "NYC Smart Bin" %}
+            Accepts meat, dairy, and bones
+          {% else %}
+            View site details for info about schedule and accepted items
+          {% endif %}
         </div>
         <div class="card-address">{{ location.address }}</div>
-        <div class="hosted-by1">Hosted by</div>
+        <div class="hosted-by1"> </div>
       </div>
-      <div class="open-2471">[ Insert hours ]</div>
+      <div class="open-2471">
+        {% if location.is_always_open %}
+          *Open 24/7*
+        {% endif %}
+      </div>
       <img class="call-icon1" alt="" src="{% static 'images/call.svg' %}" />
 
       <img class="message-icon1" alt="" src="{% static 'images/message.svg' %}" />
 
       <img class="card-shipment-child2" alt="" />
     </div>
-    <div class="div1">[ Insert Rating ]</div>
+    <div class="div1"></div>
     <img
       class="iconsaxbulkstar1"
       alt=""

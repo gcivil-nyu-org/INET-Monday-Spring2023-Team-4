@@ -88,27 +88,30 @@
         src="{% static 'images/message1.svg' %}"
       />
       <div class="alliance-for-downtown1">{{ user.username }}</div>
-      {% for bin in bins %}
-      {% if bin.hosted == user.username %}
+      {% for site in sites %}
       <div class="acceptor-flow-2-child6">
         <div class="bin-2017002346-wrapper">
-          <div class="sai-teja"> {{ bin.ntaname }} </div>
+          <div class="sai-teja"> {{ site.name }} </div>
         </div>
-        <div class="open-2471">{{ bin.borough }}</div>
+        <div class="open-2471">{{ site.borough }}</div>
           <div class="acceptor-flow-2-child9"></div>
-          <div class="accepts-food-wastes">Notes: {{ bin.notes }}<br><br>Hours: {{ bin.hours }}</div>
+          {% if site.notes != "" %}
+            <div class="accepts-food-wastes">Notes: {{ site.notes }}<br><br>Address: {{site.address}}</div>
+            <!-- <div class="acceptor-flow-2-child9"></div> -->
+          {% endif %}
+          <!-- <div><a href="{% url 'acceptor:edit_site' site.id %}"><b>Edit</b></a></div>
+          <div><a href="{% url 'acceptor:delete_site' site.id %}"><b>Delete</b></a></div> -->
           <br>
       </div>
       <!-- <div class="jay-street"></div> -->
-      {% endif %}
       {% endfor %}
       <div class="acceptor-flow-2-child15"></div>
       <div class="you-are-a">You are a</div>
       <div class="acceptor-flow-2-child16"></div>
       <div class="donor"><a href="{% url 'dropoff_locator:locator_view' %}">Donor</a></div>
-      <div class="acceptor"><a href="{% url 'acceptor_view' %}">Acceptor</a></div>
+      <div class="acceptor"><a href="{% url 'acceptor:acceptor_view' %}">Acceptor</a></div>
       <div class="facility"><a href="{% url 'dropoff_locator:locator_view' %}">Facility</a></div>
-      <div class="restaurant"><a href="{% url 'acceptor_view' %}">Restaurant</a></div>
+      <div class="restaurant"><a href="{% url 'acceptor:acceptor_view' %}">Restaurant</a></div>
       <div class="button">
         <div class="add-compost-bin" id="sou"><a href="#addcompost" id="but">+ Add Compost Bin</a></div>
       </div>
@@ -208,13 +211,13 @@
       <!-- <div class="add-bin-flow-child31"></div> -->
       <!-- <div class="add-bin-flow-child32"></div> -->
       <!-- <div class="add-bin-flow-child33"></div> -->
-      <form action="{% url 'acceptor_view' %}" method="POST">
+      <form action="{% url 'acceptor:acceptor_view' %}" method="POST">
         {% csrf_token %}
-        <input class="add-bin-flow-child26" type="text" name="ntaname" placeholder="ntaname" required />
+        <input class="add-bin-flow-child26" type="text" name="ntaname" placeholder="name" required />
         <input class="add-bin-flow-child27" type="text" name="siteaddr" required />
-        <input class="add-bin-flow-child32" type="time" name="fromtime" required />
+        <!-- <input class="add-bin-flow-child32" type="time" name="fromtime" required />
         <div class="to">to</div>
-        <input class="add-bin-flow-child33" type="time" name="totime" required />
+        <input class="add-bin-flow-child33" type="time" name="totime" required /> -->
         <input class="add-bin-flow-child28" type="text" name="website"/>
         <input class="add-bin-flow-child29" type="text" name="borough" required />
         <input class="add-bin-flow-child34" type="text" name="lat" required />
@@ -222,14 +225,14 @@
         <input div class="add-bin-flow-child31" type="textarea" name="notes" placeholder="Add what kind of scraps are allowed and what’s not"/>
         <button class="add-bin" type="submit">Add Bin</button>
       </form>
-      <div class="bin-number">Bin Name*</div>
+      <div class="bin-number">Name*</div>
       <div class="address-line">Address*</div>
-      <div class="host-name">WebSite</div>
+      <div class="host-name">Accepted Items</div>
       <div class="address-line1">Borough*</div>
       <div class="phone-number">Latitude*</div>
       <div class="phone-number2">Longitude*</div>
       <div class="add-notes">Add notes</div>
-      <div class="operating-hours">Operating hours*</div>
+      <!-- <div class="operating-hours">Operating hours*</div> -->
       <!-- <div class="add-bin-number">Add bin number</div> -->
       <!-- <div class="address-line-1">Address line 1</div> -->
       <!-- <div class="alliance-of-downtown">Alliance of Downtown Brooklyn</div> -->

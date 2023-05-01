@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Delete Listing</title>
+   </head>
+   <body>
+      <form method="post">{% csrf_token %}
+         <p>Are you sure you want to delete "{{ site }}"?</p>
+         <div class="form-group">
+              <input class="btn btn-primary" type="submit" name="confirm" value="Confirm">
+              <input class="btn btn-primary" type="submit" name="cancel" value="Cancel">
+         </div>
+      </form>
+   </body>
+</html>

@@ -77,13 +77,14 @@ def inbox(request):
         )
         context = {"form": user_requests.form, "requests": user_requests.qs}
         return render(request, "donor_request/inbox.html", context)
-    
+
     elif request.session["profile"] == "host":
         user_requests = RequestFilter(
             request.GET, queryset=Request.objects.filter(host=user).order_by("-updated")
         )
         context = {"form": user_requests.form, "requests": user_requests.qs}
         return render(request, "donor_request/inbox.html", context)
+
 
 def request_thread(request, pk):
     user_request = get_object_or_404(Request, pk=pk)

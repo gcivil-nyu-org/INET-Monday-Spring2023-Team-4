@@ -36,8 +36,13 @@ def create_listing(request):
         return redirect(to="acceptor:acceptor_view")
 
     # lat/lon -> get from googlemaps api using address and borough provided, use prefilled values for now
-    context = {"form": NewSiteForm(), "items": Item.objects.all(), "boroughs": ['Manhattan', 'Brooklyn', 'Queens', 'Bronx', 'Staten Island']}
+    context = {
+        "form": NewSiteForm(),
+        "items": Item.objects.all(),
+        "boroughs": ["Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island"],
+    }
     return render(request, "acceptor/new_site.html", context)
+
 
 @login_required
 def update_listing(request, pk):

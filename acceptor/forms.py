@@ -11,21 +11,22 @@ BOROUGHS = [
     ("Staten Island", "Staten Island"),
 ]
 
+
 class NewSiteForm(ModelForm):
     name = forms.CharField(
-        label='Site Name', 
-        widget=forms.TextInput(attrs={'placeholder': "Joe's Worm Farm"})
+        label="Site Name",
+        widget=forms.TextInput(attrs={"placeholder": "Joe's Worm Farm"}),
     )
     address = forms.CharField(
-        label='Street Address',
-        widget=forms.TextInput(attrs={'placeholder': '123 Main St'})
+        label="Street Address",
+        widget=forms.TextInput(attrs={"placeholder": "123 Main St"}),
     )
     borough = forms.ChoiceField(choices=BOROUGHS)
     notes = forms.TextInput()
     accepted_items = forms.ModelMultipleChoiceField(
-        label = 'Accepted Items',
+        label="Accepted Items",
         queryset=Item.objects.all(),
-        widget=forms.CheckboxSelectMultiple()
+        widget=forms.CheckboxSelectMultiple(),
     )
 
     class Meta:

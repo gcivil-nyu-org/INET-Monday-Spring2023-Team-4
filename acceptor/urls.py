@@ -11,4 +11,4 @@ urlpatterns = [
     path("<int:pk>/edit/", views.update_listing, name="edit_site"),
     path("<int:pk>/delete/", views.delete_listing, name="delete_site"),
     path("map/", include("dropoff_locator.urls", namespace="dropoff_locator")),
-] 
+]

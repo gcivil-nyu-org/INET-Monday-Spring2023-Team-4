@@ -1,243 +1,117 @@
-{% extends "users/base.html" %}
-{% block title %} Drop-off Locations {% endblock title%}
-{% block content %}
-{% load static %}
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="{% static 'dropoff_locator/locatorGlo.css' %}" />
-    <link rel="stylesheet" href="{% static 'dropoff_locator/locatorInd.css' %}" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap"
-    />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     {% load static %}
+    <title>Drop-off Locations</title>
+    <link crossorigin="anonymous"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+          integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4="
+          rel="stylesheet"/>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLV33ZHYrWb4OL_DPzcyhYABXXUucj1Hs"></script>
-  </head>
-  <body>
-    <div class="donor-flow-8">
-      <div class="mapframe">
-        <div id="map" style="width: 100%; height: 768px;">
-            <script>
-                var trashIcon = "{% static 'images/trash.png' %}";
-                var rCenterIcon = "{% static 'images/recycling-center.png' %}";
-            </script>
-            <script>
-                var map;
-                var lastWindow = -1;
-                var geocoder = new google.maps.Geocoder();
-                const trashIconJS = trashIcon;
-                const rCenterIconJS = rCenterIcon;
-                function initMap() {
-                  map = new google.maps.Map(document.getElementById('map'), {
-                    center: {lat: 40.73089125, lng: -73.99758504},
-                    zoom: 10
-                  });
-                }
-                initMap();
-                function closeAllInfoWindows() {
-                  {% for location in locations %}
-                    infowindow{{ forloop.counter }}.close();
-                  {% endfor %}
-                }
-            </script>
 
-            </div>
-      </div>
-      <div class="bg-blur">
-        <div class="div">11209</div>
-        <div class="compost-nearby">Compost nearby</div>
-        <div class="search">
-     
-        <div class="akar-iconssearch-parent">
-              <img
-                class="akar-iconssearch"
-                alt=""
-                src="{% static 'images/akariconssearch.svg' %}"
-              />
-
-              <div class="search1">Search...</div>
+</head>
+<body>
+<nav aria-label="main navigation" class="navbar is-light" role="navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
+            <img atl="NYCC" src="../static/images/compostable.png"
+                 style="margin-right: 0.5em;">
+                 <a href="/" style="color: #386600; text-decoration: none;">NYC Composts</a>
         </div>
-        <img
-          class="vuesaxlinearsetting-4-icon"
-          alt=""
-          src="{% static 'images/vuesaxlinearsetting4.svg' %}"
-        />
-        <form method="GET" action="{% url 'dropoff_locator:locator_view' %}">
-            {{ form.as_p }}
-            <input type="submit" value="Submit" class="btn btn-primary" />
-        </form>    
-      </div>
+    </div>
+</nav>
 
-
-
-
-
-
-      <!--
-      <div class="card-shipment">
-        <div class="card-shipment-child"></div>
-        <div class="card-shipment-item"></div>
-        <div class="bin-2017002346-parent">
-          <div class="bin-2017002346">BIN-2017002346</div>
-          <div class="group-child"></div>
-        </div>
-        <div class="alliance-for-downtown-new-york-parent">
-          <b class="alliance-for-downtown">Alliance for Downtown New York</b>
-          <div class="hosted-by-wrapper">
-            <div class="hosted-by">Hosted by</div>
-          </div>
-        </div>
-        <div class="open-247">Open 24/7</div>
-        <div class="card-shipment-inner"></div>
-        <div class="westheimer-parent">
-          <b class="westheimer">2972 Westheimer </b>
-          <div class="rd-santa-ana">Rd. Santa Ana, Illinois 85486</div>
-          <img
-            class="vuesaxlinearlocation-icon"
-            alt=""
-            src="{% static 'images/vuesaxlinearlocation.svg' %}"
-          />
-        </div>
-        <div class="preston-parent">
-          <b class="westheimer">8502 Preston </b>
-          <div class="rd-santa-ana">Rd. Inglewood, Maine 98380</div>
-          <img
-            class="vuesaxlinearlocation-icon"
-            alt=""
-            src="{% static 'images/group-268.svg' %}"
-          />
-        </div>
-        <img class="call-icon" alt="" src="{% static 'images/call.svg' %}" />
-
-        <img class="message-icon" alt="" src="{% static 'images/message.svg' %}" />
-
-        <img class="ellipse-icon" alt="" />
-      </div>
-
-
-      <img
-        class="iconsaxlinearlocation"
-        alt=""
-        src="{% static 'images/iconsaxlinearlocation.svg' %}"
-      />
-
--->  
-    {% for location in locations %}   
+<div id="map" style="width: 100%; height: 400px;">
+    
     <script>
-
-        var markers = [];   
-        var iconType;
-        {% if location.type == "NYC Smart Bin" %}
-            iconType = trashIconJS;
-        {% elif location.type == "NYC Community Site" %}
-            iconType = rCenterIconJS;
-        {% endif %}
-        var contentString = 
-            '<div id="content">' +
-            "</div>" +
-            '<h1 id="firstHeading" class="firstHeading"><b>{{ location.name }}</b></h1>' +
-            '<h2 id="secondHeading" class="secondHeading">{{ location.address }}</h2>' +
-            '<h2><b>Hours:</b></h2>' +
-            '<p>{{ location.hours }}</p>' +
-            "</div>";
+        var trashIcon = "{% static 'images/trash.png' %}";
+    </script>
+    <script>
+        var map;
+        var lastWindow = -1;
+        var geocoder = new google.maps.Geocoder();
+        const trashIconJS = trashIcon;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 40.73089125, lng: -73.99758504},
+            zoom: 10
+          });
+        }
+        initMap();
+        function closeAllInfoWindows() {
+          {% for location in locations %}
+            infowindow{{ forloop.counter }}.close();
+          {% endfor %}
+        }
+    </script>
+    <script>
+        {% for location in locations %}
+            var contentString = 
+                '<div id="content">' +
+                "</div>" +
+                '<h1 id="firstHeading" class="firstHeading"><b>{{ location.name }}</b></h1>' +
+                '<h2 id="secondHeading" class="secondHeading">{{ location.address }}</h2>' +
+                '<h2><b>Hours:</b></h2>' +
+              
+                "</div>";
             var marker{{ forloop.counter }} = new google.maps.Marker({
-                animation: google.maps.Animation.DROP,
                 position: {lat: {{ location.lat }}, lng: {{ location.lon }}},
                 map: map,
-                icon: iconType,
+                icon: trashIconJS,
                 title: '{{ location.name }}'
             });
-            console.log('marker{{ forloop.counter }} Created');
-        var infowindow{{ forloop.counter }} = new google.maps.InfoWindow({
-            content: contentString
-        });
-        marker{{ forloop.counter }}.addListener('click', function() {
-            console.log('Marker clicked');
-            closeAllInfoWindows();
-            infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
-            map.panTo(marker{{ forloop.counter }}.getPosition());
-            map.setZoom(17);
-        });
-        infowindow{{ forloop.counter }}.addListener('closeclick', function() {            
-            map.setZoom(16.5);
-
-        });
-        markers.push(marker{{ forloop.counter }});
-
-
-    </script>
-
-
-        <div class="card-shipment-parent">
-        <div class="card-shipment1">
-          <div class="rectangle-div"></div>
-          <div class="card-shipment-child3"></div>
-          <!-- <div class="line-div"></div> -->
-          <div class="card-shipment-child1"></div>
-          <div class="bin-20170023461">{{ location.name }}</div>
-          <div class="alliance-for-downtown-new-york-group">
-            <div class="alliance-for-downtown1">
-              [ Host field in model? ]
-            </div>
-            <div class="accepts-food-wastes">
-              Accepts food wastes and plastics
-            </div>
-            <div class="card-address">{{ location.address }}</div>
-            <div class="hosted-by1">Hosted by</div>
-          </div>
-          <div class="open-2471">[ Insert hours ]</div>
-          <img class="call-icon1" alt="" src="{% static 'images/call.svg' %}" />
-
-          <img class="message-icon1" alt="" src="{% static 'images/message.svg' %}" />
-
-          <img class="card-shipment-child2" alt="" />
-        </div>
-        <div class="div1">[ Insert Rating ]</div>
-        <img
-          class="iconsaxbulkstar1"
-          alt=""
-          src="{% static 'images/iconsaxbulkstar1.svg' %}"
-        />
-        </div>
-        {% endfor %}
-        <script>
-            map.addListener("click", () => {
-                map.setZoom(16.5);
-              closeAllInfoWindows();
+            var infowindow{{ location.id }} = new google.maps.InfoWindow({
+                content: contentString
             });
-        </script>
+            marker{{ forloop.counter }}.addListener('click', function() {
+                console.log('Marker clicked');
+                closeAllInfoWindows();
+                infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
+                map.panTo(marker{{ forloop.counter }}.getPosition());
+                map.setZoom(18);
+            });
+            infowindow{{ location.id }}.addListener('closeclick', function() {            
+                map.setZoom(15);
 
-      </div>
-      
-      <img class="side-menu-icon" alt="" src="{% static 'images/side-menu.svg' %}" />
-      <img
-        class="compostable-2-icon"
-        alt=""
-        src="{% static 'images/compostable-2@2x.png' %}"
-      />
+            });
+        {% endfor %}
+    </script>
+</div>
 
+<form method="GET" action="{% url 'dropoff_locator:locator_view' %}">
+  {{ form.as_p }}
+  <input type="submit" value="Submit" class="btn btn-primary" />
+</form>
 
+<style type="text/css">
+  #table {
+    width: 100%;
+  }
+  #table table {
+    max-width:100%;
+    word-break: break-word;
+  }
+</style>
+<div id="table">
+    <table class="table is-fullwidth is-striped is-bordered">
+      <thead>
+      <tr>
+          <th>Borough</th>
+          <th>Site Name</th>
+          <th>Type</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for location in locations %}
 
+      <tr>
+          <th>{{ location.borough }}</td>
+          <th><a href="{% url 'dropoff_locator:site_details' location.id %}">{{ location.name }}</a></th>
+          <td>{{ location.type }}</td>
 
-
-
-      <div class="donor-flow-8-child"></div>
-      <div class="you-are-a">You are a</div>
-      <div class="donor-flow-8-item"></div>
-      <div class="donor"><a href="{% url 'dropoff_locator:locator_view' %}">Donor</a></div>
-      <div class="acceptor"><a href="{% url 'acceptor:acceptor_view' %}">Acceptor</a></div>
-      <div class="facility"><a href="{% url 'dropoff_locator:locator_view' %}">Facility</a></div>
-      <div class="restaurant"><a href="{% url 'acceptor:acceptor_view' %}">Restaurant</a></div>
-      <div class="button">
-    </div>
-  </body>
-</html>
-
-
-{% endblock content %}
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+</div>

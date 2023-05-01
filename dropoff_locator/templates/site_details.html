@@ -1,15 +1,18 @@
+{% extends "users/base.html" %}
+{% block title %} Site Details {% endblock title%}
+{% block content %}
+{% load static %}
 
 <h1>{{ location.name }}</h1>
-<h3> Host(s): </h3>
+<div>
+<h3> Hosted By: </h3>
 {% for host in hosts %}
-<ul> 
-  <li>{{ host }}</a></li>
-</ul>
+<p>{{ host }}</p>
 {% endfor %}
+</div>
 
-{% if location.type == "User Listing" %}
-  <h4>Request drop-off</h4>
-{% else %}
+{% if location.type != "User Listing" %}
+<div>
 <h3> Open Hours: </h3>
     {% if location.season == "Seasonal" %}
       <p>Open hours are applicable between {{ season.start }} and {{ season.end }}.</p>
@@ -34,4 +37,22 @@
       <p><b>Saturday: </b>{{ schedule.sat }}</p>
       <p><b>Sunday: </b>{{ schedule.sun }}</p>
     {% endif %}
-  {% endif %}
+</div>
+{% endif %}
+
+<div>
+  <h3> Accepted Items: </h3>
+  {% for item in items %}
+  <ul> 
+    <li>{{ item }}</a></li>
+  </ul>
+  {% endfor %}
+</div>
+
+{% if location.type == "User Listing" %}
+<div>
+  <h4><a href="{% url 'donor_request:create_request' location.id %}">Request a drop-off</h4>
+</div>
+{% endif %}
+
+{% endblock %}

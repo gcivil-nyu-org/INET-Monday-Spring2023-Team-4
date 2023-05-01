@@ -9,7 +9,6 @@ coveralls==3.3.1
 cryptography==38.0.1
 defusedxml==0.7.1
 Django==3.2
-django-bootstrap4==22.3
 django-bootstrap5==22.2
 django-crispy-forms==1.14.0
 django-filter==23.1

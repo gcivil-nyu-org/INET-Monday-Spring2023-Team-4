@@ -1,0 +1,266 @@
+[
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6721,
+    "fields": {
+      "start": "May 1",
+      "end": "Nov 1"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6765,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Oct 1"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6806,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Oct 1"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6820,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Oct 1"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6821,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6822,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Oct 31"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6824,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Oct 31"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6860,
+    "fields": {
+      "start": "Mar 31",
+      "end": "Jan 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6924,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6952,
+    "fields": {
+      "start": "May 1",
+      "end": "Nov 28"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6990,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Nov 19"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 6998,
+    "fields": {
+      "start": "Jul 14",
+      "end": "Nov 24"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7022,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7025,
+    "fields": {
+      "start": "Jun 23",
+      "end": "Oct 27"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7048,
+    "fields": {
+      "start": "Sep 1",
+      "end": "Jun 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7075,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Jan 31"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7079,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7080,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7081,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7082,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7083,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7084,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7098,
+    "fields": {
+      "start": "Jul 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7111,
+    "fields": {
+      "start": "Jun 1",
+      "end": "Oct 31"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7122,
+    "fields": {
+      "start": "Sep 1",
+      "end": "Jun 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7127,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7136,
+    "fields": {
+      "start": "Mar 1",
+      "end": "Jan 31"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7150,
+    "fields": {
+      "start": "Jun 11",
+      "end": "Nov 19"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7160,
+    "fields": {
+      "start": "Jul 1",
+      "end": "Dec 31"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7167,
+    "fields": {
+      "start": "Jul 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7174,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Nov 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7175,
+    "fields": {
+      "start": "Sep 1",
+      "end": "Jun 30"
+    }
+  },
+  {
+    "model": "dropoff_locator.SiteSeason",
+    "pk": 7183,
+    "fields": {
+      "start": "Apr 1",
+      "end": "Oct 31"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-nunito: Nunito;
+    --font-bungee: Bungee;
+  
+    /* font sizes */
+    --font-size-base: 16px;
+    --font-size-sm: 14px;
+  
+    /* Colors */
+    --text: #030229;
+    --color-black: #000;
+    --primary: #605bff;
+    --color-white: #fff;
+  }
+  

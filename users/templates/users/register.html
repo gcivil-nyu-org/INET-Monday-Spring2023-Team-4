@@ -1,7 +1,13 @@
 {% extends "users/base.html" %}
 {% block title %} Register Page {% endblock title%}
 {% block content %}
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'users/Profile_global.css' %}" />
+    <link rel="stylesheet" href="{% static 'users/Profile_ind.css' %}" />
+  </head>
     <div class="form-content my-3 p-3">
+        <div class="rectangle-div2"></div>
 		<div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">

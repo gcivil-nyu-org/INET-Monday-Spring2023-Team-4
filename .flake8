@@ -3,7 +3,7 @@ max-line-length = 92
 exclude =
     __pycache__,
     env,
-    venv,
+    .venv,
 ignore =
     F401,
     E501,

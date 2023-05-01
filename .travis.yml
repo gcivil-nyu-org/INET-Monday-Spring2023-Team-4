@@ -13,7 +13,7 @@ before_script:
 script:
   - black --check .
   - flake8 .
-  - coverage run --omit --source=user_management,users,media,migrations manage.py test
+  - coverage run --omit --source='.' manage.py test
   - coverage report -m
 
 after_script:
@@ -29,7 +29,7 @@ deploy:
     bucket_name: "elasticbeanstalk-us-east-1-420156536504"
     on:
       branch: develop
-
+    skip_cleanup: true
 
   - provider: elasticbeanstalk
     access_key_id: $ACCESSKEYID
@@ -40,3 +40,4 @@ deploy:
     bucket_name: "elasticbeanstalk-us-east-1-420156536504"
     on:
       branch: main
+    skip_cleanup: true

@@ -14,7 +14,7 @@ BOROUGHS = [
 class NewSiteForm(ModelForm):
     name = forms.CharField(
         label='Site Name', 
-        widget=forms.TextInput(attrs={'placeholder': "John's Worm Farm"})
+        widget=forms.TextInput(attrs={'placeholder': "Joe's Worm Farm"})
     )
     address = forms.CharField(
         label='Street Address',

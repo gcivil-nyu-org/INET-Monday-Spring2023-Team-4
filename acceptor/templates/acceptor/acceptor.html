@@ -91,15 +91,16 @@
       {% for site in sites %}
       <div class="acceptor-flow-2-child6">
         <div class="bin-2017002346-wrapper">
-          <div class="sai-teja"> {{ site.name }} </div>
-        </div>
-        <div class="open-2471">{{ site.borough }}</div>
+          <div class="sai-teja">{{ site.name }} </div>
+          <div class="acceptor-flow-2-child9"><b>Address: </b>{{ site.address }}, {{ site.borough }}</div>
           <div class="acceptor-flow-2-child9"></div>
-          {% if site.notes != "" %}
-            <div class="accepts-food-wastes">Notes: {{ site.notes }}<br><br>Address: {{site.address}}</div>
-            <!-- <div class="acceptor-flow-2-child9"></div> -->
-          {% endif %}
-          <br>
+          <div class="acceptor-flow-2-child9"><b>Notes: </b>{{ site.notes }}</div>
+          <div class="acceptor-flow-2-child9"></div>
+          <div class="acceptor-flow-2-child9">
+            <a href="{% url 'acceptor:edit_site' site.pk %}">Edit</a>
+            <a href="{% url 'acceptor:delete_site' site.pk %}">Delete</a>
+          </div>
+        </div> 
       </div>
       <!-- <div class="jay-street"></div> -->
       {% endfor %}

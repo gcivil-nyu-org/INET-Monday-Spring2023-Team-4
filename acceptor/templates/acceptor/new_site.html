@@ -18,20 +18,17 @@
   {% load crispy_forms_tags %}
 
     <form method="post" action="">{% csrf_token %}
-      
       <div class="container">
         <div class="row my-5">
             <div class="col-md-12">
               <form method="post" action="">{% csrf_token %}
-
-              
                     {{ form|crispy }}
                     <button type="submit" class="btn btn-primary">Create</button>
+                    <a class="btn btn-primary" href="{% url 'acceptor:acceptor_view' %}" role="button">Cancel</a>
                 </form>
             </div>
         </div>
       </div>
-
     </form>
 
 

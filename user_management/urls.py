@@ -7,11 +7,15 @@ from users.views import CustomLoginView, ResetPasswordView, ChangePasswordView
 from dropoff_locator.views import locations
 from users.forms import LoginForm
 
+# from google import views as view
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("users.urls")),
-    path("acceptor/", include("acceptor.urls")),
+    path("main/", include("dashboard.urls", namespace="donor")),
+    path("acceptor/", include("acceptor.urls", namespace="acceptor")),
     path("map/", include("dropoff_locator.urls", namespace="dropoff_locator")),
+    path("messages/", include("donor_request.urls", namespace="donor_request")),
     path(
         "login/",
         CustomLoginView.as_view(
@@ -44,3 +48,5 @@ urlpatterns = [
     path("password-change/", ChangePasswordView.as_view(), name="password_change"),
     re_path(r"^oauth/", include("social_django.urls", namespace="social")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+

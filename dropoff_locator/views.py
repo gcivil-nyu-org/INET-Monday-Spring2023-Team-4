@@ -15,11 +15,13 @@ def site_details(request, pk):
     hosts = site.hosts.all()
     season = site.get_season()
     schedule = site.get_schedule()
+    user = request.session["profile"]
     context = {
         "location": site,
         "hosts": hosts,
         "season": season,
         "schedule": schedule,
         "items": accepted_items,
+        "user": user,
     }
     return render(request, "site_details.html", context)

@@ -61,7 +61,9 @@
           <br>
 
           {% if location.type == "User Listing" %}
-          <h5><a href="{% url 'donor_request:create_request' location.id %}">Request a drop-off</h5></div>
+            {% if user == "donor" %}
+              <h5><a href="{% url 'donor_request:create_request' location.id %}">Request a drop-off</h5></div>
+            {% endif %}
           {% endif %}
       </div>
     </div>

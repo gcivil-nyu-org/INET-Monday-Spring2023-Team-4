@@ -1,9 +1,39 @@
 {% extends "users/base.html" %}
 {% block title %}Profile Page{% endblock title %}
 {% block content %}
-    <div class="row my-3 p-3">
-        <img class="rounded-circle account-img" src="{{ user.profile.avatar.url }} " style="cursor: pointer;"/>
-    </div>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{% static 'users/Profile_global.css' %}" />
+    <link rel="stylesheet" href="{% static 'users/Profile_ind.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bungee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap"
+    />
+  </head>
+  <body>
     {% if user_form.errors %}
         <div class="alert alert-danger alert-dismissible" role="alert">
             <div id="form_errors">
@@ -16,29 +46,27 @@
             </button>
         </div>
     {% endif %}
-    <div class="form-content">
-        <form method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            <div class="form-row">
-                <div class="col-md-5">
-                    <div class="form-group">
-                        <label class="small mb-1">Username:</label>
-                            {{ user_form.username }}
-                        <label class="small mb-1">Email:</label>
-                            {{ user_form.email }}
-                    </div>
-                    <div class="form-group">
-                        <a href="{% url 'password_change' %}">Change Password</a>
-                        <hr>
-                        <label class="small mb-1">Change Avatar:</label>
-                        {{ profile_form.avatar }}
-                    </div>
-                    <label class="small mb-1">Bio:</label> {{ profile_form.bio }}
-                </div>
-            </div>
-            <br><br>
-            <button type="submit" class="btn btn-dark btn-lg">Save Changes</button>
-            <button type="reset" class="btn btn-dark btn-lg">Reset</button>
-        </form>
-    </div>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="profile-page">
+        <div class="profile-page-child">{{ user_form.username }}</div>
+        <div class="profile-page-item">{{ user_form.email }}</div>
+        <div class="profile-page-inner">{{ profile_form.bio }}</div>
+        <div class="username">Username</div>
+        <div class="email-id">Email I’d</div>
+        <div class="bio">Bio</div>
+        <div class="change-picture"></div>{{ profile_form.avatar }}
+        <div class="change-password"><a href="{% url 'password_change' %}">Change Password</a></div>
+        <div class="rectangle-div"></div>
+        <img
+            class="unsplashjmurdhtm7ng-icon"
+            alt=""
+            src="{{ user.profile.avatar.url }} " style="cursor: pointer;"
+        />
+        </div>
+        <button type="submit" class="button">Save</button>
+        <button type="reset" class="button1">Reset</button>
+    </form>
+  </body>
+</html>
 {% endblock content %}

@@ -1034,7 +1034,7 @@
 }
 .add-bin-flow-child34,
 .add-bin-flow-child35 {
-  top: 315px;
+  top: 125px;
   left: 381px;
   width: 115px;
   height: 40px;
@@ -1058,7 +1058,7 @@
 }
 .phone-number2 {
   position: absolute;
-  top: 287px;
+  top: 95px;
   left: 542px;
   font-weight: 500;
   color: var(--color-black);
@@ -1092,7 +1092,7 @@
 .add-notes,
 .operating-hours,
 .phone-number {
-  top: 287px;
+  top: 95px;
 }
 .add-notes,
 .operating-hours {

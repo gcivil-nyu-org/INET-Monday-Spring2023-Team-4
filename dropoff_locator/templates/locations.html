@@ -51,18 +51,10 @@
       </div>
       <div class="bg-blur">
         <div class="div">11209</div>
-        <div class="compost-nearby">Compost nearby</div>
+        <div class="compost-nearby">Compost results</div>
         <div class="search">
      
-        <div class="akar-iconssearch-parent">
-              <img
-                class="akar-iconssearch"
-                alt=""
-                src="{% static 'images/akariconssearch.svg' %}"
-              />
 
-              <div class="search1">Search...</div>
-        </div>
         <img
           class="vuesaxlinearsetting-4-icon"
           alt=""
@@ -115,10 +107,17 @@
   
           });
           markers.push(marker{{ forloop.counter }});
-  
+
+          function clickCard{{ forloop.counter }}() {
+            console.log('Card clicked');
+            closeAllInfoWindows();
+            infowindow{{ forloop.counter }}.open(map, marker{{ forloop.counter }});
+            map.panTo(marker{{ forloop.counter }}.getPosition());
+            map.setZoom(17);
+          }
   
       </script>
-   <div class="card-shipment-parent">
+  <div class="card-shipment-parent" onclick="clickCard{{ forloop.counter }}()">
     <div class="card-shipment1">
       <div class="rectangle-div"></div>
       <div class="card-shipment-child3"></div>
@@ -141,7 +140,9 @@
       </div>
       <div class="open-2471">
         {% if location.is_always_open %}
-          *Open 24/7*
+          Open 24/7
+        {% else %}
+          Click to see details
         {% endif %}
       </div>
       <img class="call-icon1" alt="" src="{% static 'images/call.svg' %}" />

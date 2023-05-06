@@ -229,11 +229,12 @@
 }
 .compostable-2-icon {
   position: absolute;
-  top: 92px;
-  left: 50px;
+  top: 8px;
+  left: 48px;
   width: 55px;
   height: 55px;
   object-fit: cover;
+  z-index:10;
 }
 .iconsaxlinearlocation {
   position: absolute;
@@ -509,4 +510,8 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
+}
+
+.selected-card {
+  border: 2px solid #1e7e3482;
 }

@@ -229,7 +229,15 @@
   height: 320px;
   font-family: var(--font-cabin);
 }
-
+.compostable-2-icon {
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  z-index: 2;
+}
 .acceptor-flow-2-child {
   top: 224px;
 }

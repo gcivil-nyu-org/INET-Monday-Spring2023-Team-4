@@ -28,7 +28,7 @@
 }
 .compost-bins {
   top: 115px;
-  left: 617px;
+  left: 100px;
 }
 .search-child {
   position: absolute;
@@ -229,7 +229,15 @@
   height: 320px;
   font-family: var(--font-cabin);
 }
-
+.compostable-2-icon {
+  position: absolute;
+  top: 8px;
+  left: 48px;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  z-index: 2;
+}
 .acceptor-flow-2-child {
   top: 224px;
 }
@@ -385,7 +393,7 @@
 .acceptor-flow-2-child6 {
   position: relative;
   top: 199px;
-  left: 609px;
+  left: 100px;
   border-radius: var(--br-xs);
   background-color: var(--color-white);
   border: 2px solid var(--color-gray-300);
@@ -494,7 +502,7 @@
 }
 .alliance-for-downtown1 {
   top: 143px;
-  left: 617px;
+  left: 100px;
   font-weight: 600;
   width: 246px;
 }
@@ -657,7 +665,7 @@
 .you-are-a {
   position: absolute;
   top: 25px;
-  left: 443px;
+  left: 493px;
   letter-spacing: 0.01em;
   font-weight: 500;
   color: var(--color-gray-400);
@@ -665,7 +673,7 @@
 .acceptor-flow-2-child16 {
   position: absolute;
   top: 14px;
-  left: 685px;
+  left: 735px;
   border-radius: 14px;
   background-color: #1e7e3482;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
@@ -673,7 +681,7 @@
   height: 41.11px;
 }
 .donor {
-  left: 583px;
+  left: 633px;
 }
 .acceptor,
 .donor,
@@ -685,7 +693,7 @@
   font-weight: 600;
 }
 .acceptor {
-  left: 697px;
+  left: 747px;
   color: var(--color-white);
 }
 .facility {
@@ -865,7 +873,7 @@
 .acceptor-flow-2 {
   position: relative;
   background-color: var(--color-white);
-  width: 80%;
+  width: 100%;
   height: 1024px;
   text-align: left;
   font-size: var(--font-size-base);

@@ -1,8 +1,8 @@
 .mapframe {
-  width: calc(100% - 570px);
+  width: calc(100% - 450px);
   top: 66px;
   right: 0;
-  left: 570px;
+  left: 450px;
   background-color: var(--white-white);
   box-shadow: var(--border-shadow-left);
   height: 958px;
@@ -13,6 +13,7 @@
 .mapframe {
   position: absolute;
   height: 768px;  
+
 }
 .bg-blur {
   position: absolute;
@@ -21,7 +22,7 @@
   overflow-y: scroll;
   background-color: var(--white-white);
   box-shadow: 6px 0 15px rgba(0, 0, 0, 0.03);
-  width: 577px;
+  width: 450px;
   height: 835px;
 }
 .div {
@@ -74,7 +75,7 @@
 .search {
   position: absolute;
   top: 30px;
-  left: 141px;
+  left: 30px;
   border-radius: var(--br-xs);
   background-color: var(--white-white);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
@@ -88,6 +89,7 @@
   justify-content: space-between;
   color: #c4c4c4;
   font-family: var(--font-cabin);
+  height: 180px;
 }
 .card-shipment-child,
 .card-shipment-item {
@@ -108,6 +110,7 @@
   left: 0;
   letter-spacing: 0.01em;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .bin-2017002346-parent,
 .group-child {
@@ -281,7 +284,7 @@
   top: 16px;
   left: 19px;
   font-size: var(--font-size-md);
-  width: 155px;
+  width: 260px;
 }
 .accepts-food-wastes,
 .alliance-for-downtown1 {
@@ -303,10 +306,12 @@
   letter-spacing: 0.01em;
 }
 .card-address {
-  top: 0;
+  top: -10px;
   font-size: var(--font-size-sm);
   display: inline-block;
-  width: 200px;
+  width: 350px;
+  height:60px;
+  overflow-y: scroll;
 }
 .hosted-by1 {
   top: 45px;
@@ -314,15 +319,15 @@
 }
 .alliance-for-downtown-new-york-group {
   position: absolute;
-  top: 48px;
+  top: 88px;
   left: 18px;
   width: 247px;
-  height: 124px;
+  height: 104px;
 }
 .open-2471 {
   position: absolute;
-  top: 49px;
-  left: 298px;
+  top: 35px;
+  left: 288px;
   letter-spacing: 0.01em;
   font-weight: 500;
   color: var(--color-darkslategray);
@@ -373,7 +378,7 @@
 .card-shipment-parent {
   position: relative;
   top: 224px;
-  left: 141px;
+  left: 30px;
   bottom: 100px;
   width: 392px;
   height: 190px;
@@ -513,5 +518,5 @@
 }
 
 .selected-card {
-  border: 2px solid #1e7e3482;
+  border: 4px solid #1e7e3482;
 }

@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap"
     />
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLV33ZHYrWb4OL_DPzcyhYABXXUucj1Hs"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   </head>
   <body>
     
@@ -100,8 +102,12 @@
               });
               console.log('marker{{ forloop.counter }} Created');
           var infowindow{{ forloop.counter }} = new google.maps.InfoWindow({
-              content: contentString
+              content: "loading"
           });
+          $.get("{% url 'dropoff_locator:site_details' location.pk %}", function(data) {
+            // Set the content of the infowindow
+            infowindow{{ forloop.counter }}.setContent(data);
+        });
           marker{{ forloop.counter }}.addListener('click', function() {
               console.log('Marker clicked');
               closeAllInfoWindows();
@@ -139,7 +145,7 @@
       <div class="card-shipment-child3" ></div>
       <!-- <div class="line-div"></div> -->
       <div class="card-shipment-child1"></div>
-      <div class="bin-20170023461"><a href="{% url 'dropoff_locator:site_details' location.pk %}">{{ location.name }}</a></div>
+      <div class="bin-20170023461">{{ location.name }}</a></div>
       <div class="alliance-for-downtown-new-york-group">
         <div class="alliance-for-downtown1">
           {{ location.type }}

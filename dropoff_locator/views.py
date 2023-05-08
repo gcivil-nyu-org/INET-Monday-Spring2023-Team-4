@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from .filters import SiteFilter
 from .models import Site
+from django.shortcuts import redirect
 
 
 def locations(request):

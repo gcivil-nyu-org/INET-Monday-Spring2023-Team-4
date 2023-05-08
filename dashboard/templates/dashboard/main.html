@@ -1,0 +1,44 @@
+{% extends "users/base.html" %}
+{% block title %} Inbox {% endblock title%}
+{% block content %}
+{% load static %}
+
+<form method="GET">
+  {{ form.as_p }}
+  <input type="submit" value="Submit" class="btn btn-primary" />
+</form>
+
+<style type="text/css">
+  #table {
+    width: 100%;
+  }
+  #table table {
+    max-width:100%;
+    word-break: break-word;
+  }
+</style>
+<div id="table">
+    <table class="table is-fullwidth is-striped is-bordered">
+      <thead>
+      <tr>
+          <th>Site</th>
+          <th>Host</th>
+          <th>Status</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for request in requests %}
+
+      <tr>
+          <th>{{ request.site }}</td>
+          <th>{{ request.host }}</a></th>
+          <td>{{ request.status }}</td>
+
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+</div>
+
+
+{% endblock %}

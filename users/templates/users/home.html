@@ -23,34 +23,30 @@
         <div class="welcome-choose-how">
           Welcome, {{user.first_name.title|default:'Guest'}}! Choose how you want to clean our planet
         </div>
+
+      <form action="" method="POST">{% csrf_token %}
         <div class="as-a-donor">
-              {% if user.is_authenticated %}
-                  <a href="{% url 'Locator View' %}">As a Donor</a>
-              {% else %}
-                  <a href="{% url 'login' %}">As a Donor</a>
-              {% endif %}
+                  <button type="submit" name="donor">As a Donor</button>
         </div>
         <div class="as-an-acceptor">
-            {% if user.is_authenticated %}
-                  <a href="{% url 'Locator View' %}">As an Acceptor</a>
-              {% else %}
-                  <a href="{% url 'login' %}">As an Acceptor</a>
-              {% endif %}
+                  <button type="submit" name="host">As an Acceptor</button>
         </div>
-        <div class="as-a-facility">
+      </form>
+
+        <!-- <div class="as-a-facility">
             {% if user.is_authenticated %}
-                  <a href="{% url 'Locator View' %}">As a Facility</a>
+                  <a href="{% url 'dropoff_locator:locator_view' %}">As a Facility</a>
               {% else %}
                   <a href="{% url 'login' %}">As a Facility</a>
               {% endif %}
         </div>
         <div class="as-a-restaurant">
             {% if user.is_authenticated %}
-                  <a href="{% url 'Locator View' %}">As a Restaurant</a>
+                  <a href="{% url 'dropoff_locator:locator_view' %}">As a Restaurant</a>
               {% else %}
                   <a href="{% url 'login' %}">As a Restaurant</a>
               {% endif %}
-        </div>
+        </div> -->
       </div>
       <div class="composts">COMPOSTS</div>
       <img
@@ -72,9 +68,9 @@
       />
       <div class="welcome-child"></div>
       <div class="welcome-item"></div>
-      <div class="welcome-inner"></div>
-      <div class="rectangle-div"></div>
-      <img
+      <!-- <div class="welcome-inner"></div> -->
+      <!-- <div class="rectangle-div"></div> -->
+      <!-- <img
         class="recycling-center-1-icon"
         alt=""
         src="{% static 'images/recyclingcenter-1@2x.png' %}"
@@ -82,7 +78,7 @@
         class="restaurant-1-icon"
         alt=""
         src="{% static 'images/restaurant-1@2x.png' %}"
-      />
+      /> -->
       <div class="clean-up-the">
         Clean up the planet - because we can't live on Mars yet!
       </div>

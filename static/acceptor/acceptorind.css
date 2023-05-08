@@ -28,7 +28,7 @@
 }
 .compost-bins {
   top: 115px;
-  left: 100px;
+  left: 617px;
 }
 .search-child {
   position: absolute;
@@ -393,7 +393,7 @@
 .acceptor-flow-2-child6 {
   position: relative;
   top: 199px;
-  left: 100px;
+  left: 609px;
   border-radius: var(--br-xs);
   background-color: var(--color-white);
   border: 2px solid var(--color-gray-300);
@@ -502,7 +502,7 @@
 }
 .alliance-for-downtown1 {
   top: 143px;
-  left: 100px;
+  left: 617px;
   font-weight: 600;
   width: 246px;
 }
@@ -665,7 +665,7 @@
 .you-are-a {
   position: absolute;
   top: 25px;
-  left: 493px;
+  left: 443px;
   letter-spacing: 0.01em;
   font-weight: 500;
   color: var(--color-gray-400);
@@ -673,7 +673,7 @@
 .acceptor-flow-2-child16 {
   position: absolute;
   top: 14px;
-  left: 735px;
+  left: 685px;
   border-radius: 14px;
   background-color: #1e7e3482;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
@@ -681,7 +681,7 @@
   height: 41.11px;
 }
 .donor {
-  left: 633px;
+  left: 583px;
 }
 .acceptor,
 .donor,
@@ -693,7 +693,7 @@
   font-weight: 600;
 }
 .acceptor {
-  left: 747px;
+  left: 697px;
   color: var(--color-white);
 }
 .facility {
@@ -873,7 +873,7 @@
 .acceptor-flow-2 {
   position: relative;
   background-color: var(--color-white);
-  width: 100%;
+  width: 80%;
   height: 1024px;
   text-align: left;
   font-size: var(--font-size-base);

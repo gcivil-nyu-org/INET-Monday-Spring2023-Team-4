@@ -17,13 +17,13 @@
 .as-an-acceptor {
   position: absolute;
   top: 616px;
-  left: 522px;
+  left: 222px;
   font-weight: 500;
   z-index: 2;
 }
 .as-a-facility,
 .as-an-acceptor {
-  left: 796px;
+  left: 496px;
 }
 .as-a-facility {
   left: 808px;
@@ -73,13 +73,13 @@
 .food-donation-1-icon {
   position: absolute;
   top: 488px;
-  left: 528px;
+  left: 228px;
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
 .fertilizer-1-icon {
-  left: 823px;
+  left: 523px;
 }
 .rectangle-div,
 .welcome-child,
@@ -87,7 +87,7 @@
 .welcome-item {
   position: absolute;
   top: 435px;
-  left: 469px;
+  left: 169px;
   border-radius: var(--br-mid);
   border: 0.6px solid var(--color-gray-100);
   box-sizing: border-box;
@@ -98,7 +98,7 @@
 .rectangle-div,
 .welcome-inner,
 .welcome-item {
-  left: 764px;
+  left: 464px;
 }
 .rectangle-div,
 .welcome-inner {

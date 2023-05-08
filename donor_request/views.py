@@ -24,7 +24,7 @@ def create_request(request, pk):
             initial_message = Message(request=new_request, sender=user, text=text)
             initial_message.save()
             messages.success(request, "Request Sent")
-            return redirect(to="dropoff_locator:locator_view")
+            return redirect(to="dropoff_locator:site_details", pk=pk)
 
     form = MessageForm()
     context = {

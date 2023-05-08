@@ -14,7 +14,6 @@
 .DS_Store?
 __pycache__/
 migrations
-db.sqlite3
 
 
 # Unit test / coverage reports

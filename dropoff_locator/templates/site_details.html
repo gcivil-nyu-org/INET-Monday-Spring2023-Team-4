@@ -1,72 +1,37 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!--Bootstrap CSS-->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
 
-<body>
-{% block content %}
+<h1>{{ location.name }}</h1>
+<h3> Host(s): </h3>
+{% for host in hosts %}
+<ul> 
+  <li>{{ host }}</a></li>
+</ul>
+{% endfor %}
 
-        <div class="col-md-12">
-          <h3>{{ location.name }}</h3><br>
-          <div><h5><b>Hosted By: </b></h5></div>
-          {% for host in hosts %}
-            <p>{{ host }}</p><br>
-          {% endfor %}
-
-          {% if location.type != "User Listing" %}
-            <div><h5><b>Hours of Operation: </b></h5></div>
-              {% if location.season == "Seasonal" %}
-                <p>Open hours are applicable between {{ season.start }} and {{ season.end }}.</p>
-              {% else %}
-                <p> This location is open year-round. </p>
-              {% endif %}
-              {% if location.is_always_open %}
-                <p>Open 24/7</p>
-              {% else %}
-                <p><b>Monday: </b>{{ schedule.mon }}</p>
-                <p><b>Tuesday: </b>{{ schedule.tues }}</p>
-                <p><b>Wednesday: </b>{{ schedule.wed }}</p>
-                <p><b>Thursday: </b>{{ schedule.thurs }}</p>
-                <p><b>Friday: </b>{{ schedule.fri }}</p>
-                <p><b>Saturday: </b>{{ schedule.sat }}</p>
-                <p><b>Sunday: </b>{{ schedule.sun }}</p>
-              {% endif %}
-              <br>
-          {% endif %}
-
-          <div><h5><b>Accepted Items: </b></h5></div>
-          {% for item in items %}
-          <ul> 
-            <li>{{ item }}</a></li>
-          </ul>
-          {% endfor %}
-          <br>
-          {% if location.notes != "" %}
-            <div><h5><b>Notes: </b></h5></div>
-              <p>{{ locations.notes }}</p>
-          {% endif %}
-
-          {% if location.type == "User Listing" %}
-            {% if user == "donor" %}
-              <h5><a href="{% url 'donor_request:create_request' location.id %}">Request a Drop-off</h5></div>
-            {% endif %}
-          {% endif %}
-      </div>
-
-
-<!-- Enable Bootstrap JavaScript plugins and dependencies  -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-{% endblock %}
-</body>
-
-</html>
-
-
+{% if location.type == "User Listing" %}
+  <h4>Request drop-off</h4>
+{% else %}
+<h3> Open Hours: </h3>
+    {% if location.season == "Seasonal" %}
+      <p>Open hours are applicable between {{ season.start }} and {{ season.end }}.</p>
+    {% else %}
+      <p> This location is open year-round. </p>
+    {% endif %}
+  
+    {% if location.is_always_open %}
+      <p><b>Monday: </b>Open 24/7</p>
+      <p><b>Tuesday: </b>Open 24/7</p>
+      <p><b>Wednesday: </b>Open 24/7</p>
+      <p><b>Thursday: </b>Open 24/7</p>
+      <p><b>Friday: </b>Open 24/7</p>
+      <p><b>Saturday: </b>Open 24/7</p>
+      <p><b>Sunday: </b>Open 24/7</p>
+    {% else %}
+      <p><b>Monday: </b>{{ schedule.mon }}</p>
+      <p><b>Tuesday: </b>{{ schedule.tues }}</p>
+      <p><b>Wednesday: </b>{{ schedule.wed }}</p>
+      <p><b>Thursday: </b>{{ schedule.thurs }}</p>
+      <p><b>Friday: </b>{{ schedule.fri }}</p>
+      <p><b>Saturday: </b>{{ schedule.sat }}</p>
+      <p><b>Sunday: </b>{{ schedule.sun }}</p>
+    {% endif %}
+  {% endif %}

@@ -1,22 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  {% extends "users/base.html" %}
-  {% block title %} Site Details {% endblock title%}
-  {% load static %}
-
   <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!--Bootstrap CSS-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
 </head>
 
 <body>
 {% block content %}
-  <div class="container">
-    <div class="row my-5">
+
         <div class="col-md-12">
           <h3>{{ location.name }}</h3><br>
           <div><h5><b>Hosted By: </b></h5></div>
@@ -25,21 +19,14 @@
           {% endfor %}
 
           {% if location.type != "User Listing" %}
-            <div><h5><b>Open Hours: </b></h5></div>
+            <div><h5><b>Hours of Operation: </b></h5></div>
               {% if location.season == "Seasonal" %}
                 <p>Open hours are applicable between {{ season.start }} and {{ season.end }}.</p>
               {% else %}
                 <p> This location is open year-round. </p>
               {% endif %}
-        
               {% if location.is_always_open %}
-                <p><b>Monday: </b>Open 24/7</p>
-                <p><b>Tuesday: </b>Open 24/7</p>
-                <p><b>Wednesday: </b>Open 24/7</p>
-                <p><b>Thursday: </b>Open 24/7</p>
-                <p><b>Friday: </b>Open 24/7</p>
-                <p><b>Saturday: </b>Open 24/7</p>
-                <p><b>Sunday: </b>Open 24/7</p>
+                <p>Open 24/7</p>
               {% else %}
                 <p><b>Monday: </b>{{ schedule.mon }}</p>
                 <p><b>Tuesday: </b>{{ schedule.tues }}</p>
@@ -59,15 +46,18 @@
           </ul>
           {% endfor %}
           <br>
+          {% if location.notes != "" %}
+            <div><h5><b>Notes: </b></h5></div>
+              <p>{{ locations.notes }}</p>
+          {% endif %}
 
           {% if location.type == "User Listing" %}
             {% if user == "donor" %}
-              <h5><a href="{% url 'donor_request:create_request' location.id %}">Request a drop-off</h5></div>
+              <h5><a href="{% url 'donor_request:create_request' location.id %}">Request a Drop-off</h5></div>
             {% endif %}
           {% endif %}
       </div>
-    </div>
-  </div>
+
 
 <!-- Enable Bootstrap JavaScript plugins and dependencies  -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

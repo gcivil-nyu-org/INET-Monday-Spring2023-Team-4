@@ -22,8 +22,10 @@ $ pip install -r requirements.txt
 
 $ python manage.py migrate
 
+$ python manage.py loaddata fixtures/*.json
+
 $ python manage.py createsuperuser
 
-$ python manage.py loaddata fixtures/dashboard.json
+$ python manage.py setup
 
 $ python manage.py runserver

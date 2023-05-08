@@ -25,7 +25,7 @@
   width: 450px;
   height: 835px;
 }
-.div {
+.siteCounter {
   top: 180px;
   left: 481px;
   font-size: var(--font-size-xl);
@@ -377,7 +377,7 @@
 }
 .card-shipment-parent {
   position: relative;
-  top: 224px;
+  top: 220px;
   left: 30px;
   bottom: 100px;
   width: 392px;

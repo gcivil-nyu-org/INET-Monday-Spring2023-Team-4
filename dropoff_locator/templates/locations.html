@@ -60,25 +60,26 @@
 
      
       <div class="bg-blur">
-        <div class="div">11209</div>
+        <script> var resCounter = 0; </script>
+        <div class="siteCounter"> </div>
 
         <div class="compost-nearby">Compost results</div>
         <div class="search">
-        <img
-          class="vuesaxlinearsetting-4-icon"
-          alt=""
-          src="{% static 'images/vuesaxlinearsetting4.svg' %}"
-        />
-        <form method="GET" action="{% url 'dropoff_locator:locator_view' %}">
-            {{ form.as_p }}
-            <input type="submit" value="Submit" class="btn btn-primary" />
-        </form>    
-      </div>
+          <img
+            class="vuesaxlinearsetting-4-icon"
+            alt=""
+            src="{% static 'images/vuesaxlinearsetting4.svg' %}"
+          />
+          <form method="GET" action="{% url 'dropoff_locator:locator_view' %}">
+              {{ form.as_p }}
+              <input type="submit" value="Submit" class="btn btn-primary" />
+          </form>    
+        </div>
 
       {% for location in locations %}   
       <script>
   
-          var markers = [];   
+          
           var iconType;
           {% if location.type == "NYC Smart Bin" %}
               iconType = trashIconJS;
@@ -119,7 +120,7 @@
               map.setZoom(16.5);
   
           });
-          markers.push(marker{{ forloop.counter }});
+          
 
           function clickCard{{ forloop.counter }}() {
             console.log('Card clicked');
@@ -137,7 +138,8 @@
           }
 
 
-  
+        resCounter += 1;
+          
       </script>
   <div class="card-shipment-parent" id="card-shipment-parent-{{ location.pk }}" onclick="clickCard{{ forloop.counter }}()">
     <div class="card-shipment1">
@@ -185,16 +187,16 @@
             map.setZoom(16.5);
           closeAllInfoWindows();
         });
+        // Select the siteCounter div
+const siteCounterDiv = document.querySelector("#siteCounter");
+
+// Set its innerHTML to resultCounter
+siteCounterDiv.innerHTML = resCounter;
+
     </script>
 
+
   </div>
-  
-
-
-
-
-
-
 
   <div class="donor-flow-8-child"></div>
   <div class="you-are-a">You are a</div>

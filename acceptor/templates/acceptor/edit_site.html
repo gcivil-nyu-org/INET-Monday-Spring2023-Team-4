@@ -1,47 +1,26 @@
-{% extends "users/base.html" %}
-{% block title %} Edit Site {% endblock title%}
-{% block content %}
-{% load static %}
-<head>
-  <!-- Required meta tags-->
-
-  <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="{% static 'acceptor/acceptorglo.css' %}" />
-      <link rel="stylesheet" href="{% static 'acceptor/acceptorind.css' %}" />
-      <!--Bootstrap CSS-->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-</head>
-
-<body>
-  {% load crispy_forms_tags %}
-
-    <form method="post" action="">{% csrf_token %}
-      <div class="container">
-        <div class="row my-5">
-            <div class="col-md-12">
-              <h3>Edit Listing</h3><br>
-              <form method="post" action="">{% csrf_token %}
-                    {{ form|crispy }}
-                    <button type="submit" class="btn btn-primary">Update</button>
-                    <a class="btn btn-primary" href="{% url 'acceptor:acceptor_view' %}" role="button">Cancel</a>
-                </form>
-            </div>
-        </div>
-      </div>
-    </form>
-
-
-<!-- Enable Bootstrap JavaScript plugins and dependencies  -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-</body>
-{% endblock content %}
-
-
-
-
-
+<div class="container">
+  <h1>Edit Listing</h1>
+  <form method="post">{% csrf_token %}
+    <div class="form-group">
+      <h3>Listing Type: </h3>{{ form.type }}
+    </div>
+    <div class="form-group">
+      <h3>Name: </h3>{{ form.name }}
+  </div>
+  <div class="form-group">
+      <h3>Street Address: </h3>{{ form.address }}
+  </div>
+  <div class="form-group">
+    <h3>Borough: </h3>{{ form.borough }}
+  </div>
+  <div class="form-group">
+    <h3>Accepted Items: </h3>{{ form.accepted_items }}
+  </div>
+  <div class="form-group">
+    <h3>Add notes: </h3>{{ form.notes }} 
+  </div>
+  <div class="form-group">
+    <input class="btn btn-primary" type="submit" value="Update">
+  </div>
+  </form>
+</div>

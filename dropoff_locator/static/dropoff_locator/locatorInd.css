@@ -26,8 +26,9 @@
   height: 835px;
 }
 .siteCounter {
-  top: 180px;
-  left: 481px;
+  position: absolute;
+  top: 220px;
+  left: 380px;
   font-size: var(--font-size-xl);
   letter-spacing: 0.01em;
   color: rgba(0, 0, 0, 0.5);
@@ -41,8 +42,8 @@
 }
 .compost-nearby {
   position: absolute;
-  top: 180px;
-  left: 141px;
+  top: 220px;
+  left: 35px;
   font-size: var(--font-size-xl);
   letter-spacing: 0.01em;
   font-weight: 600;
@@ -377,7 +378,7 @@
 }
 .card-shipment-parent {
   position: relative;
-  top: 220px;
+  top: 260px;
   left: 30px;
   bottom: 100px;
   width: 392px;

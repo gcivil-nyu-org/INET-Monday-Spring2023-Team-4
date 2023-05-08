@@ -3,11 +3,13 @@ from django.contrib.auth.decorators import login_required
 from .filters import SiteFilter
 from .models import Site
 
+
 @login_required
 def locations(request):
     site_filter = SiteFilter(request.GET, queryset=Site.objects.all())
     context = {"form": site_filter.form, "locations": site_filter.qs}
     return render(request, "locations.html", context)
+
 
 @login_required
 def site_details(request, pk):

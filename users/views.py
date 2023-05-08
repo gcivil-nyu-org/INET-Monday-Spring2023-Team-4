@@ -10,6 +10,16 @@ from .forms import RegisterForm, LoginForm, UpdateUserForm, UpdateProfileForm
 
 
 def home(request):
+    request.session["profile"] = ""
+    if request.method == "POST":
+        if "donor" in request.POST:
+            request.session["profile"] = "donor"
+            return redirect("donor:dashboard")
+
+        if "host" in request.POST:
+            request.session["profile"] = "host"
+            return redirect("acceptor:acceptor_view")
+
     return render(request, "users/home.html")
 
 

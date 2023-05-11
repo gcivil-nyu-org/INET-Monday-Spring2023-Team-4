@@ -26,7 +26,12 @@
 
       <form action="" method="POST">{% csrf_token %}
         <div class="as-a-donor">
+              {% if user.is_authenticated %}
                   <button type="submit" name="donor">As a Donor</button>
+      
+              {% else %}
+                  <a href="{% url 'login' %}">As a Donor</a>
+              {% endif %}
         </div>
         <div class="as-an-acceptor">
                   <button type="submit" name="host">As an Acceptor</button>
@@ -102,7 +107,3 @@
           </p>
       </div> -->
   
-
-
-
-
